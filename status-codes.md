@@ -16,7 +16,7 @@ Continue reading on [httpbisp2#6](http://tools.ietf.org/html/draft-ietf-httpbis-
 
 code | reason | description | spec
 ---: | :----- | :---------- | :---
-`1xx` | **Informational** | "The request was received, continuing process"<br>[sure](http://www.urbandictionary.com/define.php?term=sure) | [httpbisp2#6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6),<br>[httpbisp2#6.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.2),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
+`1xx` | **Informational** | "indicates an interim response for communicating connection status or request progress prior to completing the requested action and sending a final response." ~ [sure](http://www.urbandictionary.com/define.php?term=sure) | [httpbisp2#6.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.2),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
 `100` | Continue | "indicates that the initial part of a request has been received and has not yet been rejected by the server." | [httpbisp2#6.2.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.2.1),<br> [RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `101` | Switching Protocols | "indicates that the server understands and is willing to comply with the client's request, via the Upgrade header field, for a change in the application protocol being used on this connection." | [httpbisp2#6.2.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.2.2),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 
@@ -24,7 +24,7 @@ code | reason | description | spec
 
 code | reason | description | spec
 ---: | :----- | :---------- | :---
-`2xx` | **Successful** | "The request was successfully received, understood, and accepted"<br>["cool"](https://twitter.com/DanaDanger/status/183316183494311936) | [httpbisp2#6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6),<br>[httpbisp2#6.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.3),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
+`2xx` | **Successful** | "indicates that the client's request was successfully received, understood, and accepted." ~ [cool](https://twitter.com/DanaDanger/status/183316183494311936) | [httpbisp2#6.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.3),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
 `200` | OK | "indicates that the request has succeeded." | [httpbisp2#6.3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.3.1),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `201` | Created | "indicates that the request has been fulfilled and has resulted in one or more new resources being created." | [httpbisp2#6.3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.3.2),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `202` | Accepted | "indicates that the request has been accepted for processing, but the processing has not been completed." | [httpbisp2#6.3.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.3.3),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
@@ -37,7 +37,7 @@ code | reason | description | spec
 
 code | reason | description | spec
 ---: | :----- | :---------- | :---
-`3xx` | **Redirection** | "Further action needs to be taken in order to complete the request"<br>["ask that dude over there"](https://twitter.com/DanaDanger/status/183316183494311936) | [httpbisp2#6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6),<br>[httpbisp2#6.4](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
+`3xx` | **Redirection** | "indicates that further action needs to be taken by the user agent in order to fulfill the request." ~ [ask that dude over there](https://twitter.com/DanaDanger/status/183316183494311936) | [httpbisp2#6.4](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
 `300` | Multiple Choices | "indicates that the target resource has more than one representation, each with its own more specific identifier, and information about the alternatives is being provided so that the user (or user agent) can select a preferred representation by redirecting its request to one or more of those identifiers." | [httpbisp2#6.4.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.1),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `301` | Moved Permanently | "indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs." | [httpbisp2#6.4.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.2),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `302` | Found | "indicates that the target resource resides temporarily under a different URI." | [httpbisp2#6.4.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.3),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
@@ -51,7 +51,7 @@ code | reason | description | spec
 
 code | reason | description | spec
 ---: | :----- | :---------- | :---
-`4xx` | **Client Error** | "The request contains bad syntax or cannot be fulfilled"<br>["you fucked up"](https://twitter.com/DanaDanger/status/183316183494311936) | [httpbisp2#6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6),<br>[httpbisp2#6.5](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.5),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
+`4xx` | **Client Error** | "indicates that the client seems to have erred." ~ [*you* fucked up](https://twitter.com/DanaDanger/status/183316183494311936) | [httpbisp2#6.5](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.5),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
 `400` | Bad Request | "indicates that the server cannot or will not process the request because the received syntax is invalid, nonsensical, or exceeds some limitation on what the server is willing to process." | [httpbisp2#6.5.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.5.1),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `401` | Unauthorized | "indicates that the request has not been applied because it lacks valid authentication credentials for the target resource." | [httpbisp2#6.3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-3.1),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `402` | Payment Required | *reserved* | [httpbisp2#6.5.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.5.2),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
@@ -76,7 +76,7 @@ code | reason | description | spec
 
 code | reason | description | spec
 ---: | :----- | :---------- | :---
-`5xx` | **Server Error** | "The server failed to fulfill an apparently valid request"<br>["we fucked up"](https://twitter.com/DanaDanger/status/183316183494311936) | [httpbisp2#6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6),<br>[httpbisp2#6.6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.6),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
+`5xx` | **Server Error** | "indicates that the server is aware that it has erred or is incapable of performing the requested method." ~ [*we* fucked up](https://twitter.com/DanaDanger/status/183316183494311936) | [httpbisp2#6.6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.6),<br> [RFC2616#6.1.1](http://tools.ietf.org/html/rfc2616#section-6.1.1)
 `500` | Internal Server Error | "indicates that the server encountered an unexpected condition that prevented it from fulfilling the request." | [httpbisp2#6.6.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.6.1),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `501` | Not Implemented | "indicates that the server does not support the functionality required to fulfill the request." | [httpbisp2#6.6.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.6.2),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `502` | Bad Gateway | "indicates that the server, while acting as a gateway or proxy, received an invalid response from an inbound server it accessed while attempting to fulfill the request." | [httpbisp2#6.6.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.6.3),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
