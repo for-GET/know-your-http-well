@@ -31,7 +31,7 @@
 ;;
 ;;; Code goes here:
 
-(defconst http-codes
+(defconst http-status-codes
   '((100 ("Continue" "indicates that the initial part of a request has been received and has not yet been rejected by the server."))
 (101 ("Switching Protocols" "indicates that the server understands and is willing to comply with the client's request, via the Upgrade header field, for a change in the application protocol being used on this connection."))
 (200 ("OK" "indicates that the request has succeeded."))
@@ -85,16 +85,16 @@
 (511 ("Network Authentication Required" "indicates that the client needs to authenticate to gain network access."))))
 
 ;;;###autoload
-(defun http-status-code (code)
+(defun http-status-code (status-code)
   "Display the meaning of an HTTP status code"
-  (interactive "nEnter HTTP code: ")
-  (let ((found (assoc code http-codes)))
+  (interactive "nEnter HTTP status code: ")
+  (let ((found (assoc status-code http-status-codes)))
     (if found
         (let ((description (car (cdr found))))
           (message
-           "Status code %d\nMessage: %s\nCode explanation: %s"
-           code (car description) (car (cdr description))))
-      (message "No description found for code: %d" code))
+           "Status code: %d\nReason phrase: %s\nExplanation: %s"
+           status-code (car description) (car (cdr description))))
+      (message "No description found for code: %d" status-code))
     ))
 
 (provide 'status-code)
