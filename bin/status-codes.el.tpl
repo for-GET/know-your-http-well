@@ -31,20 +31,20 @@
 ;;
 ;;; Code goes here:
 
-(defconst http-codes
+(defconst http-status-codes
   '({{ HTTP_CODES }}))
 
 ;;;###autoload
-(defun http-status-code (code)
+(defun http-status-code (status-code)
   "Display the meaning of an HTTP status code"
-  (interactive "nEnter HTTP code: ")
-  (let ((found (assoc code http-codes)))
+  (interactive "nEnter HTTP status-code: ")
+  (let ((found (assoc status-code http-codes)))
     (if found
         (let ((description (car (cdr found))))
           (message
-           "Status code %d\nMessage: %s\nCode explanation: %s"
-           code (car description) (car (cdr description))))
-      (message "No description found for code: %d" code))
+           "Status code: %d\nReason phrase: %s\nExplanation: %s"
+           status-code (car description) (car (cdr description))))
+      (message "No description found for code: %d" status-code))
     ))
 
 (provide 'status-code)
