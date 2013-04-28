@@ -5,7 +5,7 @@ HTTP headers, media-types, methods, relations and status codes, all summarized a
 ## Table of Contents
 
 - [SPECS](specs.md)
-- HEADERS
+- [HEADERS](headers.md)
 - MEDIA-TYPES
 - [METHODS](methods.md)
 - [RELATIONS](relations.md)
