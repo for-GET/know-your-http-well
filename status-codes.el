@@ -2,7 +2,7 @@
 ;; https://github.com/andreineculau/know-your-http-well
 ;; based on the template of Ruslan Spivak
 ;;
-;;; status-code.el --- explains the meaning of an HTTP status code
+;;; status-codes.el --- explains the meaning of an HTTP status code
 ;;
 ;; Copyright (C) 2011  Ruslan Spivak
 ;;
@@ -87,8 +87,8 @@
 ;;;###autoload
 (defun http-status-code (status-code)
   "Display the meaning of an HTTP status code"
-  (interactive "nEnter HTTP status code: ")
-  (let ((found (assoc status-code http-status-codes)))
+  (interactive "nEnter HTTP status-code: ")
+  (let ((found (assoc status-code http-codes)))
     (if found
         (let ((description (car (cdr found))))
           (message
@@ -97,7 +97,7 @@
       (message "No description found for code: %d" status-code))
     ))
 
-(provide 'status-code)
+(provide 'status-codes)
 
-;;; httpcode.el ends here
+;;; status-codes.el ends here
 
