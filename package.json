@@ -1,0 +1,20 @@
+{
+  "name": "know-your-http-well",
+  "version": "0.0.1",
+  "author": "Andrei Neculau <@andreineculau>",
+  "description": "HTTP headers, media-types, methods, relations and status codes, all summarized and linking to their specification.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andreineculau/know-your-http-well.git"
+  },
+  "keywords": [
+    "http",
+    "rfc",
+    "json"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "amdefine": "0.0.4"
+  },
+  "main": "js/index"
+}
