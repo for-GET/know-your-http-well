@@ -1,7 +1,1 @@
-/*.png
-/*.aux
-/*.log
-/*.nav
-/*.out
-/*.snm
-/*.toc
+/node_modules
