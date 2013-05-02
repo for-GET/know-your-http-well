@@ -22,8 +22,10 @@ HTTP headers, media-types, methods, relations and status codes, all summarized a
 ### Emacs
 
 ```emacs
-(require 'status-codes)
-;; M-x http-status-code
+(require 'know-your-http-well)
+;; M-x http-headers ;; content-type
+;; M-x http-method ;; post
+;; M-x http-status-code ;; 500
 ```
 
 ### JavaScript
