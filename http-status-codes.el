@@ -5,7 +5,7 @@ path = require 'path'
 extract = require './extract'
 
 extract 'master/status-codes.md', "^`([0-9a-zA-Z]{3})` \\\| ([^\\\|]+) \\\| ([^\\\|]+) \\\|", [], (matches) ->
-  tpl = fs.readFileSync path.resolve(__dirname, './status-codes.el.tpl'), 'utf8'
+  tpl = fs.readFileSync path.resolve(__dirname, './http-status-codes.el.tpl'), 'utf8'
   matchesEl = []
   for match in matches
     continue  unless parseInt(match[0]).toString() is match[0]
