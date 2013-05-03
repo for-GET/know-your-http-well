@@ -25,7 +25,9 @@ HTTP headers, media-types, methods, relations and status codes, all summarized a
 (require 'know-your-http-well)
 ;; M-x http-headers ;; content-type
 ;; M-x http-method ;; post
+;; M-x http-relation ;; describedby
 ;; M-x http-status-code ;; 500
+;; M-x http-status-code ;; not_found
 ```
 
 ### JavaScript
