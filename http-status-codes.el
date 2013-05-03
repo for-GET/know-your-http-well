@@ -10,6 +10,8 @@ extract 'master/status-codes.md', "^`([0-9a-zA-Z]{3})` \\\| ([^\\\|]+) \\\| ([^\
   for match in matches
     continue  unless parseInt(match[0]).toString() is match[0]
     match = (item.replace /\"/g, ''  for item in match)
-    matchesEl.push "(#{match[0]} (\"#{match[1]}\" \"#{match[2]}\"))"
+    matchesEl.push "(\"#{match[0]}\" (\"#{match[1]}\" \"#{match[2]}\"))"
+    safePhrase = match[1].toUpperCase().replace /[^A-Z]/g, '_'
+    matchesEl.push "(\"#{safePhrase}\" (\"#{match[0]}\" \"#{match[2]}\"))"
   matchesEl = matchesEl.join "\n"
-  console.log tpl.replace '{{ HTTP_CODES }}', matchesEl
+  console.log tpl.replace '{{ HTTP_STATUS }}', matchesEl
