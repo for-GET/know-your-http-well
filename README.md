@@ -34,16 +34,16 @@ HTTP headers, media-types, methods, relations and status codes, all summarized a
 
 ```javascript
 var httpWell = require('know-your-http-well'),
-    httpSC = httpWell.statusPhrasesToCodes,
-    httpSP = httpWell.statusCodesToPhrases;
+    statusWell = httpWell.statusPhrasesToCodes,
+    phraseWell = httpWell.statusCodesToPhrases;
 
 // on the server side
-res.statusCode = httpSC.NOT_FOUND
+res.statusCode = statusWell.NOT_FOUND
 
 // on the client side
-if (res.statusCode !== httpSC.OK) {
+if (res.statusCode !== statusWell.OK) {
     // Log "Request returned 404 Not Found"
-    log('Request returned ' + res.statusCode + ' ' + httpSP[res.statusCode]);
+    log('Request returned ' + res.statusCode + ' ' + phraseWell[res.statusCode]);
 }
 ```
 
