@@ -11,7 +11,7 @@ RegExp::execAll = (string) ->
     matches.push(group for group in match)
   matches
 
-module.exports = (filename, pattern, columnNames, fun) ->
+exports = module.exports = (filename, pattern, columnNames, fun) ->
   RE = new RegExp pattern, 'gm'
 
   filename = path.resolve __dirname, filename
@@ -28,12 +28,12 @@ module.exports = (filename, pattern, columnNames, fun) ->
       matchesObj
 
   matches = RE.execAll file
-  fun matches, columnNames
+  result = fun matches, columnNames
+  JSON.stringify result, null, 4
 
 if require.main is module
   do () ->
     filename = process.argv[2]
     pattern = process.argv[3]
     columnNames = process.argv.slice 4
-    console.log columnNames
     console.log module.exports filename, pattern, columnNames

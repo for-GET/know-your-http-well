@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-$DIR/extract.coffee master/status-codes.md "^\`([0-9a-zA-Z]{3})\` \| ([^\|]+) \| ([^\|]+) \|" code phrase description
+$DIR/extract.coffee master/status-codes.md "^\`([0-9a-zA-Z]{3})\` \| ([^\|]+) \| ?([^\|]*) \| \[([^\]]+)\]\(([^\)]+)\)" code phrase description spec_title spec_href
