@@ -1,4 +1,5 @@
 /*jshint node:true*/
+
 if (typeof define !== 'function') {
     var define = require('amdefine')(module);
 }
@@ -8,7 +9,10 @@ define(function() {
 
     var statusCodes = require('./status-codes.json'),
         statusCodesToPhrases = {},
-        statusPhrasesToCodes = {};
+        statusPhrasesToCodes = {},
+        methods = require('./methods.json'),
+        headers = require('./headers.json'),
+        relations = require('./relations.json');
 
     statusCodes.forEach(function(item) {
         var code = parseInt(item.code, 10),
@@ -29,5 +33,8 @@ define(function() {
         statusCodes: statusCodes,
         statusCodesToPhrases: statusCodesToPhrases,
         statusPhrasesToCodes: statusPhrasesToCodes
+        methods: methods,
+        headers: headers,
+        relations: relations
     };
 });
