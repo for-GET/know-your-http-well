@@ -32,7 +32,7 @@ define(function() {
     return {
         statusCodes: statusCodes,
         statusCodesToPhrases: statusCodesToPhrases,
-        statusPhrasesToCodes: statusPhrasesToCodes
+        statusPhrasesToCodes: statusPhrasesToCodes,
         methods: methods,
         headers: headers,
         relations: relations
