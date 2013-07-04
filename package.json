@@ -7,7 +7,6 @@
     "json"
   ],
   "version": "0.0.2",
-  "author": "Andrei Neculau <@andreineculau>",
   "repository": {
     "type": "git",
     "url": "git://github.com/andreineculau/know-your-http-well.git"
