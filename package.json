@@ -6,7 +6,7 @@
     "rfc",
     "json"
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git://github.com/andreineculau/know-your-http-well.git"
