@@ -49,4 +49,4 @@ if (res.statusCode !== statusWell.OK) {
 
 ## License
 
-[Unlicense](http://unlicense.org/).
+[Unlicense](LICENSE).
