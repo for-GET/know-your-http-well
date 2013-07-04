@@ -1,0 +1,446 @@
+[
+    {
+        "header": "Content-Encoding",
+        "description": "\"indicates what content codings have been applied to the representation, beyond those inherent in the media type, and thus what decoding mechanisms have to be applied in order to obtain data in the media type referenced by the Content-Type header field.\"",
+        "spec_title": "httpbisp2#3.1.2.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.2.2"
+    },
+    {
+        "header": "Content-Language",
+        "description": "\"describes the natural language(s) of the intended audience for the representation.\"",
+        "spec_title": "httpbisp2#3.1.3.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.3.2"
+    },
+    {
+        "header": "Content-Location",
+        "description": "\"references a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload.\"",
+        "spec_title": "httpbisp2#3.1.4.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.4.2"
+    },
+    {
+        "header": "Content-Type",
+        "description": "\"indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics.\"",
+        "spec_title": "httpbisp2#3.1.1.5",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.1.5"
+    },
+    {
+        "header": "Content-Length",
+        "description": "\"can provide the anticipated size, as a decimal number of octets, for a potential payload body.\"",
+        "spec_title": "httpbisp1#3.3.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.3.2"
+    },
+    {
+        "header": "Content-Range",
+        "description": "\"is sent in a single part 206 (Partial Content) response to indicate the partial range of the selected representation enclosed as the message payload, sent in each part of a multipart 206 response to indicate the range enclosed within each body part, and sent in 416 (Range Not Satisfiable) responses to provide information about the selected representation.\"",
+        "spec_title": "httpbisp5#4.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-4.2"
+    },
+    {
+        "header": "Transfer-Encoding",
+        "description": "\"lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body.\"",
+        "spec_title": "httpbisp1#3.3.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.3.1"
+    },
+    {
+        "header": "Cache-Control",
+        "description": "\"is used to specify directives for caches along the request/response chain.\"",
+        "spec_title": "httpbisp6#7.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2"
+    },
+    {
+        "header": "Expect",
+        "description": "\"is used to indicate that particular server behaviors are required by the client.\"",
+        "spec_title": "httpbisp2#5.1.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.1.1"
+    },
+    {
+        "header": "Host",
+        "description": "\"provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.\"",
+        "spec_title": "httpbisp1#5.4",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-5.4"
+    },
+    {
+        "header": "Max-Forwards",
+        "description": "\"provides a mechanism with the TRACE and OPTIONS methods to limit the number of times that the request is forwarded by proxies.\"",
+        "spec_title": "httpbisp2#5.1.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.1.2"
+    },
+    {
+        "header": "Pragma",
+        "description": "\"allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a \"no-cache\" request that they will understand (as Cache-Control was not defined until HTTP/1.1).\"",
+        "spec_title": "httpbisp6#7.4",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.4"
+    },
+    {
+        "header": "Range",
+        "description": "\"modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data.\"",
+        "spec_title": "httpbisp5#3.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.1"
+    },
+    {
+        "header": "TE",
+        "description": "\"indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.\"",
+        "spec_title": "httpbisp1#4.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-4.3"
+    },
+    {
+        "header": "If-Match",
+        "description": "\"can be used to make a request method conditional on the current existence or value of an entity-tag for one or more representations of the target resource.\"",
+        "spec_title": "httpbisp4#3.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.1"
+    },
+    {
+        "header": "If-Modified-Since",
+        "description": "\"can be used with GET or HEAD to make the method conditional by modification date: if the selected representation has not been modified since the time specified in this field, then do not perform the request method; instead, respond as detailed below.\"",
+        "spec_title": "httpbisp4#3.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.3"
+    },
+    {
+        "header": "If-None-Match",
+        "description": "\"can be used to make a request method conditional on not matching any of the current entity-tag values for representations of the target resource.\"",
+        "spec_title": "httpbisp4#3.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.2"
+    },
+    {
+        "header": "If-Range",
+        "description": "\"Informally, its meaning is: if the representation is unchanged, send me the part(s) that I am requesting in Range; otherwise, send me the entire representation.\"",
+        "spec_title": "httpbisp5#3.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.2"
+    },
+    {
+        "header": "If-Unmodified-Since",
+        "description": "\"can be used to make a request method conditional by modification date: if the selected representation has been modified since the time specified in this field, then the server MUST NOT perform the requested operation and MUST instead respond with the 412 (Precondition Failed) status code.\"",
+        "spec_title": "httpbisp4#3.4",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.4"
+    },
+    {
+        "header": "Accept",
+        "description": "\"can be used to specify certain media types which are acceptable for the response.\"",
+        "spec_title": "httpbisp2#5.3.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.2"
+    },
+    {
+        "header": "Accept-Encoding",
+        "description": "\"can be used by user agents to indicate what response content-codings are acceptable in the response.\"",
+        "spec_title": "httpbisp2#5.3.4",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.4"
+    },
+    {
+        "header": "Accept-Language",
+        "description": "\"can be used by user agents to indicate the set of natural languages that are preferred in the response.\"",
+        "spec_title": "httpbisp2#5.3.5",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.5"
+    },
+    {
+        "header": "Authorization",
+        "description": "\"allows a user agent to authenticate itself with a server -- usually, but not necessarily, after receiving a 401 (Unauthorized) response.\"",
+        "spec_title": "httpbisp7#4.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.1"
+    },
+    {
+        "header": "Proxy-Authorization",
+        "description": "\"allows the client to identify itself (or its user) to a proxy that requires authentication.\"",
+        "spec_title": "httpbisp7#4.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.3"
+    },
+    {
+        "header": "From",
+        "description": "\"contains an Internet email address for a human user who controls the requesting user agent.\"",
+        "spec_title": "httpbisp2#5.5.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.1"
+    },
+    {
+        "header": "Referer",
+        "description": "\"allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the \"referrer\", though the field name is misspelled).\"",
+        "spec_title": "httpbisp2#5.5.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.2"
+    },
+    {
+        "header": "User-Agent",
+        "description": "\"contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use.\"",
+        "spec_title": "httpbisp2#5.5.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.3"
+    },
+    {
+        "header": "Age",
+        "description": "\"conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server.\"",
+        "spec_title": "httpbisp6#7.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.1"
+    },
+    {
+        "header": "Cache-Control",
+        "description": "\"is used to specify directives for caches along the request/response chain.\"",
+        "spec_title": "httpbisp6#7.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2"
+    },
+    {
+        "header": "Expires",
+        "description": "\"gives the date/time after which the response is considered stale.\"",
+        "spec_title": "httpbisp6#7.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.3"
+    },
+    {
+        "header": "Date",
+        "description": "\"represents the date and time at which the message was originated\"",
+        "spec_title": "httpbisp2#7.1.1.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.1.2"
+    },
+    {
+        "header": "Location",
+        "description": "\"is used in some responses to refer to a specific resource in relation to the response.\"",
+        "spec_title": "httpbisp2#7.1.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.2"
+    },
+    {
+        "header": "Retry-After",
+        "description": "\"indicates how long the user agent ought to wait before making a follow-up request.\"",
+        "spec_title": "httpbisp2#7.1.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.3"
+    },
+    {
+        "header": "Vary",
+        "description": "\"describes what parts of a request message, aside from the method and request target, might influence the origin server's process for selecting and representing the response.\"",
+        "spec_title": "httpbisp2#7.1.4",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.4"
+    },
+    {
+        "header": "Warning",
+        "description": "\"is used to carry additional information about the status or transformation of a message that might not be reflected in the message.\"",
+        "spec_title": "httpbisp6#7.6",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.6"
+    },
+    {
+        "header": "ETag",
+        "description": "\"provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request.\"",
+        "spec_title": "httpbisp4#2.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-2.3"
+    },
+    {
+        "header": "Last-Modified",
+        "description": "\"provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.\"",
+        "spec_title": "httpbisp4#2.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-2.2"
+    },
+    {
+        "header": "WWW-Authenticate",
+        "description": "\"consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI.\"",
+        "spec_title": "httpbisp7#4.4",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.4"
+    },
+    {
+        "header": "Proxy-Authenticate",
+        "description": "\"consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI.\"",
+        "spec_title": "httpbisp7#4.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.2"
+    },
+    {
+        "header": "Accept-Ranges",
+        "description": "\"allows a server to indicate that it supports range requests for the target resource.\"",
+        "spec_title": "httpbisp5#2.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-2.3"
+    },
+    {
+        "header": "Allow",
+        "description": "\"lists the set of methods advertised as supported by the target resource.\"",
+        "spec_title": "httpbisp2#7.4.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.4.1"
+    },
+    {
+        "header": "Server",
+        "description": "\"contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use.\"",
+        "spec_title": "httpbisp2#7.4.2",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.4.2"
+    },
+    {
+        "header": "Accept-Patch",
+        "description": "\"used to specify the patch document formats accepted by the server.\"",
+        "spec_title": "RFC5789#3.1",
+        "spec_href": "http://tools.ietf.org/html/rfc5789#section-3.1"
+    },
+    {
+        "header": "Content-Disposition",
+        "description": "\"standard\"",
+        "spec_title": "RFC6266",
+        "spec_href": "http://tools.ietf.org/html/rfc6266"
+    },
+    {
+        "header": "Cookie",
+        "description": "\"standard\"",
+        "spec_title": "RFC6265",
+        "spec_href": "http://tools.ietf.org/html/rfc6265"
+    },
+    {
+        "header": "Forwarded",
+        "description": "\"standard\"",
+        "spec_title": "draft-ietf-appsawg-http-forwarded",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-appsawg-http-forwarded"
+    },
+    {
+        "header": "Link",
+        "description": "\"provides a means for serialising one or more links in HTTP headers.\"",
+        "spec_title": "RFC5988#5",
+        "spec_href": "http://tools.ietf.org/html/rfc5988#section-5"
+    },
+    {
+        "header": "Origin",
+        "description": "\"standard\"",
+        "spec_title": "RFC6454",
+        "spec_href": "http://tools.ietf.org/html/rfc6454"
+    },
+    {
+        "header": "Prefer",
+        "description": "\"is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request.\"",
+        "spec_title": "draft-snell-http-prefer#2",
+        "spec_href": "http://tools.ietf.org/html/draft-snell-http-prefer#section-2"
+    },
+    {
+        "header": "Preference-Applied",
+        "description": "\"MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.\"",
+        "spec_title": "draft-snell-http-prefer#3",
+        "spec_href": "http://tools.ietf.org/html/draft-snell-http-prefer#section-3"
+    },
+    {
+        "header": "Set-Cookie",
+        "description": "\"standard\"",
+        "spec_title": "RFC6265",
+        "spec_href": "http://tools.ietf.org/html/rfc6265"
+    },
+    {
+        "header": "Strict-Transport-Security",
+        "description": "\"standard\"",
+        "spec_title": "RFC6797",
+        "spec_href": "http://tools.ietf.org/html/rfc6797"
+    },
+    {
+        "header": "Apply-To-Redirect-Ref",
+        "description": "\"\"",
+        "spec_title": "RFC4437",
+        "spec_href": "http://tools.ietf.org/html/rfc4437"
+    },
+    {
+        "header": "Content-Base",
+        "description": "\"obsoleted\"",
+        "spec_title": "RFC2068",
+        "spec_href": "http://tools.ietf.org/html/rfc2068"
+    },
+    {
+        "header": "Cookie2",
+        "description": "\"obsoleted\"",
+        "spec_title": "RFC2965",
+        "spec_href": "http://tools.ietf.org/html/rfc2965"
+    },
+    {
+        "header": "DASL",
+        "description": "\"standard\"",
+        "spec_title": "RFC5323",
+        "spec_href": "http://tools.ietf.org/html/rfc5323"
+    },
+    {
+        "header": "DAV",
+        "description": "\"standard\"",
+        "spec_title": "RFC4918",
+        "spec_href": "http://tools.ietf.org/html/rfc4918"
+    },
+    {
+        "header": "Depth",
+        "description": "\"standard\"",
+        "spec_title": "RFC4918",
+        "spec_href": "http://tools.ietf.org/html/rfc4918"
+    },
+    {
+        "header": "Destination",
+        "description": "\"standard\"",
+        "spec_title": "RFC4918",
+        "spec_href": "http://tools.ietf.org/html/rfc4918"
+    },
+    {
+        "header": "If",
+        "description": "\"standard\"",
+        "spec_title": "RFC4918",
+        "spec_href": "http://tools.ietf.org/html/rfc4918"
+    },
+    {
+        "header": "If-Schedule-Tag-Match",
+        "description": "\"standard\"",
+        "spec_title": "draft-desruisseaux-caldav-sched",
+        "spec_href": "http://tools.ietf.org/html/draft-desruisseaux-caldav-sched"
+    },
+    {
+        "header": "Lock-Token",
+        "description": "\"standard\"",
+        "spec_title": "RFC4918",
+        "spec_href": "http://tools.ietf.org/html/rfc4918"
+    },
+    {
+        "header": "Overwrite",
+        "description": "\"standard\"",
+        "spec_title": "RFC4918",
+        "spec_href": "http://tools.ietf.org/html/rfc4918"
+    },
+    {
+        "header": "Redirect-Ref",
+        "description": "\"\"",
+        "spec_title": "RFC4437",
+        "spec_href": "http://tools.ietf.org/html/rfc4437"
+    },
+    {
+        "header": "Schedule-Reply",
+        "description": "\"standard\"",
+        "spec_title": "draft-desruisseaux-caldav-sched",
+        "spec_href": "http://tools.ietf.org/html/draft-desruisseaux-caldav-sched"
+    },
+    {
+        "header": "Schedule-Tag",
+        "description": "\"standard\"",
+        "spec_title": "draft-desruisseaux-caldav-sched",
+        "spec_href": "http://tools.ietf.org/html/draft-desruisseaux-caldav-sched"
+    },
+    {
+        "header": "Sec-WebSocket-Accept",
+        "description": "\"standard\"",
+        "spec_title": "RFC6455",
+        "spec_href": "http://tools.ietf.org/html/rfc6455"
+    },
+    {
+        "header": "Sec-WebSocket-Extensions",
+        "description": "\"standard\"",
+        "spec_title": "RFC6455",
+        "spec_href": "http://tools.ietf.org/html/rfc6455"
+    },
+    {
+        "header": "Sec-WebSocket-Key",
+        "description": "\"standard\"",
+        "spec_title": "RFC6455",
+        "spec_href": "http://tools.ietf.org/html/rfc6455"
+    },
+    {
+        "header": "Sec-WebSocket-Protocol",
+        "description": "\"standard\"",
+        "spec_title": "RFC6455",
+        "spec_href": "http://tools.ietf.org/html/rfc6455"
+    },
+    {
+        "header": "Sec-WebSocket-Version",
+        "description": "\"standard\"",
+        "spec_title": "RFC6455",
+        "spec_href": "http://tools.ietf.org/html/rfc6455"
+    },
+    {
+        "header": "Set-Cookie2",
+        "description": "\"obsoleted\"",
+        "spec_title": "RFC2965",
+        "spec_href": "http://tools.ietf.org/html/rfc2965"
+    },
+    {
+        "header": "SLUG",
+        "description": "\"standard\"",
+        "spec_title": "RFC5023",
+        "spec_href": "http://tools.ietf.org/html/rfc5023"
+    },
+    {
+        "header": "Timeout",
+        "description": "\"standard\"",
+        "spec_title": "RFC4918",
+        "spec_href": "http://tools.ietf.org/html/rfc4918"
+    }
+]

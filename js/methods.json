@@ -1,0 +1,242 @@
+[
+    {
+        "method": "ACL",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3744#8.1",
+        "spec_href": "http://tools.ietf.org/html/rfc3744#section-8.1"
+    },
+    {
+        "method": "BASELINE-CONTROL",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#12.6",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-12.6"
+    },
+    {
+        "method": "BIND",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC5842#4",
+        "spec_href": "http://tools.ietf.org/html/rfc5842#section-4"
+    },
+    {
+        "method": "CHECKIN",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#4.4",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.4"
+    },
+    {
+        "method": "CHECKOUT",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#4.3",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.3"
+    },
+    {
+        "method": "COPY",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC4918#9.8",
+        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.8"
+    },
+    {
+        "method": "LABEL",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#8.2",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-8.2"
+    },
+    {
+        "method": "LINK",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC2068#19.6.1.2",
+        "spec_href": "http://tools.ietf.org/html/rfc2068#section-19.6.1.2"
+    },
+    {
+        "method": "LOCK",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✘",
+        "spec_title": "RFC4918#9.10",
+        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.10"
+    },
+    {
+        "method": "MERGE",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#11.2",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-11.2"
+    },
+    {
+        "method": "MKACTIVITY",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#13.5",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-13.5"
+    },
+    {
+        "method": "MKCALENDAR",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC4791#5.3.1",
+        "spec_href": "http://tools.ietf.org/html/rfc4791#section-5.3.1"
+    },
+    {
+        "method": "MKCOL",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC4918#9.3",
+        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.3"
+    },
+    {
+        "method": "MKREDIRECTREF",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC4437#6",
+        "spec_href": "http://tools.ietf.org/html/rfc4437#section-6"
+    },
+    {
+        "method": "MKWORKSPACE",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#6.3",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-6.3"
+    },
+    {
+        "method": "MOVE",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC4918#9.9",
+        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.9"
+    },
+    {
+        "method": "ORDERPATCH",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3648#7",
+        "spec_href": "http://tools.ietf.org/html/rfc3648#section-7"
+    },
+    {
+        "method": "PATCH",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✘",
+        "spec_title": "RFC5789#2",
+        "spec_href": "http://tools.ietf.org/html/rfc5789#section-2"
+    },
+    {
+        "method": "PROPFIND",
+        "description": "",
+        "safe": "✔",
+        "idempotent": "✔",
+        "spec_title": "RFC4918#9.1",
+        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.1"
+    },
+    {
+        "method": "PROPPATCH",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC4918#9.2",
+        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.2"
+    },
+    {
+        "method": "REBIND",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC5842#6",
+        "spec_href": "http://tools.ietf.org/html/rfc5842#section-6"
+    },
+    {
+        "method": "REPORT",
+        "description": "",
+        "safe": "✔",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#3.6",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-3.6"
+    },
+    {
+        "method": "SEARCH",
+        "description": "",
+        "safe": "✔",
+        "idempotent": "✔",
+        "spec_title": "RFC5323#2",
+        "spec_href": "http://tools.ietf.org/html/rfc5323#section-2"
+    },
+    {
+        "method": "UNBIND",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC5842#5",
+        "spec_href": "http://tools.ietf.org/html/rfc5842#section-5"
+    },
+    {
+        "method": "UNCHECKOUT",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#4.5",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.5"
+    },
+    {
+        "method": "UNLINK",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC2068#19.6.1.3",
+        "spec_href": "http://tools.ietf.org/html/rfc2068#section-19.6.1.3"
+    },
+    {
+        "method": "UNLOCK",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC4918#9.11",
+        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.11"
+    },
+    {
+        "method": "UPDATE",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#7.1",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-7.1"
+    },
+    {
+        "method": "UPDATEREDIRECTREF",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC4437#7",
+        "spec_href": "http://tools.ietf.org/html/rfc4437#section-7"
+    },
+    {
+        "method": "VERSION-CONTROL",
+        "description": "",
+        "safe": "✘",
+        "idempotent": "✔",
+        "spec_title": "RFC3253#3.5",
+        "spec_href": "http://tools.ietf.org/html/rfc3253#section-3.5"
+    }
+]
