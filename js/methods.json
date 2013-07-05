@@ -2,89 +2,80 @@
     {
         "method": "CONNECT",
         "description": "\"requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the connection is closed.\"",
-        "safe": "✔",
-        "idempotent": "✔",
-        "cacheable": "✘ ",
+        "safe": true,
+        "idempotent": true,
+        "cacheable": false,
         "spec_title": "httpbisp2#4.3.6",
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.6"
     },
     {
         "method": "DELETE",
         "description": "\"requests that the origin server remove the association between the target resource and its current functionality.\"",
-        "safe": "✘",
-        "idempotent": "✔",
-        "cacheable": "✘ ",
+        "safe": false,
+        "idempotent": true,
+        "cacheable": false,
         "spec_title": "httpbisp2#4.3.5",
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.5"
     },
     {
         "method": "GET",
         "description": "\"requests transfer of a current selected representation for the target resource.\"",
-        "safe": "✔",
-        "idempotent": "✔",
-        "cacheable": "✔ ",
+        "safe": true,
+        "idempotent": true,
+        "cacheable": true,
         "spec_title": "httpbisp2#4.3.1",
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.1"
     },
     {
         "method": "HEAD",
         "description": "\"is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header block).\"",
-        "safe": "✔",
-        "idempotent": "✔",
-        "cacheable": "✔ ",
+        "safe": true,
+        "idempotent": true,
+        "cacheable": true,
         "spec_title": "httpbisp2#4.3.2",
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.2"
     },
     {
         "method": "OPTIONS",
         "description": "\"requests information about the communication options available on the request/response chain identified by the effective request URI.\"",
-        "safe": "✔",
-        "idempotent": "✔",
-        "cacheable": "✘ ",
+        "safe": true,
+        "idempotent": true,
+        "cacheable": false,
         "spec_title": "httpbisp2#4.3.7",
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.7"
     },
     {
         "method": "PATCH",
         "description": "\"requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI.\"",
-        "safe": "✘",
-        "idempotent": "✘",
-        "cacheable": "✘ ",
+        "safe": false,
+        "idempotent": false,
+        "cacheable": false,
         "spec_title": "RFC5789",
         "spec_href": "http://tools.ietf.org/html/rfc5789"
     },
     {
-        "method": "POST",
-        "description": "\"requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics.\"",
-        "safe": "✘",
-        "idempotent": "✘",
-        "cacheable": "✘<br>(✔) ",
-        "spec_title": "httpbisp2#4.3.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.3"
-    },
-    {
         "method": "PUT",
         "description": "\"requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload.\"",
-        "safe": "✘",
-        "idempotent": "✔",
-        "cacheable": "✘ ",
+        "safe": false,
+        "idempotent": true,
+        "cacheable": false,
         "spec_title": "httpbisp2#4.3.4",
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.4"
     },
     {
         "method": "TRACE",
         "description": "\"is used to invoke a remote, application-layer loopback of the request message.\"",
-        "safe": "✔",
-        "idempotent": "✔",
-        "cacheable": "✘ ",
+        "safe": true,
+        "idempotent": true,
+        "cacheable": false,
         "spec_title": "httpbisp2#4.3.8",
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.8"
     },
     {
         "method": "ACL",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3744#8.1",
         "spec_href": "http://tools.ietf.org/html/rfc3744#section-8.1"
@@ -92,8 +83,8 @@
     {
         "method": "BASELINE-CONTROL",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#12.6",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-12.6"
@@ -101,8 +92,8 @@
     {
         "method": "BIND",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC5842#4",
         "spec_href": "http://tools.ietf.org/html/rfc5842#section-4"
@@ -110,8 +101,8 @@
     {
         "method": "CHECKIN",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#4.4",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.4"
@@ -119,8 +110,8 @@
     {
         "method": "CHECKOUT",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#4.3",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.3"
@@ -128,8 +119,8 @@
     {
         "method": "COPY",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.8",
         "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.8"
@@ -137,8 +128,8 @@
     {
         "method": "LABEL",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#8.2",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-8.2"
@@ -146,8 +137,8 @@
     {
         "method": "LINK",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC2068#19.6.1.2",
         "spec_href": "http://tools.ietf.org/html/rfc2068#section-19.6.1.2"
@@ -155,8 +146,8 @@
     {
         "method": "LOCK",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✘",
+        "safe": false,
+        "idempotent": false,
         "cacheable": "",
         "spec_title": "RFC4918#9.10",
         "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.10"
@@ -164,8 +155,8 @@
     {
         "method": "MERGE",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#11.2",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-11.2"
@@ -173,8 +164,8 @@
     {
         "method": "MKACTIVITY",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#13.5",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-13.5"
@@ -182,8 +173,8 @@
     {
         "method": "MKCALENDAR",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4791#5.3.1",
         "spec_href": "http://tools.ietf.org/html/rfc4791#section-5.3.1"
@@ -191,8 +182,8 @@
     {
         "method": "MKCOL",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.3",
         "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.3"
@@ -200,8 +191,8 @@
     {
         "method": "MKREDIRECTREF",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4437#6",
         "spec_href": "http://tools.ietf.org/html/rfc4437#section-6"
@@ -209,8 +200,8 @@
     {
         "method": "MKWORKSPACE",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#6.3",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-6.3"
@@ -218,8 +209,8 @@
     {
         "method": "MOVE",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.9",
         "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.9"
@@ -227,8 +218,8 @@
     {
         "method": "ORDERPATCH",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3648#7",
         "spec_href": "http://tools.ietf.org/html/rfc3648#section-7"
@@ -236,8 +227,8 @@
     {
         "method": "PATCH",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✘",
+        "safe": false,
+        "idempotent": false,
         "cacheable": "",
         "spec_title": "RFC5789#2",
         "spec_href": "http://tools.ietf.org/html/rfc5789#section-2"
@@ -245,8 +236,8 @@
     {
         "method": "PROPFIND",
         "description": "",
-        "safe": "✔",
-        "idempotent": "✔",
+        "safe": true,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.1",
         "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.1"
@@ -254,8 +245,8 @@
     {
         "method": "PROPPATCH",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.2",
         "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.2"
@@ -263,8 +254,8 @@
     {
         "method": "REBIND",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC5842#6",
         "spec_href": "http://tools.ietf.org/html/rfc5842#section-6"
@@ -272,8 +263,8 @@
     {
         "method": "REPORT",
         "description": "",
-        "safe": "✔",
-        "idempotent": "✔",
+        "safe": true,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#3.6",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-3.6"
@@ -281,8 +272,8 @@
     {
         "method": "SEARCH",
         "description": "",
-        "safe": "✔",
-        "idempotent": "✔",
+        "safe": true,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC5323#2",
         "spec_href": "http://tools.ietf.org/html/rfc5323#section-2"
@@ -290,8 +281,8 @@
     {
         "method": "UNBIND",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC5842#5",
         "spec_href": "http://tools.ietf.org/html/rfc5842#section-5"
@@ -299,8 +290,8 @@
     {
         "method": "UNCHECKOUT",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#4.5",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.5"
@@ -308,8 +299,8 @@
     {
         "method": "UNLINK",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC2068#19.6.1.3",
         "spec_href": "http://tools.ietf.org/html/rfc2068#section-19.6.1.3"
@@ -317,8 +308,8 @@
     {
         "method": "UNLOCK",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.11",
         "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.11"
@@ -326,8 +317,8 @@
     {
         "method": "UPDATE",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#7.1",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-7.1"
@@ -335,8 +326,8 @@
     {
         "method": "UPDATEREDIRECTREF",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4437#7",
         "spec_href": "http://tools.ietf.org/html/rfc4437#section-7"
@@ -344,8 +335,8 @@
     {
         "method": "VERSION-CONTROL",
         "description": "",
-        "safe": "✘",
-        "idempotent": "✔",
+        "safe": false,
+        "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#3.5",
         "spec_href": "http://tools.ietf.org/html/rfc3253#section-3.5"
