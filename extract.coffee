@@ -13,6 +13,9 @@ RegExp::execAll = (string) ->
 
 exports = module.exports = (filename, pattern, columnNames, fun) ->
   RE = new RegExp pattern, 'gm'
+  replace =
+    '✔': true
+    '✘': false
 
   filename = path.resolve __dirname, filename
   file = fs.readFileSync filename, 'utf8'
@@ -23,7 +26,8 @@ exports = module.exports = (filename, pattern, columnNames, fun) ->
       for match in matches
         matchObj = {}
         for column, index in columnNames
-          matchObj[column] = match[index]
+          matchObj[column] = replace[match[index]]
+          matchObj[column] ?= match[index]
         matchesObj.push matchObj
       matchesObj
 
