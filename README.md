@@ -2,6 +2,9 @@
 
 HTTP headers, media-types, methods, relations and status codes, all summarized and linking to their specification.
 
+This project is used by [HyperREST bin](https://github.com/andreineculau/hyperrest-bin) at [bin.hyperrest.com](http://bin.hyperrest.com) .
+
+
 ## Table of Contents
 
 - [SPECS](specs.md)
@@ -11,11 +14,13 @@ HTTP headers, media-types, methods, relations and status codes, all summarized a
 - [RELATIONS](relations.md)
 - [STATUS CODES](status-codes.md)
 
+
 ## How to convert to other formats
 
 * [pandoc](http://johnmacfarlane.net/pandoc/)
 * [Marked](http://markedapp.com/)
 * ...
+
 
 ## Packages
 
@@ -46,6 +51,11 @@ if (res.statusCode !== statusWell.OK) {
     log('Request returned ' + res.statusCode + ' ' + phraseWell[res.statusCode]);
 }
 ```
+
+### JSON
+
+Just take a look at [./js/*.json](js).
+
 
 ## License
 
