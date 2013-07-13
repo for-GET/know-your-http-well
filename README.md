@@ -1,6 +1,6 @@
-# KNOW YOUR HTTP well
+# KNOW YOUR HTTP * WELL
 
-HTTP headers, media-types, methods, relations and status codes, all summarized and linking to their specification.
+HTTP headers, media types, methods, relations and status codes, all summarized and linking to their specification.
 
 This project is used by [HyperREST bin](https://github.com/andreineculau/hyperrest-bin) at [bin.hyperrest.com](http://bin.hyperrest.com) .
 
@@ -9,7 +9,7 @@ This project is used by [HyperREST bin](https://github.com/andreineculau/hyperre
 
 - [SPECS](specs.md)
 - [HEADERS](headers.md)
-- MEDIA-TYPES
+- MEDIA TYPES
 - [METHODS](methods.md)
 - [RELATIONS](relations.md)
 - [STATUS CODES](status-codes.md)

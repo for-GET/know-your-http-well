@@ -1,4 +1,4 @@
-# KNOW YOUR HTTP well. STATUS CODES
+# KNOW YOUR HTTP status codes WELL
 
 > The status-code element is a 3-digit integer code giving the result of the attempt to understand and satisfy the request.
 

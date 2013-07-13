@@ -1,4 +1,4 @@
-# KNOW YOUR HTTP well. HEADERS
+# KNOW YOUR HTTP headers WELL
 
 ## Representations
 

@@ -1,4 +1,4 @@
-# KNOW YOUR HTTP well. METHODS
+# KNOW YOUR HTTP methods WELL
 
 > The request method token is the primary source of request semantics; it indicates the purpose for which the client has made this request and what is expected by the client as a successful result.
 

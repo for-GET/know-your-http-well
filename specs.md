@@ -1,4 +1,6 @@
-# KNOW YOUR HTTP well. SPECS
+# KNOW YOUR HTTP specs WELL
+
+## HTTP
 
 concept/identifier | description | spec
 ------------------ | :---------- | :---
