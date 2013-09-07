@@ -4,6 +4,7 @@ require "json"
 class HTTP
 
   @@phrases = {}
+  @@status_codes = {}
   @@statuses = {}
 
   def self.phrases
@@ -11,6 +12,13 @@ class HTTP
       self.load_http_information
     end
     @@phrases
+  end
+
+  def self.status_codes
+    if @@status_codes.empty?
+      self.load_http_information
+    end
+    @@status_codes
   end
 
   def self.statuses
