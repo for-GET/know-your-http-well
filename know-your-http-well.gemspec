@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
   spec.description = "HTTP headers, media-types, methods, relations and status codes, all summarized and linking to their specification.",
   spec.license     = "Unlicense"
 
+  spec.add_dependency("json")
   spec.add_development_dependency("rspec")
 
   spec.files        = `git ls-files`.split("\n")
