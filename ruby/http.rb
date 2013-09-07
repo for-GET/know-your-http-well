@@ -6,6 +6,7 @@ class HTTP
   @@headers = []
   @@methods = []
   @@phrases = {}
+  @@relations = {}
   @@status_codes = []
   @@statuses = {}
 
@@ -22,6 +23,11 @@ class HTTP
   def self.phrases
     self.require_http_information
     @@phrases
+  end
+
+  def self.relations
+    self.require_http_information
+    @@relations
   end
 
   def self.status_codes
@@ -45,6 +51,7 @@ class HTTP
   def self.load_http_information
     self.load_headers
     self.load_methods
+    self.load_relations
     self.load_status_codes
 
     @@status_codes.each do |item|
@@ -76,6 +83,10 @@ class HTTP
 
   def self.load_methods
     @@methods = self.load_json("methods.json")
+  end
+
+  def self.load_relations
+    @@relations = self.load_json("relations.json")
   end
 
   def self.load_status_codes
