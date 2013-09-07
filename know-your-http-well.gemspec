@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
 
   spec.name    = "know-your-http-well"
-  spec.version = "0.0.0"
+  spec.version = "0.0.1"
   spec.date    = "2013-09-07"
 
   spec.summary     = "HTTP reference library"
@@ -10,6 +10,16 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency("json")
   spec.add_development_dependency("rspec")
+
+  spec.authors = [
+    "Andrei Neculau",
+    "Henry Smith",
+  ]
+
+  spec.email = [
+    "andrei.neculau@gmail.com",
+    "henry@henrysmith.org",
+  ]
 
   spec.files        = `git ls-files`.split("\n")
   spec.require_path = "ruby"
