@@ -7,6 +7,9 @@ class HTTP
   @@statuses = {}
 
   def self.phrases
+    if @@phrases.empty?
+      self.load_http_information
+    end
     @@phrases
   end
 
@@ -33,12 +36,13 @@ class HTTP
         next
       end
 
-      phrase = item["phrase"]
+      phrase = item["phrase"].dup
       phrase.downcase!
       phrase.gsub! /[^A-Z]/i, "_"
       phrase = phrase.to_sym
 
       @@statuses[phrase] = code
+      @@phrases[code] = item["phrase"]
     end
   end
 

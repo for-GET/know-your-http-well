@@ -19,6 +19,10 @@ describe HTTP do
     it "is a hash" do
       expect(phrases).to be_a(Hash)
     end
+
+    it "has the correct phrase for 404" do
+      expect(phrases[404]).to eq "Not Found"
+    end
   end
 
 end
