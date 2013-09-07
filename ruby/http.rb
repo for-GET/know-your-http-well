@@ -11,8 +11,15 @@ class HTTP
   end
 
   def self.statuses
-    return @@statuses unless @@statuses.empty?
+    if @@statuses.empty?
+      self.load_http_information
+    end
+    @@statuses
+  end
 
+  private
+
+  def self.load_http_information
     this_file = Pathname.new(__FILE__).realpath
     status_file = File.expand_path("../../js/status-codes.json", this_file)
     status_json = File.read(status_file)
@@ -33,8 +40,6 @@ class HTTP
 
       @@statuses[phrase] = code
     end
-
-    @@statuses
   end
 
 end
