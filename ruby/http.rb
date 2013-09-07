@@ -9,7 +9,10 @@ class HTTP
   @@statuses = {}
 
   def self.methods
-    []
+    if @@methods.empty?
+      self.load_http_information
+    end
+    @@methods
   end
 
   def self.phrases
@@ -36,6 +39,7 @@ class HTTP
   private
 
   def self.load_http_information
+    self.load_methods
     self.load_status_codes
 
     @@status_codes.each do |item|
@@ -54,11 +58,19 @@ class HTTP
     end
   end
 
-  def self.load_status_codes
+  def self.load_json(filename)
     this_file = Pathname.new(__FILE__).realpath
-    status_file = File.expand_path("../../js/status-codes.json", this_file)
-    status_json = File.read(status_file)
-    @@status_codes = JSON.parse(status_json)
+    json_filename = File.expand_path("../../js/#{filename}", this_file)
+    json_contents = File.read(json_filename)
+    JSON.parse(json_contents)
+  end
+
+  def self.load_methods
+    @@methods = self.load_json("methods.json")
+  end
+
+  def self.load_status_codes
+    @@status_codes = self.load_json("status-codes.json")
   end
 
 end

@@ -10,6 +10,9 @@ describe HTTP do
     it "is an array" do
       expect(methods).to be_an(Array)
     end
+    it "contains a set of hashes" do
+      expect(methods[0]).to be_a(Hash)
+    end
   end
 
   describe "phrases" do
