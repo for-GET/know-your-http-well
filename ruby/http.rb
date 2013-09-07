@@ -3,7 +3,12 @@ require "json"
 
 class HTTP
 
+  @@phrases = {}
   @@statuses = {}
+
+  def self.phrases
+    @@phrases
+  end
 
   def self.statuses
     return @@statuses unless @@statuses.empty?
