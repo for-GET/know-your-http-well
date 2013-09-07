@@ -3,42 +3,47 @@ require "json"
 
 class HTTP
 
+  @@headers = []
   @@methods = []
   @@phrases = {}
   @@status_codes = []
   @@statuses = {}
 
+  def self.headers
+    self.require_http_information
+    @@headers
+  end
+
   def self.methods
-    if @@methods.empty?
-      self.load_http_information
-    end
+    self.require_http_information
     @@methods
   end
 
   def self.phrases
-    if @@phrases.empty?
-      self.load_http_information
-    end
+    self.require_http_information
     @@phrases
   end
 
   def self.status_codes
-    if @@status_codes.empty?
-      self.load_http_information
-    end
+    self.require_http_information
     @@status_codes
   end
 
   def self.statuses
-    if @@statuses.empty?
-      self.load_http_information
-    end
+    self.require_http_information
     @@statuses
   end
 
   private
 
+  def self.require_http_information
+    if @@headers.empty?
+      self.load_http_information
+    end
+  end
+
   def self.load_http_information
+    self.load_headers
     self.load_methods
     self.load_status_codes
 
@@ -63,6 +68,10 @@ class HTTP
     json_filename = File.expand_path("../../js/#{filename}", this_file)
     json_contents = File.read(json_filename)
     JSON.parse(json_contents)
+  end
+
+  def self.load_headers
+    @@headers = self.load_json("headers.json")
   end
 
   def self.load_methods
