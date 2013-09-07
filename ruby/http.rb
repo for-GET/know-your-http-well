@@ -3,9 +3,14 @@ require "json"
 
 class HTTP
 
+  @@methods = []
   @@phrases = {}
   @@status_codes = []
   @@statuses = {}
+
+  def self.methods
+    []
+  end
 
   def self.phrases
     if @@phrases.empty?
@@ -31,10 +36,7 @@ class HTTP
   private
 
   def self.load_http_information
-    this_file = Pathname.new(__FILE__).realpath
-    status_file = File.expand_path("../../js/status-codes.json", this_file)
-    status_json = File.read(status_file)
-    @@status_codes = JSON.parse(status_json)
+    self.load_status_codes
 
     @@status_codes.each do |item|
       code = item["code"].to_i
@@ -50,6 +52,13 @@ class HTTP
       @@statuses[phrase] = code
       @@phrases[code] = item["phrase"]
     end
+  end
+
+  def self.load_status_codes
+    this_file = Pathname.new(__FILE__).realpath
+    status_file = File.expand_path("../../js/status-codes.json", this_file)
+    status_json = File.read(status_file)
+    @@status_codes = JSON.parse(status_json)
   end
 
 end
