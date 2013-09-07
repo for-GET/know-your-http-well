@@ -4,8 +4,12 @@ describe HTTP do
   describe "status_codes" do
     subject(:status_codes) { HTTP.status_codes }
 
-    it "is a hash" do
-      expect(status_codes).to be_a(Hash)
+    it "is an array" do
+      expect(status_codes).to be_an(Array)
+    end
+
+    it "contains a set of hashes" do
+      expect(status_codes[0]).to be_a(Hash)
     end
   end
 

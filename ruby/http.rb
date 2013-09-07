@@ -4,7 +4,7 @@ require "json"
 class HTTP
 
   @@phrases = {}
-  @@status_codes = {}
+  @@status_codes = []
   @@statuses = {}
 
   def self.phrases
@@ -34,11 +34,9 @@ class HTTP
     this_file = Pathname.new(__FILE__).realpath
     status_file = File.expand_path("../../js/status-codes.json", this_file)
     status_json = File.read(status_file)
-    status_codes = JSON.parse(status_json)
+    @@status_codes = JSON.parse(status_json)
 
-    @@statuses = {}
-
-    status_codes.each do |item|
+    @@status_codes.each do |item|
       code = item["code"].to_i
       if code.to_s != item["code"]
         next
