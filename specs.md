@@ -4,7 +4,7 @@
 
 concept/identifier | description | spec
 ------------------ | :---------- | :---
-`Cookie` | "This document specifies a way to create a stateful session with Hypertext Transfer Protocol (HTTP) requests and responses." | [RFC2965](http://tools.ietf.org/html/rfc2965), [RFC2109](http://tools.ietf.org/html/rfc2109)
+`Cookie` | "This document specifies a way to create a stateful session with Hypertext Transfer Protocol (HTTP) requests and responses." | [RFC6265](http://tools.ietf.org/html/rfc6265), [RFC2965](http://tools.ietf.org/html/rfc2965), [RFC2109](http://tools.ietf.org/html/rfc2109)
 `Defining Well-Known Uniform Resource Identifiers (URIs)` | "This memo defines a path prefix for 'well-known locations', '/.well-known/', in selected Uniform Resource Identifier (URI) schemes." | [RFC5785](http://tools.ietf.org/html/rfc5785)
 `HTTP Signatures` | "This document describes a way to add origin authentication, message integrity, and replay resistance to HTTP requests.  It is intended to be used over the HTTPS protocol." | [draft-cavage-http-signatures](http://tools.ietf.org/html/draft-cavage-http-signatures)
 `HTTP client hints` | "Client Hints can be used as input to proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences." | [draft-grigorik-http-client-hints](http://tools.ietf.org/html/draft-grigorik-http-client-hints)
