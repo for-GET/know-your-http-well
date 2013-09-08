@@ -20,6 +20,7 @@ concept/identifier | description | spec
 `The Alternates Header Field` | "This document proposes a header, Alternates, which is intended to provide a common method for Internet-based application protocols to indicate that a particular resource exists in multiple forms." | [draft-ietf-http-alternates](http://tools.ietf.org/html/draft-ietf-http-alternates)
 `URI template` | "A URI Template is a compact sequence of characters for describing a range of Uniform Resource Identifiers through variable expansion." | [RFC6570](http://tools.ietf.org/html/rfc6570)
 `URI` | "A Uniform Resource Identifier (URI) provides a simple and extensible means for identifying a resource." | [RFC2986](http://tools.ietf.org/html/rfc3986)
+`Transparent Content Negotiation in HTTP` | "Transparent content negotiation is an extensible negotiation mechanism, layered on top of HTTP, for automatically selecting the best version when the URL is accessed." | [RFC2295](http://tools.ietf.org/html/rfc2295)
 
 
 ## Examples
