@@ -161,6 +161,7 @@ header | description | spec
 header | description | spec
 -----: | :---------- | :---
 `Accept-Patch` | "used to specify the patch document formats accepted by the server." | [RFC5789#3.1](http://tools.ietf.org/html/rfc5789#section-3.1)
+`Accept-Post` | "indicates server support for specific media types for entity bodies in HTTP POST requests." | [draft-wilde-accept-post](http://tools.ietf.org/html/draft-wilde-accept-post)
 `Connection` | "" | ?
 `Content-Disposition` | "standard" | [RFC6266](http://tools.ietf.org/html/rfc6266)
 `Content-MD5` | "" | ?
