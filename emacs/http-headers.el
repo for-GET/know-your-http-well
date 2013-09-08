@@ -51,6 +51,7 @@
 ("allow" ("lists the set of methods advertised as supported by the target resource."))
 ("server" ("contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use."))
 ("accept-patch" ("used to specify the patch document formats accepted by the server."))
+("accept-post" ("indicates server support for specific media types for entity bodies in HTTP POST requests."))
 ("content-disposition" ("standard"))
 ("cookie" ("standard"))
 ("forwarded" ("standard"))

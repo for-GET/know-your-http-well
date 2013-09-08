@@ -258,6 +258,12 @@
         "spec_href": "http://tools.ietf.org/html/rfc5789#section-3.1"
     },
     {
+        "header": "Accept-Post",
+        "description": "\"indicates server support for specific media types for entity bodies in HTTP POST requests.\"",
+        "spec_title": "draft-wilde-accept-post",
+        "spec_href": "http://tools.ietf.org/html/draft-wilde-accept-post"
+    },
+    {
         "header": "Content-Disposition",
         "description": "\"standard\"",
         "spec_title": "RFC6266",
