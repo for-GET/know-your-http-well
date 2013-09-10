@@ -21,6 +21,13 @@
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.2.2"
     },
     {
+        "code": "102",
+        "phrase": "Processing",
+        "description": "\"indicates that the server has received and is processing the request, but no response is available yet.This prevents the client from timing out and assuming the request was lost.\"",
+        "spec_title": "httpwabdav10#10.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-webdav-protocol-10#section-10.1"
+    },
+    {
         "code": "2xx",
         "phrase": "**Successful**",
         "description": "\"indicates that the client's request was successfully received, understood, and accepted.\" ~ [cool](https://twitter.com/DanaDanger/status/183316183494311936)",
