@@ -11,7 +11,7 @@ mode="$1"
 
 cd master
 VERSION=`npm version $mode`
-git add -a
+git add -A
 git commit -m "$VERSION"
 git push --follow-tags
 npm publish
