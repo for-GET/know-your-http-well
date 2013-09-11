@@ -1,4 +1,4 @@
-# KNOW YOUR HTTP well. RELATIONS
+# KNOW YOUR HTTP relations WELL
 
 > HTTP relies upon the Uniform Resource Identifier (URI) standard [RFC3986] to indicate the target resource and relationships between resources.
 
