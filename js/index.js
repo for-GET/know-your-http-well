@@ -7,12 +7,12 @@ if (typeof define !== 'function') {
 define(function() {
     "use strict";
 
-    var statusCodes = require('./status-codes.json'),
+    var statusCodes = require('../json/status-codes.json'),
         statusCodesToPhrases = {},
         statusPhrasesToCodes = {},
-        methods = require('./methods.json'),
-        headers = require('./headers.json'),
-        relations = require('./relations.json');
+        methods = require('../json/methods.json'),
+        headers = require('../json/headers.json'),
+        relations = require('../json/relations.json');
 
     statusCodes.forEach(function(item) {
         var code = parseInt(item.code, 10),

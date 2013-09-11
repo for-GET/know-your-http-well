@@ -54,7 +54,7 @@ if (res.statusCode !== statusWell.OK) {
 
 ### JSON
 
-Just take a look at [./js/*.json](js).
+Just take a look at [./json/*.json](json).
 
 
 ## License
