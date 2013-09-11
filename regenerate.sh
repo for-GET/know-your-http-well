@@ -3,6 +3,7 @@
 generators=(
     "emacs/http-headers.el"
     "emacs/http-methods.el"
+    "emacs/http-relations.el"
     "emacs/http-status-codes.el"
     "json/headers.json"
     "json/methods.json"
