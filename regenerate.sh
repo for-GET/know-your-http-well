@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 ./http-methods.el > master/emacs/http-methods.el
 ./methods.json > master/js/methods.json
