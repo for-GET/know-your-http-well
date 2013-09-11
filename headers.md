@@ -176,7 +176,7 @@ header | description | spec
 `Set-Cookie` | "standard" | [RFC6265](http://tools.ietf.org/html/rfc6265)
 `Strict-Transport-Security` | "standard" | [RFC6797](http://tools.ietf.org/html/rfc6797)
 `Variant-Vary` | "" | ?
-`Via` | "" |45
+`Via` | "" | [rfc2616#14.45](http://tools.ietf.org/html/rfc2616#section-14.45)
 
 ## Less Common (subjective)
 
