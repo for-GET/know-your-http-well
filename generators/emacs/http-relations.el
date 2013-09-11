@@ -2,9 +2,9 @@
 
 fs = require 'fs'
 path = require 'path'
-extract = require './extract'
+extract = require '../extract'
 
-extract 'master/relations.md', "^`([a-zA-Z\-]+)` \\\| ([^\\\|]+) \\\|", [], (matches) ->
+extract '../master/relations.md', "^`([a-zA-Z\-]+)` \\\| ([^\\\|]+) \\\|", [], (matches) ->
   tpl = fs.readFileSync path.resolve(__dirname, './http-relations.el.tpl'), 'utf8'
   matchesEl = []
   for match in matches
