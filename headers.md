@@ -175,6 +175,8 @@ header | description | spec
 `Connection` | "" | ?
 `Content-Disposition` | "standard" | [RFC6266](http://tools.ietf.org/html/rfc6266)
 `Content-MD5` | "" | ?
+`Content-Security-Policy` | "is the preferred mechanism for delivering a CSP policy" | [CSP](http://www.w3.org/TR/CSP/#content-security-policy-header-field)
+`Content-Security-Policy-Report-Only` | "lets servers experiment with policies by monitoring (rather than enforcing) a policy" | [CSP](http://www.w3.org/TR/CSP/#content-security-policy-report-only-header-field)
 `Cookie` | "standard" | [RFC6265](http://tools.ietf.org/html/rfc6265)
 `Digest` | "" | ?
 `Forwarded` | "standard" | [draft-ietf-appsawg-http-forwarded](http://tools.ietf.org/html/draft-ietf-appsawg-http-forwarded)

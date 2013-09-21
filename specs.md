@@ -4,6 +4,7 @@
 
 concept/identifier | description | spec
 ------------------ | :---------- | :---
+`Content Security Policy` | "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced." | [CSP](http://www.w3.org/TR/CSP/)
 `Cookie` | "This document specifies a way to create a stateful session with Hypertext Transfer Protocol (HTTP) requests and responses." | [RFC6265](http://tools.ietf.org/html/rfc6265), [RFC2965](http://tools.ietf.org/html/rfc2965), [RFC2109](http://tools.ietf.org/html/rfc2109)
 `Cross-Origin Resource Sharing` | "This document defines a mechanism to enable client-side cross-origin requests." | [cors](http://www.w3.org/TR/cors/)
 `Defining Well-Known Uniform Resource Identifiers (URIs)` | "This memo defines a path prefix for 'well-known locations', '/.well-known/', in selected Uniform Resource Identifier (URI) schemes." | [RFC5785](http://tools.ietf.org/html/rfc5785)
