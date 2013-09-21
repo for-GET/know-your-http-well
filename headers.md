@@ -164,6 +164,14 @@ header | description | spec
 -----: | :---------- | :---
 `Accept-Patch` | "used to specify the patch document formats accepted by the server." | [RFC5789#3.1](http://tools.ietf.org/html/rfc5789#section-3.1)
 `Accept-Post` | "indicates server support for specific media types for entity bodies in HTTP POST requests." | [draft-wilde-accept-post](http://tools.ietf.org/html/draft-wilde-accept-post)
+`Access-Control-Allow-Credentials` | "indicates whether the response to request can be exposed when the omit credentials flag is unset" | [CORS](http://www.w3.org/TR/cors/#access-control-allow-credentials-response-header)
+`Access-Control-Allow-Headers` | "indicates, as part of the response to a preflight request, which header field names can be used during the actual request" | [CORS](http://www.w3.org/TR/cors/#access-control-allow-headers-response-header)
+`Access-Control-Allow-Methods` | "indicates, as part of the response to a preflight request, which methods can be used during the actual request" | [CORS](http://www.w3.org/TR/cors/#access-control-allow-methods-response-header)
+`Access-Control-Allow-Origin` | "indicates whether a resource can be shared" | [CORS](http://www.w3.org/TR/cors/#access-control-allow-origin-response-header)
+`Access-Control-Expose-Headers` | "indicates which headers are safe to expose to the API of a CORS API specification" | [CORS](http://www.w3.org/TR/cors/#access-control-expose-headers-response-header)
+`Access-Control-Max-Age` | "indicates how long the results of a preflight request can be cached in a preflight result cache" | [CORS](http://www.w3.org/TR/cors/#access-control-max-age-response-header)
+`Access-Control-Request-Headers` | "indicates which headers will be used in the actual request as part of the preflight request" | [CORS](http://www.w3.org/TR/cors/#access-control-request-headers-request-header)
+`Access-Control-Request-Method` | "indicates which method will be used in the actual request as part of the preflight request" | [CORS](http://www.w3.org/TR/cors/#access-control-request-method-request-header)
 `Connection` | "" | ?
 `Content-Disposition` | "standard" | [RFC6266](http://tools.ietf.org/html/rfc6266)
 `Content-MD5` | "" | ?
