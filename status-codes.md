@@ -46,6 +46,7 @@ code | reason | description | spec
 `305` | Use Proxy | *deprecated* | [httpbisp2#6.4.5](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.5),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `306` | | *unused* | [httpbisp2#6.4.6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.6),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `307` | Temporary Redirect | "indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI." | [httpbisp2#6.4.7](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.7),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
+`308` | Permanent Redirect | "The target resource has been assigned a new permanent URI and any future references to this resource SHOULD use one of the returned URIs." | [draft-reschke-http-status-308](http://tools.ietf.org/html/draft-reschke-http-status-308)
 
 ### 4xx
 
