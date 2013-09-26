@@ -46,7 +46,6 @@ code | reason | description | spec
 `305` | Use Proxy | *deprecated* | [httpbisp2#6.4.5](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.5),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `306` | | *unused* | [httpbisp2#6.4.6](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.6),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
 `307` | Temporary Redirect | "indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI." | [httpbisp2#6.4.7](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-6.4.7),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10)
-`308` | Permanent Redirect | "The target resource has been assigned a new permanent URI and any future references to this resource SHOULD use one of the returned URIs. [...] This status code is similar to 301 Moved Permanently (Section 7.3.2 of draft-ietf-httpbis-p2-semantics), except that it does not allow rewriting the request method from POST to GET." | [draft-reschke-http-status-308](http://tools.ietf.org/html/draft-reschke-http-status-308)
 
 ### 4xx
 
@@ -92,6 +91,7 @@ code | reason | description | spec
 ---: | :----- | :---------- | :---
 `102` | Processing | "is an interim response used to inform the client that the server has accepted the complete request, but has not yet completed it." | [RFC5218#10.1](http://tools.ietf.org/html/rfc2518#section-10.1)
 `207` | Multi-Status | "provides status for multiple independent operations." | [RFC5218#10.2](http://tools.ietf.org/html/rfc2518#section-10.2)
+`308` | Permanent Redirect | "The target resource has been assigned a new permanent URI and any future references to this resource SHOULD use one of the returned URIs. [...] This status code is similar to 301 Moved Permanently (Section 7.3.2 of draft-ietf-httpbis-p2-semantics), except that it does not allow rewriting the request method from POST to GET." | [draft-reschke-http-status-308](http://tools.ietf.org/html/draft-reschke-http-status-308)
 `422` | Unprocessable Entity | "means the server understands the content type of the request entity (hence a 415(Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions." | [RFC5218#10.3](http://tools.ietf.org/html/rfc2518#section-10.3)
 `423` | Locked | "means the source or destination resource of a method is locked." | [RFC5218#10.4](http://tools.ietf.org/html/rfc2518#section-10.4)
 `424` | Failed Dependency | "means that the method could not be performed on the resource because the requested action depended on another action and that action failed." | [RFC5218#10.5](http://tools.ietf.org/html/rfc2518#section-10.5)
