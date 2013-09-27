@@ -336,6 +336,13 @@
         "spec_href": "http://tools.ietf.org/html/rfc2518#section-10.2"
     },
     {
+        "code": "308",
+        "phrase": "Permanent Redirect",
+        "description": "\"The target resource has been assigned a new permanent URI and any future references to this resource SHOULD use one of the returned URIs. [...] This status code is similar to 301 Moved Permanently (Section 7.3.2 of draft-ietf-httpbis-p2-semantics), except that it does not allow rewriting the request method from POST to GET.\"",
+        "spec_title": "draft-reschke-http-status-308",
+        "spec_href": "http://tools.ietf.org/html/draft-reschke-http-status-308"
+    },
+    {
         "code": "422",
         "phrase": "Unprocessable Entity",
         "description": "\"means the server understands the content type of the request entity (hence a 415(Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions.\"",
@@ -376,6 +383,13 @@
         "description": "\"indicates that the server is unwilling to process the request because its header fields are too large.\"",
         "spec_title": "RFC6585#5",
         "spec_href": "http://tools.ietf.org/html/rfc6585#section-5"
+    },
+    {
+        "code": "451",
+        "phrase": "Unavailable For Legal Reasons",
+        "description": "\"This status code indicates that the server is denying access to the resource in response to a legal demand.\"",
+        "spec_title": "draft-tbray-http-legally-restricted-status",
+        "spec_href": "http://tools.ietf.org/html/draft-tbray-http-legally-restricted-status"
     },
     {
         "code": "507",

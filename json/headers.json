@@ -144,6 +144,12 @@
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.3"
     },
     {
+        "header": "DNT",
+        "description": "\"defined as the means for expressing a user's tracking preference via HTTP.\"",
+        "spec_title": "Tracking Preference Expression (DNT)",
+        "spec_href": "http://www.w3.org/TR/tracking-dnt/#dnt-header-field"
+    },
+    {
         "header": "From",
         "description": "\"contains an Internet email address for a human user who controls the requesting user agent.\"",
         "spec_title": "httpbisp2#5.5.1",
@@ -196,6 +202,12 @@
         "description": "\"indicates how long the user agent ought to wait before making a follow-up request.\"",
         "spec_title": "httpbisp2#7.1.3",
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.3"
+    },
+    {
+        "header": "Tk",
+        "description": "\"defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status. \"",
+        "spec_title": "Tracking Preference Expression (DNT)",
+        "spec_href": "http://www.w3.org/TR/tracking-dnt/#response-header-field"
     },
     {
         "header": "Vary",
@@ -264,10 +276,70 @@
         "spec_href": "http://tools.ietf.org/html/draft-wilde-accept-post"
     },
     {
+        "header": "Access-Control-Allow-Credentials",
+        "description": "\"indicates whether the response to request can be exposed when the omit credentials flag is unset\"",
+        "spec_title": "CORS",
+        "spec_href": "http://www.w3.org/TR/cors/#access-control-allow-credentials-response-header"
+    },
+    {
+        "header": "Access-Control-Allow-Headers",
+        "description": "\"indicates, as part of the response to a preflight request, which header field names can be used during the actual request\"",
+        "spec_title": "CORS",
+        "spec_href": "http://www.w3.org/TR/cors/#access-control-allow-headers-response-header"
+    },
+    {
+        "header": "Access-Control-Allow-Methods",
+        "description": "\"indicates, as part of the response to a preflight request, which methods can be used during the actual request\"",
+        "spec_title": "CORS",
+        "spec_href": "http://www.w3.org/TR/cors/#access-control-allow-methods-response-header"
+    },
+    {
+        "header": "Access-Control-Allow-Origin",
+        "description": "\"indicates whether a resource can be shared\"",
+        "spec_title": "CORS",
+        "spec_href": "http://www.w3.org/TR/cors/#access-control-allow-origin-response-header"
+    },
+    {
+        "header": "Access-Control-Expose-Headers",
+        "description": "\"indicates which headers are safe to expose to the API of a CORS API specification\"",
+        "spec_title": "CORS",
+        "spec_href": "http://www.w3.org/TR/cors/#access-control-expose-headers-response-header"
+    },
+    {
+        "header": "Access-Control-Max-Age",
+        "description": "\"indicates how long the results of a preflight request can be cached in a preflight result cache\"",
+        "spec_title": "CORS",
+        "spec_href": "http://www.w3.org/TR/cors/#access-control-max-age-response-header"
+    },
+    {
+        "header": "Access-Control-Request-Headers",
+        "description": "\"indicates which headers will be used in the actual request as part of the preflight request\"",
+        "spec_title": "CORS",
+        "spec_href": "http://www.w3.org/TR/cors/#access-control-request-headers-request-header"
+    },
+    {
+        "header": "Access-Control-Request-Method",
+        "description": "\"indicates which method will be used in the actual request as part of the preflight request\"",
+        "spec_title": "CORS",
+        "spec_href": "http://www.w3.org/TR/cors/#access-control-request-method-request-header"
+    },
+    {
         "header": "Content-Disposition",
         "description": "\"standard\"",
         "spec_title": "RFC6266",
         "spec_href": "http://tools.ietf.org/html/rfc6266"
+    },
+    {
+        "header": "Content-Security-Policy",
+        "description": "\"is the preferred mechanism for delivering a CSP policy\"",
+        "spec_title": "CSP",
+        "spec_href": "http://www.w3.org/TR/CSP/#content-security-policy-header-field"
+    },
+    {
+        "header": "Content-Security-Policy-Report-Only",
+        "description": "\"lets servers experiment with policies by monitoring (rather than enforcing) a policy\"",
+        "spec_title": "CSP",
+        "spec_href": "http://www.w3.org/TR/CSP/#content-security-policy-report-only-header-field"
     },
     {
         "header": "Cookie",
@@ -316,6 +388,12 @@
         "description": "\"standard\"",
         "spec_title": "RFC6797",
         "spec_href": "http://tools.ietf.org/html/rfc6797"
+    },
+    {
+        "header": "Via",
+        "description": "\"\"",
+        "spec_title": "rfc2616#14.45",
+        "spec_href": "http://tools.ietf.org/html/rfc2616#section-14.45"
     },
     {
         "header": "Apply-To-Redirect-Ref",
