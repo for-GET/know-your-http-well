@@ -28,11 +28,11 @@ This project is used by [HyperREST bin](https://github.com/andreineculau/hyperre
 
 ```emacs
 (require 'know-your-http-well)
-;; M-x http-headers ;; content-type
-;; M-x http-method ;; post
+;; M-x http-header ;; content-type
+;; M-x http-method ;; post | POST
 ;; M-x http-relation ;; describedby
 ;; M-x http-status-code ;; 500
-;; M-x http-status-code ;; not_found
+;; M-x http-status-code ;; not_found | NOT_FOUND
 ```
 
 ### JavaScript
