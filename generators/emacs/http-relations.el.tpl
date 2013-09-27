@@ -11,8 +11,9 @@
 
 ;;;###autoload
 (defun http-relation (relation)
-  "Display the meaning of a HTTP relation"
-  (interactive "sEnter HTTP relation: ")
+  "Display the meaning of an HTTP relation"
+  (interactive
+   (list (completing-read "Enter HTTP relation: " http-relations)))
   (let* ((lowercased-relation (downcase relation))
         (found (assoc lowercased-relation http-relations)))
     (if found

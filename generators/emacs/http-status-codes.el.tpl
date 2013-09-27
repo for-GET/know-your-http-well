@@ -36,8 +36,9 @@
 
 ;;;###autoload
 (defun http-status-code (status)
-  "Display the meaning of a HTTP status code or phrase"
-  (interactive "sEnter HTTP status code or phrase: ")
+  "Display the meaning of an HTTP status code or phrase"
+  (interactive
+   (list (completing-read "Enter HTTP status code or phrase: " http-status)))
   (let* ((uppercased-status (upcase status))
         (found (assoc uppercased-status http-status)))
     (if found
