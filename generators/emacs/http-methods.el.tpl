@@ -11,8 +11,9 @@
 
 ;;;###autoload
 (defun http-method (method)
-  "Display the meaning of a HTTP ethod"
-  (interactive "sEnter HTTP method: ")
+  "Display the meaning of an HTTP method"
+  (interactive
+   (list (completing-read "Enter HTTP method: " http-methods)))
   (let* ((uppercased-method (upcase method))
         (found (assoc uppercased-method http-methods)))
     (if found
