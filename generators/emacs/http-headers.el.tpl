@@ -11,8 +11,9 @@
 
 ;;;###autoload
 (defun http-header (header)
-  "Display the meaning of a HTTP header"
-  (interactive "sEnter HTTP header: ")
+  "Display the meaning of an HTTP header"
+  (interactive
+   (list (completing-read "Enter HTTP header: " http-headers)))
   (let* ((lowercased-header (downcase header))
         (found (assoc lowercased-header http-headers)))
     (if found
