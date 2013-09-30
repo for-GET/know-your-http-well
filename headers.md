@@ -225,6 +225,7 @@ header | description | spec
 `If` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `If-Schedule-Tag-Match` | "standard" | [draft-desruisseaux-caldav-sched](http://tools.ietf.org/html/draft-desruisseaux-caldav-sched)
 `Label` | "" | ?
+`Last-Event-ID` | "The value of the event source's last event ID string, encoded as UTF-8." | [Server-Sent Events](http://www.w3.org/TR/eventsource/#last-event-id)
 `Lock-Token` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Man` | "" | ?
 `Meter` | "" | ?
