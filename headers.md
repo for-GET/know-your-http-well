@@ -194,7 +194,7 @@ header | description | spec
 
 header | description | spec
 -----: | :---------- | :---
-`A-IM` | "" | ?
+`A-IM` | "" | [RFC3229#section-10.5.3](http://tools.ietf.org/html/rfc3229#section-10.5.3)
 `Accept-Additions` | "" | ?
 `Accept-Features` | "" | ?
 `Alternates` | "" | ?
@@ -214,14 +214,14 @@ header | description | spec
 `DASL` | "standard" | [RFC5323](http://tools.ietf.org/html/rfc5323)
 `DAV` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Default-Style` | "" | ?
-`Delta-Base` | "" | ?
+`Delta-Base` | "" | [RFC3229#section-10.5.1](http://tools.ietf.org/html/rfc3229#section-10.5.1)
 `Depth` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Derived-From` | "" | ?
 `Destination` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Differential-ID` | "" | ?
 `Ext` | "" | ?
 `GetProfile` | "" | ?
-`IM` | "" | ?
+`IM` | "" | [RFC3229#section-10.5.2](http://tools.ietf.org/html/rfc3229#section-10.5.2)
 `If` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `If-Schedule-Tag-Match` | "standard" | [draft-desruisseaux-caldav-sched](http://tools.ietf.org/html/draft-desruisseaux-caldav-sched)
 `Label` | "" | ?
