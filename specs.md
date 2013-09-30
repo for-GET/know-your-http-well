@@ -1,16 +1,9 @@
 # KNOW YOUR HTTP specs WELL
 
-## HTTP
+## Core
 
 concept/identifier | description | spec
 ------------------ | :---------- | :---
-`Content Security Policy` | "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced." | [CSP](http://www.w3.org/TR/CSP/)
-`Cookie` | "This document specifies a way to create a stateful session with Hypertext Transfer Protocol (HTTP) requests and responses." | [RFC6265](http://tools.ietf.org/html/rfc6265), [RFC2965](http://tools.ietf.org/html/rfc2965), [RFC2109](http://tools.ietf.org/html/rfc2109)
-`Cross-Origin Resource Sharing` | "This document defines a mechanism to enable client-side cross-origin requests." | [cors](http://www.w3.org/TR/cors/)
-`Defining Well-Known Uniform Resource Identifiers (URIs)` | "This memo defines a path prefix for 'well-known locations', '/.well-known/', in selected Uniform Resource Identifier (URI) schemes." | [RFC5785](http://tools.ietf.org/html/rfc5785)
-`HTTP Cache-Control Extensions for Stale Content` | "This document defines two independent HTTP Cache-Control extensions that allow control over the use of stale responses by caches." | [RFC5861](http://tools.ietf.org/html/rfc5861)
-`HTTP Signatures` | "This document describes a way to add origin authentication, message integrity, and replay resistance to HTTP requests.  It is intended to be used over the HTTPS protocol." | [draft-cavage-http-signatures](http://tools.ietf.org/html/draft-cavage-http-signatures)
-`HTTP client hints` | "Client Hints can be used as input to proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences." | [draft-grigorik-http-client-hints](http://tools.ietf.org/html/draft-grigorik-http-client-hints)
 `HTTP` | "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems." | [RFC2616](http://tools.ietf.org/html/rfc2616)
 `HTTPbis auth` | "This document defines HTTP/1.1 access control and authentication." | [draft-ietf-httpbis-p7-auth](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth)
 `HTTPbis cache` | "HTTP is typically used for distributed information systems, where performance can be improved by the use of response caches." | [draft-ietf-httpbis-p6-cache](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache)
@@ -19,9 +12,28 @@ concept/identifier | description | spec
 `HTTPbis range` | "Hypertext Transfer Protocol (HTTP) clients often encounter interrupted data transfers as a result of canceled requests or dropped connections." | [draft-ietf-httpbis-p5-range](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range)
 `HTTPbis security properties` | "Recent IESG practice dictates that IETF protocols must specify mandatory-to-implement (MTI) security mechanisms, so that all conformant implementations share a common baseline. This document examines all widely deployed HTTP security technologies, and analyzes the trade-offs of each." | [draft-ietf-httpbis-security-properties](http://tools.ietf.org/html/draft-ietf-httpbis-security-properties)
 `HTTPbis semantics` | "Each Hypertext Transfer Protocol (HTTP) message is either a request or a response." | [draft-ietf-httpbis-p2-semantics](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics)
+
+
+## Extensions
+
+concept/identifier | description | spec
+------------------ | :---------- | :---
+`Content Security Policy` | "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced." | [CSP](http://www.w3.org/TR/CSP/)
+`Cookie` | "This document specifies a way to create a stateful session with Hypertext Transfer Protocol (HTTP) requests and responses." | [RFC6265](http://tools.ietf.org/html/rfc6265), [RFC2965](http://tools.ietf.org/html/rfc2965), [RFC2109](http://tools.ietf.org/html/rfc2109)
+`Cross-Origin Resource Sharing` | "This document defines a mechanism to enable client-side cross-origin requests." | [cors](http://www.w3.org/TR/cors/)
+`HTTP Cache-Control Extensions for Stale Content` | "This document defines two independent HTTP Cache-Control extensions that allow control over the use of stale responses by caches." | [RFC5861](http://tools.ietf.org/html/rfc5861)
+`HTTP Signatures` | "This document describes a way to add origin authentication, message integrity, and replay resistance to HTTP requests.  It is intended to be used over the HTTPS protocol." | [draft-cavage-http-signatures](http://tools.ietf.org/html/draft-cavage-http-signatures)
+`HTTP client hints` | "Client Hints can be used as input to proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences." | [draft-grigorik-http-client-hints](http://tools.ietf.org/html/draft-grigorik-http-client-hints)
 `LCI` | "This memo defines two new link types that indicate relationships between resources in terms of cache invalidation, along with a HTTP cache-control extension that takes advantage of those relationships to use them to extend response freshness.  Collectively, this is referred to as Linked Cache Invalidation (LCI)." | [draft-nottingham-linked-cache-inv](http://tools.ietf.org/html/draft-nottingham-linked-cache-inv)
 `The Alternates Header Field` | "This document proposes a header, Alternates, which is intended to provide a common method for Internet-based application protocols to indicate that a particular resource exists in multiple forms." | [draft-ietf-http-alternates](http://tools.ietf.org/html/draft-ietf-http-alternates)
 `Transparent Content Negotiation in HTTP` | "Transparent content negotiation is an extensible negotiation mechanism, layered on top of HTTP, for automatically selecting the best version when the URL is accessed." | [RFC2295](http://tools.ietf.org/html/rfc2295)
+
+
+## URI
+
+concept/identifier | description | spec
+------------------ | :---------- | :---
+`Defining Well-Known Uniform Resource Identifiers (URIs)` | "This memo defines a path prefix for 'well-known locations', '/.well-known/', in selected Uniform Resource Identifier (URI) schemes." | [RFC5785](http://tools.ietf.org/html/rfc5785)
 `URI template` | "A URI Template is a compact sequence of characters for describing a range of Uniform Resource Identifiers through variable expansion." | [RFC6570](http://tools.ietf.org/html/rfc6570)
 `URI` | "A Uniform Resource Identifier (URI) provides a simple and extensible means for identifying a resource." | [RFC2986](http://tools.ietf.org/html/rfc3986)
 
