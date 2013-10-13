@@ -271,6 +271,7 @@ header | description | spec
 `URI` | "" | ?
 `Upgrade` | "" |42
 `Want-Digest` | "" | ?
+`X-Frame-Options Header` | "indicates a policy that specifies whether the browser should render the transmitted resource within a &lt;frame> or an &lt;iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames." | [RFC7034](http://tools.ietf.org/html/rfc7034)
 
 A chunk of provisional headers can be found at [HTTP Headers Registry](http://www.iana.org/assignments/message-headers/message-headers.xml).
 
