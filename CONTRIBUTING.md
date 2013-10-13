@@ -15,14 +15,14 @@ and question them if they don't make sense.
       source files of the latest release(=tag)
     * the source (WIP) and the distribution may obviously be out-of-sync in the
       HEAD
-* the `dev` branch
+* the `generate` branch
     * contains support scripts to regenerate the distribution in the `master`
       branch based on the source files in the HEAD
 
 Corollary:
 
-* if you want to add/change HTTP information, use `master` as base
-* if you want to add/change generated files, use `dev` as base
+* if you want to add/change HTTP information, use `master` as base, and only submit changes to the source
+* if you want to add/change generated files, use `generate` as base
 
 
 ## How to prepare
@@ -38,7 +38,7 @@ Corollary:
 ## Make Changes
 
 * In your forked repository, create a topic branch for your upcoming patch based
-  on one of the two main branches: `master` or `dev`.
+  on one of the two main branches: `master` or `generate`.
 * Make commits of logical units and describe them properly.
 
 
