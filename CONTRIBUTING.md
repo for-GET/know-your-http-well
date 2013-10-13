@@ -15,7 +15,7 @@ and question them if they don't make sense.
       source files of the latest release(=tag)
     * the source (WIP) and the distribution may obviously be out-of-sync in the
       HEAD
-* the `generate` branch
+* the `generator` branch
     * contains support scripts to regenerate the distribution in the `master`
       branch based on the source files in the HEAD
 
@@ -38,7 +38,7 @@ Corollary:
 ## Make Changes
 
 * In your forked repository, create a topic branch for your upcoming patch based
-  on one of the two main branches: `master` or `generate`.
+  on one of the two main branches: `master` or `generator`.
 * Make commits of logical units and describe them properly.
 
 
