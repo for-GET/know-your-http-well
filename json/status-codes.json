@@ -336,6 +336,13 @@
         "spec_href": "http://tools.ietf.org/html/rfc2518#section-10.2"
     },
     {
+        "code": "226",
+        "phrase": "IM Used",
+        "description": "\"The server has fulfilled a GET request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.\"",
+        "spec_title": "RFC3229#10.4.1",
+        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.4.1"
+    },
+    {
         "code": "308",
         "phrase": "Permanent Redirect",
         "description": "\"The target resource has been assigned a new permanent URI and any future references to this resource SHOULD use one of the returned URIs. [...] This status code is similar to 301 Moved Permanently (Section 7.3.2 of draft-ietf-httpbis-p2-semantics), except that it does not allow rewriting the request method from POST to GET.\"",

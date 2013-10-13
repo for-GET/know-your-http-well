@@ -396,6 +396,12 @@
         "spec_href": "http://tools.ietf.org/html/rfc2616#section-14.45"
     },
     {
+        "header": "A-IM",
+        "description": "\"\"",
+        "spec_title": "RFC3229#section-10.5.3",
+        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.3"
+    },
+    {
         "header": "Apply-To-Redirect-Ref",
         "description": "\"\"",
         "spec_title": "RFC4437",
@@ -426,6 +432,12 @@
         "spec_href": "http://tools.ietf.org/html/rfc4918"
     },
     {
+        "header": "Delta-Base",
+        "description": "\"\"",
+        "spec_title": "RFC3229#section-10.5.1",
+        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.1"
+    },
+    {
         "header": "Depth",
         "description": "\"standard\"",
         "spec_title": "RFC4918",
@@ -438,6 +450,12 @@
         "spec_href": "http://tools.ietf.org/html/rfc4918"
     },
     {
+        "header": "IM",
+        "description": "\"\"",
+        "spec_title": "RFC3229#section-10.5.2",
+        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.2"
+    },
+    {
         "header": "If",
         "description": "\"standard\"",
         "spec_title": "RFC4918",
@@ -448,6 +466,12 @@
         "description": "\"standard\"",
         "spec_title": "draft-desruisseaux-caldav-sched",
         "spec_href": "http://tools.ietf.org/html/draft-desruisseaux-caldav-sched"
+    },
+    {
+        "header": "Last-Event-ID",
+        "description": "\"The value of the event source's last event ID string, encoded as UTF-8.\"",
+        "spec_title": "Server-Sent Events",
+        "spec_href": "http://www.w3.org/TR/eventsource/#last-event-id"
     },
     {
         "header": "Lock-Token",

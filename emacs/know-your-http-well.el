@@ -1,4 +1,4 @@
-;;; know-your-http-well.el --- collection of HTTP packages
+;;; know-your-http-well.el --- Look up the meaning of HTTP headers, methods, relations, status codes
 ;;; Commentary:
 ;;; Code:
 
