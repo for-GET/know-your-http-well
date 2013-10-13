@@ -1,4 +1,4 @@
-;;; know-your-http-well.el --- collection of HTTP packages
+;;; know-your-http-well.el --- Look up http status codes, headers and more
 ;;; Commentary:
 ;;; Code:
 
