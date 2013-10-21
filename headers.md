@@ -201,6 +201,7 @@ header | description | spec
 `Apply-To-Redirect-Ref` | "" | [RFC4437](http://tools.ietf.org/html/rfc4437)
 `Authentication-Info` | "" | ?
 `C-Ext` | "" | ?
+`CH` | "describes an example list of client preferences that the server can use to adapt and optimize the resource to satisfy a given request." | [draft-grigorik-http-client-hints](http://tools.ietf.org/html/draft-grigorik-http-client-hints)
 `C-Man` | "" | ?
 `C-Opt` | "" | ?
 `C-PEP` | "" | ?
