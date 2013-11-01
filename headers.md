@@ -196,8 +196,8 @@ header | description | spec
 -----: | :---------- | :---
 `A-IM` | "" | [RFC3229#section-10.5.3](http://tools.ietf.org/html/rfc3229#section-10.5.3)
 `Accept-Additions` | "" | ?
-`Accept-Features` | "" | ?
-`Alternates` | "" | ?
+`Accept-Features` | "can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request." | [RFC2295#section-8.2](http://tools.ietf.org/html/rfc2295#section-8.2)
+`Alternates` | "is used to convey the list of variants bound to a negotiable resource." | [RFC2295#section-8.3](http://tools.ietf.org/html/rfc2295#section-8.3)
 `Apply-To-Redirect-Ref` | "" | [RFC4437](http://tools.ietf.org/html/rfc4437)
 `Authentication-Info` | "" | ?
 `C-Ext` | "" | ?
@@ -231,7 +231,7 @@ header | description | spec
 `Man` | "" | ?
 `Meter` | "" | ?
 `MIME-Version` | "" | ?
-`Negotiate` | "" | ?
+`Negotiate` | "can contain directives for any content negotiation process initiated by the request." | [RFC2295#section-8.4](http://tools.ietf.org/html/rfc2295#section-8.4)
 `Opt` | "" | ?
 `Ordering-Type` | "standard" | ?
 `Overwrite` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
@@ -266,11 +266,12 @@ header | description | spec
 `Status-URI` | "" | ?
 `Surrogate-Capability` | "" | ?
 `Surrogate-Control` | "" | ?
-`TCN` | "" | ?
+`TCN` | "is used by a server to signal that the resource is transparently negotiated." | [RFC2295#section-8.5](http://tools.ietf.org/html/rfc2295#section-8.5)
 `Timeout` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Trailer` | "" |43
 `URI` | "" | ?
 `Upgrade` | "" |42
+`Variant-Vary` | "can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole." | [RFC2295#section-8.6](http://tools.ietf.org/html/rfc2295#section-8.6)
 `Want-Digest` | "" | ?
 `X-Frame-Options` | "indicates a policy that specifies whether the browser should render the transmitted resource within a <frame> or an <iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames." | [RFC7034](http://tools.ietf.org/html/rfc7034)
 
