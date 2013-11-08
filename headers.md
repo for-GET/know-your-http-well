@@ -232,6 +232,7 @@ header | description | spec
 `Meter` | "" | ?
 `MIME-Version` | "" | ?
 `Negotiate` | "can contain directives for any content negotiation process initiated by the request." | [RFC2295#section-8.4](http://tools.ietf.org/html/rfc2295#section-8.4)
+`Nice` | "indicates that a request is less important than a request that doesn't bear this header." | [draft-thomson-http-nice](http://tools.ietf.org/html/draft-thomson-http-nice)
 `Opt` | "" | ?
 `Ordering-Type` | "standard" | ?
 `Overwrite` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
