@@ -228,6 +228,7 @@ header | description | spec
 `If-Schedule-Tag-Match` | "standard" | [draft-desruisseaux-caldav-sched](http://tools.ietf.org/html/draft-desruisseaux-caldav-sched)
 `Label` | "" | ?
 `Last-Event-ID` | "The value of the event source's last event ID string, encoded as UTF-8." | [Server-Sent Events](http://www.w3.org/TR/eventsource/#last-event-id)
+`Link-Template` | "provides a means for serialising one or more links into HTTP headers." | [draft-nottingham-link-template](http://tools.ietf.org/html/draft-nottingham-link-template)
 `Lock-Token` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Man` | "" | ?
 `Meter` | "" | ?
