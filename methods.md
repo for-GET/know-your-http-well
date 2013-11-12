@@ -18,13 +18,15 @@ Continue reading on [httpbisp2#4.2.2](http://tools.ietf.org/html/draft-ietf-http
 
 ## Cacheable
 
-> Request methods are considered "cacheable" if it is possible and useful to answer a current client request with a stored response from a prior request.  GET and HEAD are defined to be cacheable.
+> Request methods are considered "cacheable" if it is possible and useful to answer a current client request with a stored response from a prior request. GET and HEAD are defined to be cacheable.
 
 Continue reading on [httpbisp2#4.2.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.2.3), [RFC2616#9.1.2](http://tools.ietf.org/html/rfc2616#section-9.1.2).
 
 ## Common
 
 > PATCH is included here as well, despite not being part of [httpbisp2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics) nor [RFC2616](http://tools.ietf.org/html/rfc2616).
+
+> POST and PATCH are not cacheable by default, like GET and HEAD, but become cacheable by using appropriate `Cache-Control` or `Expires` response headers.
 
 method | description | safe | idem. | cache. | spec
 -----: | :---------- | :--: | :---: | :----: | :---
@@ -33,10 +35,8 @@ method | description | safe | idem. | cache. | spec
 `GET` | "requests transfer of a current selected representation for the target resource." | ✔ | ✔ | ✔ | [httpbisp2#4.3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.1),<br>[RFC2616#9.3](http://tools.ietf.org/html/rfc2616#section-9.3)
 `HEAD` | "is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header block)." | ✔ | ✔ | ✔ | [httpbisp2#4.3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.2),<br>[RFC2616#9.4](http://tools.ietf.org/html/rfc2616#section-9.4)
 `OPTIONS` | "requests information about the communication options available on the request/response chain identified by the effective request URI." | ✔ | ✔ | ✘ | [httpbisp2#4.3.7](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.7),<br>[RFC2616#9.3](http://tools.ietf.org/html/rfc2616#section-9.3)
-| | | | | | |
 `PATCH` | "requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI." | ✘ | ✘ | ✘ | [RFC5789](http://tools.ietf.org/html/rfc5789)
-| | | | | | |
-`POST` | "requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics." | ✘ | ✘ | ✘<br>(✔) | [httpbisp2#4.3.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.3),<br>[RFC2616#9.5](http://tools.ietf.org/html/rfc2616#section-9.5)
+`POST` | "requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics." | ✘ | ✘ | ✘ | [httpbisp2#4.3.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.3),<br>[RFC2616#9.5](http://tools.ietf.org/html/rfc2616#section-9.5)
 `PUT` | "requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload." | ✘ | ✔ | ✘ | [httpbisp2#4.3.4](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.4),<br>[RFC2616#9.6](http://tools.ietf.org/html/rfc2616#section-9.6)
 `TRACE` | "is used to invoke a remote, application-layer loopback of the request message." | ✔ | ✔ | ✘ | [httpbisp2#4.3.8](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.8),<br>[RFC2616#9.8](http://tools.ietf.org/html/rfc2616#section-9.8)
 
