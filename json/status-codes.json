@@ -399,6 +399,13 @@
         "spec_href": "http://tools.ietf.org/html/draft-tbray-http-legally-restricted-status"
     },
     {
+        "code": "506",
+        "phrase": "Variant Also Negotiates",
+        "description": "\"indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process.\"",
+        "spec_title": "RFC2295#8.1",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.1"
+    },
+    {
         "code": "507",
         "phrase": "Insufficient Storage",
         "description": "\"means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request.\"",

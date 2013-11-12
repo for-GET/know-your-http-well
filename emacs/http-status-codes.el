@@ -136,6 +136,8 @@
 ("REQUEST_HEADER_FIELDS_TOO_LARGE" ("431" "indicates that the server is unwilling to process the request because its header fields are too large."))
 ("451" ("Unavailable For Legal Reasons" "This status code indicates that the server is denying access to the resource in response to a legal demand."))
 ("UNAVAILABLE_FOR_LEGAL_REASONS" ("451" "This status code indicates that the server is denying access to the resource in response to a legal demand."))
+("506" ("Variant Also Negotiates" "indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process."))
+("VARIANT_ALSO_NEGOTIATES" ("506" "indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process."))
 ("507" ("Insufficient Storage" "means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request."))
 ("INSUFFICIENT_STORAGE" ("507" "means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request."))
 ("511" ("Network Authentication Required" "indicates that the client needs to authenticate to gain network access."))

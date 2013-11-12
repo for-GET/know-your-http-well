@@ -54,6 +54,15 @@
         "spec_href": "http://tools.ietf.org/html/rfc5789"
     },
     {
+        "method": "POST",
+        "description": "\"requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics.\"",
+        "safe": false,
+        "idempotent": false,
+        "cacheable": false,
+        "spec_title": "httpbisp2#4.3.3",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.3"
+    },
+    {
         "method": "PUT",
         "description": "\"requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload.\"",
         "safe": false,

@@ -402,10 +402,34 @@
         "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.3"
     },
     {
+        "header": "Accept-Features",
+        "description": "\"can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request.\"",
+        "spec_title": "RFC2295#section-8.2",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.2"
+    },
+    {
+        "header": "Alt-Svc",
+        "description": "\"is advertising the availability of alternate services to HTTP/1.1 and HTTP/2.0 clients by adding an Alt-Svc header field to responses.\"",
+        "spec_title": "draft-nottingham-httpbis-alt-svc",
+        "spec_href": "http://tools.ietf.org/html/draft-nottingham-httpbis-alt-svc"
+    },
+    {
+        "header": "Alternates",
+        "description": "\"is used to convey the list of variants bound to a negotiable resource.\"",
+        "spec_title": "RFC2295#section-8.3",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.3"
+    },
+    {
         "header": "Apply-To-Redirect-Ref",
         "description": "\"\"",
         "spec_title": "RFC4437",
         "spec_href": "http://tools.ietf.org/html/rfc4437"
+    },
+    {
+        "header": "CH",
+        "description": "\"describes an example list of client preferences that the server can use to adapt and optimize the resource to satisfy a given request.\"",
+        "spec_title": "draft-grigorik-http-client-hints",
+        "spec_href": "http://tools.ietf.org/html/draft-grigorik-http-client-hints"
     },
     {
         "header": "Content-Base",
@@ -474,10 +498,28 @@
         "spec_href": "http://www.w3.org/TR/eventsource/#last-event-id"
     },
     {
+        "header": "Link-Template",
+        "description": "\"provides a means for serialising one or more links into HTTP headers.\"",
+        "spec_title": "draft-nottingham-link-template",
+        "spec_href": "http://tools.ietf.org/html/draft-nottingham-link-template"
+    },
+    {
         "header": "Lock-Token",
         "description": "\"standard\"",
         "spec_title": "RFC4918",
         "spec_href": "http://tools.ietf.org/html/rfc4918"
+    },
+    {
+        "header": "Negotiate",
+        "description": "\"can contain directives for any content negotiation process initiated by the request.\"",
+        "spec_title": "RFC2295#section-8.4",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.4"
+    },
+    {
+        "header": "Nice",
+        "description": "\"indicates that a request is less important than a request that doesn't bear this header.\"",
+        "spec_title": "draft-thomson-http-nice",
+        "spec_href": "http://tools.ietf.org/html/draft-thomson-http-nice"
     },
     {
         "header": "Overwrite",
@@ -546,9 +588,27 @@
         "spec_href": "http://tools.ietf.org/html/rfc5023"
     },
     {
+        "header": "TCN",
+        "description": "\"is used by a server to signal that the resource is transparently negotiated.\"",
+        "spec_title": "RFC2295#section-8.5",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.5"
+    },
+    {
         "header": "Timeout",
         "description": "\"standard\"",
         "spec_title": "RFC4918",
         "spec_href": "http://tools.ietf.org/html/rfc4918"
+    },
+    {
+        "header": "Variant-Vary",
+        "description": "\"can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole.\"",
+        "spec_title": "RFC2295#section-8.6",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.6"
+    },
+    {
+        "header": "X-Frame-Options",
+        "description": "\"indicates a policy that specifies whether the browser should render the transmitted resource within a <frame> or an <iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames.\"",
+        "spec_title": "RFC7034",
+        "spec_href": "http://tools.ietf.org/html/rfc7034"
     }
 ]
