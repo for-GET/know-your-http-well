@@ -24,8 +24,6 @@ Continue reading on [httpbisp2#4.2.3](http://tools.ietf.org/html/draft-ietf-http
 
 ## Common
 
-> PATCH is included here as well, despite not being part of [httpbisp2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics) nor [RFC2616](http://tools.ietf.org/html/rfc2616).
-
 > POST and PATCH are not cacheable by default, like GET and HEAD, but become cacheable by using appropriate `Cache-Control` or `Expires` response headers.
 
 method | description | safe | idem. | cache. | spec
@@ -35,7 +33,6 @@ method | description | safe | idem. | cache. | spec
 `GET` | "requests transfer of a current selected representation for the target resource." | ✔ | ✔ | ✔ | [httpbisp2#4.3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.1),<br>[RFC2616#9.3](http://tools.ietf.org/html/rfc2616#section-9.3)
 `HEAD` | "is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header block)." | ✔ | ✔ | ✔ | [httpbisp2#4.3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.2),<br>[RFC2616#9.4](http://tools.ietf.org/html/rfc2616#section-9.4)
 `OPTIONS` | "requests information about the communication options available on the request/response chain identified by the effective request URI." | ✔ | ✔ | ✘ | [httpbisp2#4.3.7](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.7),<br>[RFC2616#9.3](http://tools.ietf.org/html/rfc2616#section-9.3)
-`PATCH` | "requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI." | ✘ | ✘ | ✘ | [RFC5789](http://tools.ietf.org/html/rfc5789)
 `POST` | "requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics." | ✘ | ✘ | ✘ | [httpbisp2#4.3.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.3),<br>[RFC2616#9.5](http://tools.ietf.org/html/rfc2616#section-9.5)
 `PUT` | "requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload." | ✘ | ✔ | ✘ | [httpbisp2#4.3.4](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.4),<br>[RFC2616#9.6](http://tools.ietf.org/html/rfc2616#section-9.6)
 `TRACE` | "is used to invoke a remote, application-layer loopback of the request message." | ✔ | ✔ | ✘ | [httpbisp2#4.3.8](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.8),<br>[RFC2616#9.8](http://tools.ietf.org/html/rfc2616#section-9.8)
@@ -44,38 +41,38 @@ method | description | safe | idem. | cache. | spec
 
 For a full up-to-date list, continue reading on [httpbis-method-registrations](http://tools.ietf.org/html/draft-ietf-httpbis-method-registrations-11#appendix-A).
 
-method | description | safe | idem. | spec
------: | :---------- | :--: | :---: | :---
-`ACL` | | ✘ | ✔ | [RFC3744#8.1](http://tools.ietf.org/html/rfc3744#section-8.1)
-`BASELINE-CONTROL` | | ✘ | ✔ | [RFC3253#12.6](http://tools.ietf.org/html/rfc3253#section-12.6)
-`BIND` | | ✘ | ✔ | [RFC5842#4](http://tools.ietf.org/html/rfc5842#section-4)
-`CHECKIN` | | ✘ | ✔ | [RFC3253#4.4](http://tools.ietf.org/html/rfc3253#section-4.4),<br>[RFC3253#9.4](http://tools.ietf.org/html/rfc3253#section-9.4)
-`CHECKOUT` | | ✘ | ✔ | [RFC3253#4.3](http://tools.ietf.org/html/rfc3253#section-4.3),<br>[RFC3253#8.8](http://tools.ietf.org/html/rfc3253#section-8.8)
-`COPY` | | ✘ | ✔ | [RFC4918#9.8](http://tools.ietf.org/html/rfc4918#section-9.8)
-`LABEL` | | ✘ | ✔ | [RFC3253#8.2](http://tools.ietf.org/html/rfc3253#section-8.2)
-`LINK` | | ✘ | ✔ | [RFC2068#19.6.1.2](http://tools.ietf.org/html/rfc2068#section-19.6.1.2)
-`LOCK` | | ✘ | ✘ | [RFC4918#9.10](http://tools.ietf.org/html/rfc4918#section-9.10)
-`MERGE` | | ✘ | ✔ | [RFC3253#11.2](http://tools.ietf.org/html/rfc3253#section-11.2)
-`MKACTIVITY` | | ✘ | ✔ | [RFC3253#13.5](http://tools.ietf.org/html/rfc3253#section-13.5)
-`MKCALENDAR` | | ✘ | ✔ | [RFC4791#5.3.1](http://tools.ietf.org/html/rfc4791#section-5.3.1)
-`MKCOL` | | ✘ | ✔ | [RFC4918#9.3](http://tools.ietf.org/html/rfc4918#section-9.3)
-`MKREDIRECTREF` | | ✘ | ✔ | [RFC4437#6](http://tools.ietf.org/html/rfc4437#section-6)
-`MKWORKSPACE` | | ✘ | ✔ | [RFC3253#6.3](http://tools.ietf.org/html/rfc3253#section-6.3)
-`MOVE` | | ✘ | ✔ | [RFC4918#9.9](http://tools.ietf.org/html/rfc4918#section-9.9)
-`ORDERPATCH` | | ✘ | ✔ | [RFC3648#7](http://tools.ietf.org/html/rfc3648#section-7)
-`PATCH` | | ✘ | ✘ | [RFC5789#2](http://tools.ietf.org/html/rfc5789#section-2)
-`PROPFIND` | | ✔ | ✔ | [RFC4918#9.1](http://tools.ietf.org/html/rfc4918#section-9.1)
-`PROPPATCH` | | ✘ | ✔ | [RFC4918#9.2](http://tools.ietf.org/html/rfc4918#section-9.2)
-`REBIND` | | ✘ | ✔ | [RFC5842#6](http://tools.ietf.org/html/rfc5842#section-6)
-`REPORT` | | ✔ | ✔ | [RFC3253#3.6](http://tools.ietf.org/html/rfc3253#section-3.6)
-`SEARCH` | | ✔ | ✔ | [RFC5323#2](http://tools.ietf.org/html/rfc5323#section-2)
-`UNBIND` | | ✘ | ✔ | [RFC5842#5](http://tools.ietf.org/html/rfc5842#section-5)
-`UNCHECKOUT` | | ✘ | ✔ | [RFC3253#4.5](http://tools.ietf.org/html/rfc3253#section-4.5)
-`UNLINK` | | ✘ | ✔ | [RFC2068#19.6.1.3](http://tools.ietf.org/html/rfc2068#section-19.6.1.3)
-`UNLOCK` | | ✘ | ✔ | [RFC4918#9.11](http://tools.ietf.org/html/rfc4918#section-9.11)
-`UPDATE` | | ✘ | ✔ | [RFC3253#7.1](http://tools.ietf.org/html/rfc3253#section-7.1)
-`UPDATEREDIRECTREF` | | ✘ | ✔ | [RFC4437#7](http://tools.ietf.org/html/rfc4437#section-7)
-`VERSION-CONTROL` | | ✘ | ✔ | [RFC3253#3.5](http://tools.ietf.org/html/rfc3253#section-3.5)
+method | description | safe | idem. | cache. | spec
+-----: | :---------- | :--: | :---: | :----: | :---
+`ACL` | | ✘ | ✔ | | [RFC3744#8.1](http://tools.ietf.org/html/rfc3744#section-8.1)
+`BASELINE-CONTROL` | | ✘ | ✔ | | [RFC3253#12.6](http://tools.ietf.org/html/rfc3253#section-12.6)
+`BIND` | | ✘ | ✔ | | [RFC5842#4](http://tools.ietf.org/html/rfc5842#section-4)
+`CHECKIN` | | ✘ | ✔ | | [RFC3253#4.4](http://tools.ietf.org/html/rfc3253#section-4.4),<br>[RFC3253#9.4](http://tools.ietf.org/html/rfc3253#section-9.4)
+`CHECKOUT` | | ✘ | ✔ | | [RFC3253#4.3](http://tools.ietf.org/html/rfc3253#section-4.3),<br>[RFC3253#8.8](http://tools.ietf.org/html/rfc3253#section-8.8)
+`COPY` | | ✘ | ✔ | | [RFC4918#9.8](http://tools.ietf.org/html/rfc4918#section-9.8)
+`LABEL` | | ✘ | ✔ | | [RFC3253#8.2](http://tools.ietf.org/html/rfc3253#section-8.2)
+`LINK` | | ✘ | ✔ | | [RFC2068#19.6.1.2](http://tools.ietf.org/html/rfc2068#section-19.6.1.2)
+`LOCK` | | ✘ | ✘ | | [RFC4918#9.10](http://tools.ietf.org/html/rfc4918#section-9.10)
+`MERGE` | | ✘ | ✔ | | [RFC3253#11.2](http://tools.ietf.org/html/rfc3253#section-11.2)
+`MKACTIVITY` | | ✘ | ✔ | | [RFC3253#13.5](http://tools.ietf.org/html/rfc3253#section-13.5)
+`MKCALENDAR` | | ✘ | ✔ | | [RFC4791#5.3.1](http://tools.ietf.org/html/rfc4791#section-5.3.1)
+`MKCOL` | | ✘ | ✔ | | [RFC4918#9.3](http://tools.ietf.org/html/rfc4918#section-9.3)
+`MKREDIRECTREF` | | ✘ | ✔ | | [RFC4437#6](http://tools.ietf.org/html/rfc4437#section-6)
+`MKWORKSPACE` | | ✘ | ✔ | | [RFC3253#6.3](http://tools.ietf.org/html/rfc3253#section-6.3)
+`MOVE` | | ✘ | ✔ | | [RFC4918#9.9](http://tools.ietf.org/html/rfc4918#section-9.9)
+`ORDERPATCH` | | ✘ | ✔ | | [RFC3648#7](http://tools.ietf.org/html/rfc3648#section-7)
+`PATCH` | "requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI." | ✘ | ✘ | ✘ | [RFC5789](http://tools.ietf.org/html/rfc5789#section-2)
+`PROPFIND` | | ✔ | ✔ | | [RFC4918#9.1](http://tools.ietf.org/html/rfc4918#section-9.1)
+`PROPPATCH` | | ✘ | ✔ | | [RFC4918#9.2](http://tools.ietf.org/html/rfc4918#section-9.2)
+`REBIND` | | ✘ | ✔ | | [RFC5842#6](http://tools.ietf.org/html/rfc5842#section-6)
+`REPORT` | | ✔ | ✔ | | [RFC3253#3.6](http://tools.ietf.org/html/rfc3253#section-3.6)
+`SEARCH` | | ✔ | ✔ | | [RFC5323#2](http://tools.ietf.org/html/rfc5323#section-2)
+`UNBIND` | | ✘ | ✔ | | [RFC5842#5](http://tools.ietf.org/html/rfc5842#section-5)
+`UNCHECKOUT` | | ✘ | ✔ | | [RFC3253#4.5](http://tools.ietf.org/html/rfc3253#section-4.5)
+`UNLINK` | | ✘ | ✔ | | [RFC2068#19.6.1.3](http://tools.ietf.org/html/rfc2068#section-19.6.1.3)
+`UNLOCK` | | ✘ | ✔ | | [RFC4918#9.11](http://tools.ietf.org/html/rfc4918#section-9.11)
+`UPDATE` | | ✘ | ✔ | | [RFC3253#7.1](http://tools.ietf.org/html/rfc3253#section-7.1)
+`UPDATEREDIRECTREF` | | ✘ | ✔ | | [RFC4437#7](http://tools.ietf.org/html/rfc4437#section-7)
+`VERSION-CONTROL` | | ✘ | ✔ | | [RFC3253#3.5](http://tools.ietf.org/html/rfc3253#section-3.5)
 
 ## Sources
 
