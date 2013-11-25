@@ -58,7 +58,7 @@ Just take a look at [./json/*.json](json).
 
 ### [Dash](http://kapeli.com/dash)/[Zeal](http://zealdocs.org/) Docset Feed
 
-https://raw.github.com/for-GET/know-your-http-well/master/docset/know-your-http-well.docset.tgz
+https://raw.github.com/for-GET/know-your-http-well/master/docset/know-your-http-well.xml
 
 
 ## License

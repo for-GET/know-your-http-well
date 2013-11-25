@@ -45,15 +45,6 @@
         "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.7"
     },
     {
-        "method": "PATCH",
-        "description": "\"requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI.\"",
-        "safe": false,
-        "idempotent": false,
-        "cacheable": false,
-        "spec_title": "RFC5789",
-        "spec_href": "http://tools.ietf.org/html/rfc5789"
-    },
-    {
         "method": "POST",
         "description": "\"requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics.\"",
         "safe": false,
@@ -235,11 +226,11 @@
     },
     {
         "method": "PATCH",
-        "description": "",
+        "description": "\"requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI.\"",
         "safe": false,
         "idempotent": false,
-        "cacheable": "",
-        "spec_title": "RFC5789#2",
+        "cacheable": false,
+        "spec_title": "RFC5789",
         "spec_href": "http://tools.ietf.org/html/rfc5789#section-2"
     },
     {

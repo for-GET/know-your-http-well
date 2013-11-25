@@ -12,10 +12,10 @@
 ("GET" ("requests transfer of a current selected representation for the target resource."))
 ("HEAD" ("is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header block)."))
 ("OPTIONS" ("requests information about the communication options available on the request/response chain identified by the effective request URI."))
-("PATCH" ("requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI."))
 ("POST" ("requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics."))
 ("PUT" ("requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload."))
-("TRACE" ("is used to invoke a remote, application-layer loopback of the request message."))))
+("TRACE" ("is used to invoke a remote, application-layer loopback of the request message."))
+("PATCH" ("requests that a set of changes described in the request entity be applied to the resource identified by the Request-URI."))))
 
 ;;;###autoload
 (defun http-method (method)
