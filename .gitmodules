@@ -1,3 +1,6 @@
 [submodule "master"]
 	path = master
 	url = git@github.com:andreineculau/know-your-http-well.git
+[submodule "generators/docset/.dash.mk"]
+	path = generators/docset/.dash.mk
+	url = git://github.com/andreineculau/dash.mk
