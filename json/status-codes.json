@@ -409,8 +409,8 @@
         "code": "507",
         "phrase": "Insufficient Storage",
         "description": "\"means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request.\"",
-        "spec_title": "RFC5218#10.7",
-        "spec_href": "http://tools.ietf.org/html/rfc2518#section-10.7"
+        "spec_title": "RFC5218#10.6",
+        "spec_href": "http://tools.ietf.org/html/rfc2518#section-10.6"
     },
     {
         "code": "511",
@@ -424,6 +424,6 @@
         "phrase": "**Developer Error**",
         "description": "[err](http://www.urbandictionary.com/define.php?term=err)",
         "spec_title": "7xx-rfc",
-        "spec_href": "https://github.com/joho/7XX-rfc"
+        "spec_href": "http://documentup.com/joho/7XX-rfc"
     }
 ]

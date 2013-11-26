@@ -170,8 +170,8 @@
     {
         "header": "Age",
         "description": "\"conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server.\"",
-        "spec_title": "httpbisp6#7.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.1"
+        "spec_title": "httpbisp6#5.1",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-5.1"
     },
     {
         "header": "Cache-Control",
@@ -488,8 +488,8 @@
     {
         "header": "If-Schedule-Tag-Match",
         "description": "\"standard\"",
-        "spec_title": "draft-desruisseaux-caldav-sched",
-        "spec_href": "http://tools.ietf.org/html/draft-desruisseaux-caldav-sched"
+        "spec_title": "RFC6638",
+        "spec_href": "http://tools.ietf.org/html/rfc6638"
     },
     {
         "header": "Last-Event-ID",
@@ -536,14 +536,14 @@
     {
         "header": "Schedule-Reply",
         "description": "\"standard\"",
-        "spec_title": "draft-desruisseaux-caldav-sched",
-        "spec_href": "http://tools.ietf.org/html/draft-desruisseaux-caldav-sched"
+        "spec_title": "RFC6638",
+        "spec_href": "http://tools.ietf.org/html/rfc6638"
     },
     {
         "header": "Schedule-Tag",
         "description": "\"standard\"",
-        "spec_title": "draft-desruisseaux-caldav-sched",
-        "spec_href": "http://tools.ietf.org/html/draft-desruisseaux-caldav-sched"
+        "spec_title": "RFC6638",
+        "spec_href": "http://tools.ietf.org/html/rfc6638"
     },
     {
         "header": "Sec-WebSocket-Accept",
