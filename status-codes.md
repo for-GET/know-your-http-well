@@ -102,7 +102,7 @@ code | reason | description | spec
 `506` | Variant Also Negotiates | "indicates that the server has an internal configuration error: the chosen variant resource is configured to engage in transparent content negotiation itself, and is therefore not a proper end point in the negotiation process." | [RFC2295#8.1](http://tools.ietf.org/html/rfc2295#section-8.1)
 `507` | Insufficient Storage | "means the method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request." | [RFC5218#10.6](http://tools.ietf.org/html/rfc2518#section-10.6)
 `511` | Network Authentication Required | "indicates that the client needs to authenticate to gain network access." | [RFC6585#6](http://tools.ietf.org/html/rfc6585#section-6)
-`7xx` | **Developer Error** | [err](http://www.urbandictionary.com/define.php?term=err) | [7xx-rfc](https://github.com/joho/7XX-rfc)
+`7xx` | **Developer Error** | [err](http://www.urbandictionary.com/define.php?term=err) | [7xx-rfc](http://documentup.com/joho/7XX-rfc)
 
 A chunk of extension codes can be found in [RFC2326 Real Time Streaming Protocol (RTSP)](http://tools.ietf.org/html/rfc2326#).
 
