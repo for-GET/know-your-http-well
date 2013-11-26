@@ -225,7 +225,7 @@ header | description | spec
 `GetProfile` | "" | ?
 `IM` | "" | [RFC3229#section-10.5.2](http://tools.ietf.org/html/rfc3229#section-10.5.2)
 `If` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
-`If-Schedule-Tag-Match` | "standard" | [draft-desruisseaux-caldav-sched](http://tools.ietf.org/html/draft-desruisseaux-caldav-sched)
+`If-Schedule-Tag-Match` | "standard" | [RFC6638](http://tools.ietf.org/html/rfc6638)
 `Label` | "" | ?
 `Last-Event-ID` | "The value of the event source's last event ID string, encoded as UTF-8." | [Server-Sent Events](http://www.w3.org/TR/eventsource/#last-event-id)
 `Link-Template` | "provides a means for serialising one or more links into HTTP headers." | [draft-nottingham-link-template](http://tools.ietf.org/html/draft-nottingham-link-template)
@@ -254,8 +254,8 @@ header | description | spec
 `Public` | "" | ?
 `Redirect-Ref` | "" | [RFC4437](http://tools.ietf.org/html/rfc4437)
 `Safe` | "" | ?
-`Schedule-Reply` | "standard" | [draft-desruisseaux-caldav-sched](http://tools.ietf.org/html/draft-desruisseaux-caldav-sched)
-`Schedule-Tag` | "standard" | [draft-desruisseaux-caldav-sched](http://tools.ietf.org/html/draft-desruisseaux-caldav-sched)
+`Schedule-Reply` | "standard" | [RFC6638](http://tools.ietf.org/html/rfc6638)
+`Schedule-Tag` | "standard" | [RFC6638](http://tools.ietf.org/html/rfc6638)
 `Sec-WebSocket-Accept` | "standard" | [RFC6455](http://tools.ietf.org/html/rfc6455)
 `Sec-WebSocket-Extensions` | "standard" | [RFC6455](http://tools.ietf.org/html/rfc6455)
 `Sec-WebSocket-Key` | "standard" | [RFC6455](http://tools.ietf.org/html/rfc6455)
