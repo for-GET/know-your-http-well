@@ -22,5 +22,8 @@
     "sqlite3": "~2.1.19",
     "xmldom": "~0.1.16",
     "xpath": "0.0.5"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
   }
 }
