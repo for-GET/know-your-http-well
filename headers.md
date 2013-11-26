@@ -118,7 +118,7 @@ Continue reading on [httpbisp2#7.1](http://tools.ietf.org/html/draft-ietf-httpbi
 
 header | description | spec
 -----: | :---------- | :---
-`Age` | "conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server." | [httpbisp6#7.1](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.1),<br>[rfc2616#14.6](http://tools.ietf.org/html/rfc2616#section-14.6)
+`Age` | "conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server." | [httpbisp6#5.1](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-5.1),<br>[rfc2616#14.6](http://tools.ietf.org/html/rfc2616#section-14.6)
 `Cache-Control` | "is used to specify directives for caches along the request/response chain." | [httpbisp6#7.2](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2),<br>[rfc2616#14.9](http://tools.ietf.org/html/rfc2616#section-14.9)
 `Expires` | "gives the date/time after which the response is considered stale." | [httpbisp6#7.3](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.3),<br>[rfc2616#14.21](http://tools.ietf.org/html/rfc2616#section-14.21)
 `Date` | "represents the date and time at which the message was originated" | [httpbisp2#7.1.1.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.1.2),<br>[rfc2616#14.18](http://tools.ietf.org/html/rfc2616#section-14.18)
