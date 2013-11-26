@@ -26,7 +26,7 @@ download = ({docsFolder, URI}) ->
       'User-Agent': 'know-your-http-well 0.0.0'
 
   request options, (err, res, body) ->
-    if err?
+    if err? or res.statusCode isnt 200 or !body?
       console.error "Error downloading #{filename}"
       throw err
 
