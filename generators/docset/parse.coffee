@@ -10,7 +10,7 @@ download = ({docsFolder, URI}) ->
   options = url.parse URI
   filename = path.basename options.pathname
   filename += '.html'  if path.extname(filename) isnt '.html'
-  fragment = options.hash
+  fragment = options.hash or ''
   delete options.hash
 
   if filename in downloadFilenames
