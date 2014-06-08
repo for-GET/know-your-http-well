@@ -39,7 +39,7 @@ method | description | safe | idem. | cache. | spec
 
 ## Registered
 
-For a full up-to-date list, continue reading on [httpbis-method-registrations](http://tools.ietf.org/html/draft-ietf-httpbis-method-registrations-11#appendix-A).
+For a full up-to-date list, continue reading on [RFC7237](http://tools.ietf.org/html/rfc7237#appendix-A).
 
 method | description | safe | idem. | cache. | spec
 -----: | :---------- | :--: | :---: | :----: | :---
