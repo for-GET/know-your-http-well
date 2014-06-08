@@ -76,7 +76,7 @@ Continue reading on [RFC7231#5.3](http://tools.ietf.org/html/rfc7231#section-5.3
 header | description | spec
 -----: | :---------- | :---
 `Accept` | "can be used to specify certain media types which are acceptable for the response." | [RFC7231#5.3.2](http://tools.ietf.org/html/rfc7231#section-5.3.2),<br>[RFC2616#14.1](http://tools.ietf.org/html/rfc2616#section-14.1)
-`Accept-Charset` | "can be sent by a user agent to indicate what charsets are acceptable in textual response content." | httpbispX#5.3.3 rfc2616#14.2
+`Accept-Charset` | "can be sent by a user agent to indicate what charsets are acceptable in textual response content." | [RFC7231#5.3.3](http://tools.ietf.org/html/rfc7231#section-5.3.3),<br>[RFC2616#14.2](http://tools.ietf.org/html/rfc2616#section-14.2)
 `Accept-Encoding` | "can be used by user agents to indicate what response content-codings are acceptable in the response." | [RFC7231#5.3.4](http://tools.ietf.org/html/rfc7231#section-5.3.4),<br>[RFC2616#14.3](http://tools.ietf.org/html/rfc2616#section-14.3)
 `Accept-Language` | "can be used by user agents to indicate the set of natural languages that are preferred in the response." | [RFC7231#5.3.5](http://tools.ietf.org/html/rfc7231#section-5.3.5),<br>[RFC2616#14.4](http://tools.ietf.org/html/rfc2616#section-14.4)
 
