@@ -6,10 +6,11 @@ request = require 'request'
 downloadQueueCount = 0
 downloadFilenames = []
 
-download = ({docsFolder, URI}) ->
+download = ({docsFolder, URI, filename}) ->
   options = url.parse URI
-  filename = path.basename options.pathname
-  filename += '.html'  if path.extname(filename) isnt '.html'
+  unless filename?
+    filename = path.basename options.pathname
+    filename += '.html'  if path.extname(filename) isnt '.html'
   fragment = options.hash or ''
   delete options.hash
 
