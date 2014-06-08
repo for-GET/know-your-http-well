@@ -88,8 +88,8 @@ Continue reading on [httpbisp2#5.4](http://tools.ietf.org/html/rfc7231-22#sectio
 
 header | description | spec
 -----: | :---------- | :---
-`Authorization` | "allows a user agent to authenticate itself with a server -- usually, but not necessarily, after receiving a 401 (Unauthorized) response." | [httpbisp7#4.1](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.1),<br>[rfc2616#14.8](http://tools.ietf.org/html/rfc2616#section-14.8)
-`Proxy-Authorization` | "allows the client to identify itself (or its user) to a proxy that requires authentication." | [httpbisp7#4.3](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.3),<br>[rfc2616#14.34](http://tools.ietf.org/html/rfc2616#section-14.34)
+`Authorization` | "allows a user agent to authenticate itself with a server -- usually, but not necessarily, after receiving a 401 (Unauthorized) response." | [httpbisp7#4.1](http://tools.ietf.org/html/rfc7235#section-4.1),<br>[rfc2616#14.8](http://tools.ietf.org/html/rfc2616#section-14.8)
+`Proxy-Authorization` | "allows the client to identify itself (or its user) to a proxy that requires authentication." | [httpbisp7#4.3](http://tools.ietf.org/html/rfc7235#section-4.3),<br>[rfc2616#14.34](http://tools.ietf.org/html/rfc2616#section-14.34)
 
 ### Request Context
 
@@ -145,8 +145,8 @@ Continue reading on [httpbisp2#7.3](http://tools.ietf.org/html/rfc7231-22#sectio
 
 header | description | spec
 -----: | :---------- | :---
-`WWW-Authenticate` | "consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI." | [httpbisp7#4.4](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.4),<br>[rfc2616#14.47](http://tools.ietf.org/html/rfc2616#section-14.47)
-`Proxy-Authenticate` | "consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI." | [httpbisp7#4.2](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.2),<br>[rfc2616#14.33](http://tools.ietf.org/html/rfc2616#section-14.33)
+`WWW-Authenticate` | "consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI." | [httpbisp7#4.4](http://tools.ietf.org/html/rfc7235#section-4.4),<br>[rfc2616#14.47](http://tools.ietf.org/html/rfc2616#section-14.47)
+`Proxy-Authenticate` | "consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI." | [httpbisp7#4.2](http://tools.ietf.org/html/rfc7235#section-4.2),<br>[rfc2616#14.33](http://tools.ietf.org/html/rfc2616#section-14.33)
 
 ### Response Context
 
@@ -289,6 +289,6 @@ For a full up-to-date list, including non-HTTP headers, continue reading on [HTT
 * [rfc7232 Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/rfc7232#)
 * [rfc7233 Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/rfc7233#)
 * [rfc7234 HTTP/1.1, part 6: Caching](http://tools.ietf.org/html/rfc7234#)
-* [draft-ietf-httpbis-p7-auth Hypertext Transfer Protocol (HTTP/1.1): Authentication](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#)
+* [rfc7235 Hypertext Transfer Protocol (HTTP/1.1): Authentication](http://tools.ietf.org/html/rfc7235#)
 * [RFC2616 Hypertext Transfer Protocol -- HTTP/1.1](http://tools.ietf.org/html/rfc2616#)
 * Your truly

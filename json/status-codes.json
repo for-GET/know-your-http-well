@@ -151,7 +151,7 @@
         "phrase": "Unauthorized",
         "description": "\"indicates that the request has not been applied because it lacks valid authentication credentials for the target resource.\"",
         "spec_title": "httpbisp2#6.3.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-3.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7235#section-3.1"
     },
     {
         "code": "402",

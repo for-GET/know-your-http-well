@@ -135,13 +135,13 @@
         "header": "Authorization",
         "description": "\"allows a user agent to authenticate itself with a server -- usually, but not necessarily, after receiving a 401 (Unauthorized) response.\"",
         "spec_title": "httpbisp7#4.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7235#section-4.1"
     },
     {
         "header": "Proxy-Authorization",
         "description": "\"allows the client to identify itself (or its user) to a proxy that requires authentication.\"",
         "spec_title": "httpbisp7#4.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7235#section-4.3"
     },
     {
         "header": "DNT",
@@ -237,13 +237,13 @@
         "header": "WWW-Authenticate",
         "description": "\"consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI.\"",
         "spec_title": "httpbisp7#4.4",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.4"
+        "spec_href": "http://tools.ietf.org/html/rfc7235#section-4.4"
     },
     {
         "header": "Proxy-Authenticate",
         "description": "\"consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI.\"",
         "spec_title": "httpbisp7#4.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#section-4.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7235#section-4.2"
     },
     {
         "header": "Accept-Ranges",
