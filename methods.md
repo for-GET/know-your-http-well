@@ -2,25 +2,25 @@
 
 > The request method token is the primary source of request semantics; it indicates the purpose for which the client has made this request and what is expected by the client as a successful result.
 
-Continue reading on [httpbisp2#4.1](http://tools.ietf.org/html/rfc7231#section-4.1), [RFC2616#9](http://tools.ietf.org/html/rfc2616#section-9).
+Continue reading on [RFC7231#4.1](http://tools.ietf.org/html/rfc7231#section-4.1), [RFC2616#9](http://tools.ietf.org/html/rfc2616#section-9).
 
 ## Safe
 
 > Request methods are considered "safe" if their defined semantics are essentially read-only; i.e., the client does not request, and does not expect, any state change on the origin server as a result of applying a safe method to a target resource. Likewise, reasonable use of a safe method is not expected to cause any harm, loss of property, or unusual burden on the origin server.
 
-Continue reading on [httpbisp2#4.2.1](http://tools.ietf.org/html/rfc7231#section-4.2.1), [RFC2616#9.1.1](http://tools.ietf.org/html/rfc2616#section-9.1.1).
+Continue reading on [RFC7231#4.2.1](http://tools.ietf.org/html/rfc7231#section-4.2.1), [RFC2616#9.1.1](http://tools.ietf.org/html/rfc2616#section-9.1.1).
 
 ## Idempotent
 
 > Request methods are considered "idempotent" if the intended effect of multiple identical requests is the same as for a single request. Of the request methods defined by this specification, the PUT, DELETE, and safe request methods are idempotent.
 
-Continue reading on [httpbisp2#4.2.2](http://tools.ietf.org/html/rfc7231#section-4.2.2), [RFC2616#9.1.2](http://tools.ietf.org/html/rfc2616#section-9.1.2).
+Continue reading on [RFC7231#4.2.2](http://tools.ietf.org/html/rfc7231#section-4.2.2), [RFC2616#9.1.2](http://tools.ietf.org/html/rfc2616#section-9.1.2).
 
 ## Cacheable
 
 > Request methods are considered "cacheable" if it is possible and useful to answer a current client request with a stored response from a prior request. GET and HEAD are defined to be cacheable.
 
-Continue reading on [httpbisp2#4.2.3](http://tools.ietf.org/html/rfc7231#section-4.2.3), [RFC2616#9.1.2](http://tools.ietf.org/html/rfc2616#section-9.1.2).
+Continue reading on [RFC7231#4.2.3](http://tools.ietf.org/html/rfc7231#section-4.2.3), [RFC2616#9.1.2](http://tools.ietf.org/html/rfc2616#section-9.1.2).
 
 ## Common
 
@@ -28,14 +28,14 @@ Continue reading on [httpbisp2#4.2.3](http://tools.ietf.org/html/rfc7231#section
 
 method | description | safe | idem. | cache. | spec
 -----: | :---------- | :--: | :---: | :----: | :---
-`CONNECT` | "requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the connection is closed." | ✔ | ✔ | ✘ | [httpbisp2#4.3.6](http://tools.ietf.org/html/rfc7231#section-4.3.6),<br>[RFC2616#9.9](http://tools.ietf.org/html/rfc2616#section-9.9)
-`DELETE` | "requests that the origin server remove the association between the target resource and its current functionality." | ✘ | ✔ | ✘ | [httpbisp2#4.3.5](http://tools.ietf.org/html/rfc7231#section-4.3.5),<br>[RFC2616#9.7](http://tools.ietf.org/html/rfc2616#section-9.7)
-`GET` | "requests transfer of a current selected representation for the target resource." | ✔ | ✔ | ✔ | [httpbisp2#4.3.1](http://tools.ietf.org/html/rfc7231#section-4.3.1),<br>[RFC2616#9.3](http://tools.ietf.org/html/rfc2616#section-9.3)
-`HEAD` | "is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header block)." | ✔ | ✔ | ✔ | [httpbisp2#4.3.2](http://tools.ietf.org/html/rfc7231#section-4.3.2),<br>[RFC2616#9.4](http://tools.ietf.org/html/rfc2616#section-9.4)
-`OPTIONS` | "requests information about the communication options available on the request/response chain identified by the effective request URI." | ✔ | ✔ | ✘ | [httpbisp2#4.3.7](http://tools.ietf.org/html/rfc7231#section-4.3.7),<br>[RFC2616#9.3](http://tools.ietf.org/html/rfc2616#section-9.3)
-`POST` | "requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics." | ✘ | ✘ | ✘ | [httpbisp2#4.3.3](http://tools.ietf.org/html/rfc7231#section-4.3.3),<br>[RFC2616#9.5](http://tools.ietf.org/html/rfc2616#section-9.5)
-`PUT` | "requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload." | ✘ | ✔ | ✘ | [httpbisp2#4.3.4](http://tools.ietf.org/html/rfc7231#section-4.3.4),<br>[RFC2616#9.6](http://tools.ietf.org/html/rfc2616#section-9.6)
-`TRACE` | "is used to invoke a remote, application-layer loopback of the request message." | ✔ | ✔ | ✘ | [httpbisp2#4.3.8](http://tools.ietf.org/html/rfc7231#section-4.3.8),<br>[RFC2616#9.8](http://tools.ietf.org/html/rfc2616#section-9.8)
+`CONNECT` | "requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the connection is closed." | ✔ | ✔ | ✘ | [RFC7231#4.3.6](http://tools.ietf.org/html/rfc7231#section-4.3.6),<br>[RFC2616#9.9](http://tools.ietf.org/html/rfc2616#section-9.9)
+`DELETE` | "requests that the origin server remove the association between the target resource and its current functionality." | ✘ | ✔ | ✘ | [RFC7231#4.3.5](http://tools.ietf.org/html/rfc7231#section-4.3.5),<br>[RFC2616#9.7](http://tools.ietf.org/html/rfc2616#section-9.7)
+`GET` | "requests transfer of a current selected representation for the target resource." | ✔ | ✔ | ✔ | [RFC7231#4.3.1](http://tools.ietf.org/html/rfc7231#section-4.3.1),<br>[RFC2616#9.3](http://tools.ietf.org/html/rfc2616#section-9.3)
+`HEAD` | "is identical to GET except that the server MUST NOT send a message body in the response (i.e., the response terminates at the end of the header block)." | ✔ | ✔ | ✔ | [RFC7231#4.3.2](http://tools.ietf.org/html/rfc7231#section-4.3.2),<br>[RFC2616#9.4](http://tools.ietf.org/html/rfc2616#section-9.4)
+`OPTIONS` | "requests information about the communication options available on the request/response chain identified by the effective request URI." | ✔ | ✔ | ✘ | [RFC7231#4.3.7](http://tools.ietf.org/html/rfc7231#section-4.3.7),<br>[RFC2616#9.3](http://tools.ietf.org/html/rfc2616#section-9.3)
+`POST` | "requests that the target resource process the representation enclosed in the request according to the resource's own specific semantics." | ✘ | ✘ | ✘ | [RFC7231#4.3.3](http://tools.ietf.org/html/rfc7231#section-4.3.3),<br>[RFC2616#9.5](http://tools.ietf.org/html/rfc2616#section-9.5)
+`PUT` | "requests that the state of the target resource be created or replaced with the state defined by the representation enclosed in the request message payload." | ✘ | ✔ | ✘ | [RFC7231#4.3.4](http://tools.ietf.org/html/rfc7231#section-4.3.4),<br>[RFC2616#9.6](http://tools.ietf.org/html/rfc2616#section-9.6)
+`TRACE` | "is used to invoke a remote, application-layer loopback of the request message." | ✔ | ✔ | ✘ | [RFC7231#4.3.8](http://tools.ietf.org/html/rfc7231#section-4.3.8),<br>[RFC2616#9.8](http://tools.ietf.org/html/rfc2616#section-9.8)
 
 ## Registered
 
@@ -76,7 +76,7 @@ method | description | safe | idem. | cache. | spec
 
 ## Sources
 
-* [rfc7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231#)
+* [RFC7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231#)
 * [RFC2616 Hypertext Transfer Protocol -- HTTP/1.1](http://tools.ietf.org/html/rfc2616#)
 * [RFC5789 PATCH Method for HTTP](http://tools.ietf.org/html/rfc5789#)
 * Yours truly

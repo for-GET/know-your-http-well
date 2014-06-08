@@ -4,14 +4,15 @@
 
 concept/identifier | description | spec
 ------------------ | :---------- | :---
-`HTTP` | "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems." | [RFC2616](http://tools.ietf.org/html/rfc2616)
-`HTTPbis auth` | "This document defines HTTP/1.1 access control and authentication." | [rfc7235](http://tools.ietf.org/html/rfc7235)
-`HTTPbis cache` | "HTTP is typically used for distributed information systems, where performance can be improved by the use of response caches." | [rfc7234](http://tools.ietf.org/html/rfc7234)
-`HTTPbis conditional` | "Conditional requests are HTTP requests that include one or more header fields indicating a precondition to be tested before applying the method semantics to the target resource." | [rfc7232](http://tools.ietf.org/html/rfc7232)
-`HTTPbis messaging` | "The Hypertext Transfer Protocol (HTTP) is an application-level request/response protocol that uses extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems." | [rfc7230](http://tools.ietf.org/html/rfc7230)
-`HTTPbis range` | "Hypertext Transfer Protocol (HTTP) clients often encounter interrupted data transfers as a result of canceled requests or dropped connections." | [rfc7233](http://tools.ietf.org/html/rfc7233)
+`HTTP Authentication` | "This document defines HTTP/1.1 access control and authentication." | [RFC7235](http://tools.ietf.org/html/rfc7235)
+`HTTP Caching` | "HTTP is typically used for distributed information systems, where performance can be improved by the use of response caches." | [RFC7234](http://tools.ietf.org/html/rfc7234)
+`HTTP Conditional Requests` | "Conditional requests are HTTP requests that include one or more header fields indicating a precondition to be tested before applying the method semantics to the target resource." | [RFC7232](http://tools.ietf.org/html/rfc7232)
+`HTTP Message Syntax and Routing` | "The Hypertext Transfer Protocol (HTTP) is an application-level request/response protocol that uses extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems." | [RFC7230](http://tools.ietf.org/html/rfc7230)
+`HTTP Range Requests` | "Hypertext Transfer Protocol (HTTP) clients often encounter interrupted data transfers as a result of canceled requests or dropped connections." | [RFC7233](http://tools.ietf.org/html/rfc7233)
 `HTTPbis security properties` | "Recent IESG practice dictates that IETF protocols must specify mandatory-to-implement (MTI) security mechanisms, so that all conformant implementations share a common baseline. This document examines all widely deployed HTTP security technologies, and analyzes the trade-offs of each." | [draft-ietf-httpbis-security-properties](http://tools.ietf.org/html/draft-ietf-httpbis-security-properties)
-`HTTPbis semantics` | "Each Hypertext Transfer Protocol (HTTP) message is either a request or a response." | [rfc7231](http://tools.ietf.org/html/rfc7231)
+`HTTP Semantics and Content` | "Each Hypertext Transfer Protocol (HTTP) message is either a request or a response." | [RFC7231](http://tools.ietf.org/html/rfc7231)
+OBSOLETE ~~`HTTP`~ | "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems." | [RFC2616](http://tools.ietf.org/html/rfc2616)
+
 
 
 ## Extensions
