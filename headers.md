@@ -45,11 +45,11 @@ Continue reading on [httpbisp2#5.1](http://tools.ietf.org/html/rfc7231-22#sectio
 
 header | description | spec
 -----: | :---------- | :---
-`Cache-Control` | "is used to specify directives for caches along the request/response chain." | [httpbisp6#7.2](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2),<br>[rfc2616#14.9](http://tools.ietf.org/html/rfc2616#section-14.9)
+`Cache-Control` | "is used to specify directives for caches along the request/response chain." | [httpbisp6#7.2](http://tools.ietf.org/html/rfc7234#section-7.2),<br>[rfc2616#14.9](http://tools.ietf.org/html/rfc2616#section-14.9)
 `Expect` | "is used to indicate that particular server behaviors are required by the client." | [httpbisp2#5.1.1](http://tools.ietf.org/html/rfc7231#section-5.1.1),<br>[rfc2616#14.20](http://tools.ietf.org/html/rfc2616#section-14.20)
 `Host` | "provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address." | [httpbisp1#5.4](http://tools.ietf.org/html/rfc7230#section-5.4),<br>[rfc2616#14.23](http://tools.ietf.org/html/rfc2616#section-14.23)
 `Max-Forwards` | "provides a mechanism with the TRACE and OPTIONS methods to limit the number of times that the request is forwarded by proxies." | [httpbisp2#5.1.2](http://tools.ietf.org/html/rfc7231#section-5.1.2),<br>[rfc2616#14.31](http://tools.ietf.org/html/rfc2616#section-14.31)
-`Pragma` | "allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a "no-cache" request that they will understand (as Cache-Control was not defined until HTTP/1.1)." | [httpbisp6#7.4](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.4),<br>[rfc2616#14.32](http://tools.ietf.org/html/rfc2616#section-14.32)
+`Pragma` | "allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a "no-cache" request that they will understand (as Cache-Control was not defined until HTTP/1.1)." | [httpbisp6#7.4](http://tools.ietf.org/html/rfc7234#section-7.4),<br>[rfc2616#14.32](http://tools.ietf.org/html/rfc2616#section-14.32)
 `Range` | "modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data." | [httpbisp5#3.1](http://tools.ietf.org/html/rfc7233#section-3.1),<br>[rfc2616#14.35](http://tools.ietf.org/html/rfc2616#section-14.35)
 `TE` | "indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding." | [httpbisp1#4.3](http://tools.ietf.org/html/rfc7230#section-4.3),<br>[rfc2616#14.39](http://tools.ietf.org/html/rfc2616#section-14.39)
 
@@ -118,15 +118,15 @@ Continue reading on [httpbisp2#7.1](http://tools.ietf.org/html/rfc7231-22#sectio
 
 header | description | spec
 -----: | :---------- | :---
-`Age` | "conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server." | [httpbisp6#5.1](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-5.1),<br>[rfc2616#14.6](http://tools.ietf.org/html/rfc2616#section-14.6)
-`Cache-Control` | "is used to specify directives for caches along the request/response chain." | [httpbisp6#7.2](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2),<br>[rfc2616#14.9](http://tools.ietf.org/html/rfc2616#section-14.9)
-`Expires` | "gives the date/time after which the response is considered stale." | [httpbisp6#7.3](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.3),<br>[rfc2616#14.21](http://tools.ietf.org/html/rfc2616#section-14.21)
+`Age` | "conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server." | [httpbisp6#5.1](http://tools.ietf.org/html/rfc7234#section-5.1),<br>[rfc2616#14.6](http://tools.ietf.org/html/rfc2616#section-14.6)
+`Cache-Control` | "is used to specify directives for caches along the request/response chain." | [httpbisp6#7.2](http://tools.ietf.org/html/rfc7234#section-7.2),<br>[rfc2616#14.9](http://tools.ietf.org/html/rfc2616#section-14.9)
+`Expires` | "gives the date/time after which the response is considered stale." | [httpbisp6#7.3](http://tools.ietf.org/html/rfc7234#section-7.3),<br>[rfc2616#14.21](http://tools.ietf.org/html/rfc2616#section-14.21)
 `Date` | "represents the date and time at which the message was originated" | [httpbisp2#7.1.1.2](http://tools.ietf.org/html/rfc7231#section-7.1.1.2),<br>[rfc2616#14.18](http://tools.ietf.org/html/rfc2616#section-14.18)
 `Location` | "is used in some responses to refer to a specific resource in relation to the response." | [httpbisp2#7.1.2](http://tools.ietf.org/html/rfc7231#section-7.1.2),<br>[rfc2616#14.30](http://tools.ietf.org/html/rfc2616#section-14.30)
 `Retry-After` | "indicates how long the user agent ought to wait before making a follow-up request." | [httpbisp2#7.1.3](http://tools.ietf.org/html/rfc7231#section-7.1.3),<br>[rfc2616#14.37](http://tools.ietf.org/html/rfc2616#section-14.37)
 `Tk` | "defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status. " | [Tracking Preference Expression (DNT)](http://www.w3.org/TR/tracking-dnt/#response-header-field)
 `Vary` | "describes what parts of a request message, aside from the method and request target, might influence the origin server's process for selecting and representing the response." | [httpbisp2#7.1.4](http://tools.ietf.org/html/rfc7231#section-7.1.4),<br>[rfc2616#14.44](http://tools.ietf.org/html/rfc2616#section-14.44)
-`Warning` | "is used to carry additional information about the status or transformation of a message that might not be reflected in the message." | [httpbisp6#7.6](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.6),<br>[rfc2616#14.46](http://tools.ietf.org/html/rfc2616#section-14.46)
+`Warning` | "is used to carry additional information about the status or transformation of a message that might not be reflected in the message." | [httpbisp6#7.6](http://tools.ietf.org/html/rfc7234#section-7.6),<br>[rfc2616#14.46](http://tools.ietf.org/html/rfc2616#section-14.46)
 
 ### Validator
 
@@ -288,7 +288,7 @@ For a full up-to-date list, including non-HTTP headers, continue reading on [HTT
 * [rfc7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231#)
 * [rfc7232 Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/rfc7232#)
 * [rfc7233 Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/rfc7233#)
-* [draft-ietf-httpbis-p6-cache HTTP/1.1, part 6: Caching](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#)
+* [rfc7234 HTTP/1.1, part 6: Caching](http://tools.ietf.org/html/rfc7234#)
 * [draft-ietf-httpbis-p7-auth Hypertext Transfer Protocol (HTTP/1.1): Authentication](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#)
 * [RFC2616 Hypertext Transfer Protocol -- HTTP/1.1](http://tools.ietf.org/html/rfc2616#)
 * Your truly

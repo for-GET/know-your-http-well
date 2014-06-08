@@ -6,7 +6,7 @@ concept/identifier | description | spec
 ------------------ | :---------- | :---
 `HTTP` | "The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems." | [RFC2616](http://tools.ietf.org/html/rfc2616)
 `HTTPbis auth` | "This document defines HTTP/1.1 access control and authentication." | [draft-ietf-httpbis-p7-auth](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth)
-`HTTPbis cache` | "HTTP is typically used for distributed information systems, where performance can be improved by the use of response caches." | [draft-ietf-httpbis-p6-cache](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache)
+`HTTPbis cache` | "HTTP is typically used for distributed information systems, where performance can be improved by the use of response caches." | [rfc7234](http://tools.ietf.org/html/rfc7234)
 `HTTPbis conditional` | "Conditional requests are HTTP requests that include one or more header fields indicating a precondition to be tested before applying the method semantics to the target resource." | [rfc7232](http://tools.ietf.org/html/rfc7232)
 `HTTPbis messaging` | "The Hypertext Transfer Protocol (HTTP) is an application-level request/response protocol that uses extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems." | [rfc7230](http://tools.ietf.org/html/rfc7230)
 `HTTPbis range` | "Hypertext Transfer Protocol (HTTP) clients often encounter interrupted data transfers as a result of canceled requests or dropped connections." | [rfc7233](http://tools.ietf.org/html/rfc7233)

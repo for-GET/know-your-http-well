@@ -45,7 +45,7 @@
         "header": "Cache-Control",
         "description": "\"is used to specify directives for caches along the request/response chain.\"",
         "spec_title": "httpbisp6#7.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7234#section-7.2"
     },
     {
         "header": "Expect",
@@ -69,7 +69,7 @@
         "header": "Pragma",
         "description": "\"allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a \"no-cache\" request that they will understand (as Cache-Control was not defined until HTTP/1.1).\"",
         "spec_title": "httpbisp6#7.4",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.4"
+        "spec_href": "http://tools.ietf.org/html/rfc7234#section-7.4"
     },
     {
         "header": "Range",
@@ -171,19 +171,19 @@
         "header": "Age",
         "description": "\"conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server.\"",
         "spec_title": "httpbisp6#5.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-5.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7234#section-5.1"
     },
     {
         "header": "Cache-Control",
         "description": "\"is used to specify directives for caches along the request/response chain.\"",
         "spec_title": "httpbisp6#7.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7234#section-7.2"
     },
     {
         "header": "Expires",
         "description": "\"gives the date/time after which the response is considered stale.\"",
         "spec_title": "httpbisp6#7.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7234#section-7.3"
     },
     {
         "header": "Date",
@@ -219,7 +219,7 @@
         "header": "Warning",
         "description": "\"is used to carry additional information about the status or transformation of a message that might not be reflected in the message.\"",
         "spec_title": "httpbisp6#7.6",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.6"
+        "spec_href": "http://tools.ietf.org/html/rfc7234#section-7.6"
     },
     {
         "header": "ETag",
