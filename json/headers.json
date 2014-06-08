@@ -350,8 +350,8 @@
     {
         "header": "Forwarded",
         "description": "\"standard\"",
-        "spec_title": "draft-ietf-appsawg-http-forwarded",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-appsawg-http-forwarded"
+        "spec_title": "rfc7239",
+        "spec_href": "http://tools.ietf.org/html/rfc7239"
     },
     {
         "header": "Link",

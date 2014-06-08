@@ -179,7 +179,7 @@ header | description | spec
 `Content-Security-Policy-Report-Only` | "lets servers experiment with policies by monitoring (rather than enforcing) a policy" | [CSP](http://www.w3.org/TR/CSP/#content-security-policy-report-only-header-field)
 `Cookie` | "standard" | [RFC6265](http://tools.ietf.org/html/rfc6265)
 `Digest` | "" | ?
-`Forwarded` | "standard" | [draft-ietf-appsawg-http-forwarded](http://tools.ietf.org/html/draft-ietf-appsawg-http-forwarded)
+`Forwarded` | "standard" | [rfc7239](http://tools.ietf.org/html/rfc7239)
 `Keep-Alive` | "" | ?
 `Link` | "provides a means for serialising one or more links in HTTP headers." | [RFC5988#5](http://tools.ietf.org/html/rfc5988#section-5)
 `Origin` | "standard" | [RFC6454](http://tools.ietf.org/html/rfc6454)
