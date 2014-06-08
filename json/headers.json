@@ -120,6 +120,12 @@
         "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.3.2"
     },
     {
+        "header": "Accept-Charset",
+        "description": "\"can be sent by a user agent to indicate what charsets are acceptable in textual response content.\"",
+        "spec_title": "RFC7231#5.3.3",
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.3.3"
+    },
+    {
         "header": "Accept-Encoding",
         "description": "\"can be used by user agents to indicate what response content-codings are acceptable in the response.\"",
         "spec_title": "RFC7231#5.3.4",
@@ -392,20 +398,20 @@
     {
         "header": "Via",
         "description": "\"\"",
-        "spec_title": "RFC7230#section-5.7.1",
+        "spec_title": "RFC7230#5.7.1",
         "spec_href": "http://tools.ietf.org/html/rfc7230#section-5.7.1"
     },
     {
         "header": "A-IM",
         "description": "\"\"",
-        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.3"
         "spec_title": "RFC3229#10.5.3",
+        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.3"
     },
     {
         "header": "Accept-Features",
         "description": "\"can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request.\"",
-        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.2"
         "spec_title": "RFC2295#8.2",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.2"
     },
     {
         "header": "Alt-Svc",
@@ -416,8 +422,8 @@
     {
         "header": "Alternates",
         "description": "\"is used to convey the list of variants bound to a negotiable resource.\"",
-        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.3"
         "spec_title": "RFC2295#8.3",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.3"
     },
     {
         "header": "Apply-To-Redirect-Ref",
@@ -458,8 +464,8 @@
     {
         "header": "Delta-Base",
         "description": "\"\"",
-        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.1"
         "spec_title": "RFC3229#10.5.1",
+        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.1"
     },
     {
         "header": "Depth",
@@ -476,8 +482,8 @@
     {
         "header": "IM",
         "description": "\"\"",
-        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.2"
         "spec_title": "RFC3229#10.5.2",
+        "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.2"
     },
     {
         "header": "If",
@@ -512,8 +518,8 @@
     {
         "header": "Negotiate",
         "description": "\"can contain directives for any content negotiation process initiated by the request.\"",
-        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.4"
         "spec_title": "RFC2295#8.4",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.4"
     },
     {
         "header": "Nice",
@@ -590,8 +596,8 @@
     {
         "header": "TCN",
         "description": "\"is used by a server to signal that the resource is transparently negotiated.\"",
-        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.5"
         "spec_title": "RFC2295#8.5",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.5"
     },
     {
         "header": "Timeout",
@@ -602,8 +608,8 @@
     {
         "header": "Variant-Vary",
         "description": "\"can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole.\"",
-        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.6"
         "spec_title": "RFC2295#8.6",
+        "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.6"
     },
     {
         "header": "X-Frame-Options",
