@@ -392,8 +392,8 @@
     {
         "header": "Via",
         "description": "\"\"",
-        "spec_title": "RFC2616#14.45",
-        "spec_href": "http://tools.ietf.org/html/rfc2616#section-14.45"
+        "spec_title": "RFC7230#section-5.7.1",
+        "spec_href": "http://tools.ietf.org/html/rfc7230#section-5.7.1"
     },
     {
         "header": "A-IM",
