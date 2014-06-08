@@ -183,8 +183,8 @@ header | description | spec
 `Keep-Alive` | "" | ?
 `Link` | "provides a means for serialising one or more links in HTTP headers." | [RFC5988#5](http://tools.ietf.org/html/rfc5988#section-5)
 `Origin` | "standard" | [RFC6454](http://tools.ietf.org/html/rfc6454)
-`Prefer` | "is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request." | [draft-snell-http-prefer#2](http://tools.ietf.org/html/draft-snell-http-prefer#section-2)
-`Preference-Applied` | "MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request." | [draft-snell-http-prefer#3](http://tools.ietf.org/html/draft-snell-http-prefer#section-3)
+`Prefer` | "is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request." | [RFC7240](http://tools.ietf.org/html/rfc7240#section-2)
+`Preference-Applied` | "MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request." | [RFC7240](http://tools.ietf.org/html/rfc7240#section-3)
 `Set-Cookie` | "standard" | [RFC6265](http://tools.ietf.org/html/rfc6265)
 `Strict-Transport-Security` | "standard" | [RFC6797](http://tools.ietf.org/html/rfc6797)
 `Variant-Vary` | "" | ?
