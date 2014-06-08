@@ -61,11 +61,11 @@ Continue reading on [httpbisp2#5.2](http://tools.ietf.org/html/rfc7231-22#sectio
 
 header | description | spec
 -----: | :---------- | :---
-`If-Match` | "can be used to make a request method conditional on the current existence or value of an entity-tag for one or more representations of the target resource." | [httpbisp4#3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.1),<br>[rfc2616#14.24](http://tools.ietf.org/html/rfc2616#section-14.24)
-`If-Modified-Since` | "can be used with GET or HEAD to make the method conditional by modification date: if the selected representation has not been modified since the time specified in this field, then do not perform the request method; instead, respond as detailed below." | [httpbisp4#3.3](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.3),<br>[rfc2616#14.25](http://tools.ietf.org/html/rfc2616#section-14.25)
-`If-None-Match` | "can be used to make a request method conditional on not matching any of the current entity-tag values for representations of the target resource." | [httpbisp4#3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.2),<br>[rfc2616#14.26](http://tools.ietf.org/html/rfc2616#section-14.26)
+`If-Match` | "can be used to make a request method conditional on the current existence or value of an entity-tag for one or more representations of the target resource." | [httpbisp4#3.1](http://tools.ietf.org/html/rfc7232#section-3.1),<br>[rfc2616#14.24](http://tools.ietf.org/html/rfc2616#section-14.24)
+`If-Modified-Since` | "can be used with GET or HEAD to make the method conditional by modification date: if the selected representation has not been modified since the time specified in this field, then do not perform the request method; instead, respond as detailed below." | [httpbisp4#3.3](http://tools.ietf.org/html/rfc7232#section-3.3),<br>[rfc2616#14.25](http://tools.ietf.org/html/rfc2616#section-14.25)
+`If-None-Match` | "can be used to make a request method conditional on not matching any of the current entity-tag values for representations of the target resource." | [httpbisp4#3.2](http://tools.ietf.org/html/rfc7232#section-3.2),<br>[rfc2616#14.26](http://tools.ietf.org/html/rfc2616#section-14.26)
 `If-Range` | "Informally, its meaning is: if the representation is unchanged, send me the part(s) that I am requesting in Range; otherwise, send me the entire representation." | [httpbisp5#3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.2),<br>[rfc2616#14.27](http://tools.ietf.org/html/rfc2616#section-14.27)
-`If-Unmodified-Since` | "can be used to make a request method conditional by modification date: if the selected representation has been modified since the time specified in this field, then the server MUST NOT perform the requested operation and MUST instead respond with the 412 (Precondition Failed) status code." | [httpbisp4#3.4](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.4),<br>[rfc2616#14.28](http://tools.ietf.org/html/rfc2616#section-14.28)
+`If-Unmodified-Since` | "can be used to make a request method conditional by modification date: if the selected representation has been modified since the time specified in this field, then the server MUST NOT perform the requested operation and MUST instead respond with the 412 (Precondition Failed) status code." | [httpbisp4#3.4](http://tools.ietf.org/html/rfc7232#section-3.4),<br>[rfc2616#14.28](http://tools.ietf.org/html/rfc2616#section-14.28)
 
 ### Content Negotiation
 
@@ -136,8 +136,8 @@ Continue reading on [httpbisp2#7.2](http://tools.ietf.org/html/rfc7231-22#sectio
 
 header | description | spec
 -----: | :---------- | :---
-`ETag` | "provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request." | [httpbisp4#2.3](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-2.3),<br>[rfc2616#14.19](http://tools.ietf.org/html/rfc2616#section-14.19)
-`Last-Modified` | "provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request." | [httpbisp4#2.2](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-2.2),<br>[rfc2616#14.29](http://tools.ietf.org/html/rfc2616#section-14.29)
+`ETag` | "provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request." | [httpbisp4#2.3](http://tools.ietf.org/html/rfc7232#section-2.3),<br>[rfc2616#14.19](http://tools.ietf.org/html/rfc2616#section-14.19)
+`Last-Modified` | "provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request." | [httpbisp4#2.2](http://tools.ietf.org/html/rfc7232#section-2.2),<br>[rfc2616#14.29](http://tools.ietf.org/html/rfc2616#section-14.29)
 
 ### Authentication Challenges
 
@@ -286,7 +286,7 @@ For a full up-to-date list, including non-HTTP headers, continue reading on [HTT
 
 * [rfc7230 Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](http://tools.ietf.org/html/rfc7230#)
 * [rfc7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231#)
-* [draft-ietf-httpbis-p4-conditional Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#)
+* [rfc7232 Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/rfc7232#)
 * [draft-ietf-httpbis-p5-range Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#)
 * [draft-ietf-httpbis-p6-cache HTTP/1.1, part 6: Caching](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#)
 * [draft-ietf-httpbis-p7-auth Hypertext Transfer Protocol (HTTP/1.1): Authentication](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#)

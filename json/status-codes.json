@@ -116,7 +116,7 @@
         "phrase": "Not Modified",
         "description": "\"indicates that a conditional GET request has been received and would have resulted in a 200 (OK) response if it were not for the fact that the condition has evaluated to false.\"",
         "spec_title": "httpbisp4#4.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-4.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7232#section-4.1"
     },
     {
         "code": "305",
@@ -228,7 +228,7 @@
         "phrase": "Precondition Failed",
         "description": "\"indicates that one or more preconditions given in the request header fields evaluated to false when tested on the server.\"",
         "spec_title": "httpbisp4#4.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-4.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7232#section-4.2"
     },
     {
         "code": "413",

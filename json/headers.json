@@ -87,19 +87,19 @@
         "header": "If-Match",
         "description": "\"can be used to make a request method conditional on the current existence or value of an entity-tag for one or more representations of the target resource.\"",
         "spec_title": "httpbisp4#3.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7232#section-3.1"
     },
     {
         "header": "If-Modified-Since",
         "description": "\"can be used with GET or HEAD to make the method conditional by modification date: if the selected representation has not been modified since the time specified in this field, then do not perform the request method; instead, respond as detailed below.\"",
         "spec_title": "httpbisp4#3.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7232#section-3.3"
     },
     {
         "header": "If-None-Match",
         "description": "\"can be used to make a request method conditional on not matching any of the current entity-tag values for representations of the target resource.\"",
         "spec_title": "httpbisp4#3.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7232#section-3.2"
     },
     {
         "header": "If-Range",
@@ -111,7 +111,7 @@
         "header": "If-Unmodified-Since",
         "description": "\"can be used to make a request method conditional by modification date: if the selected representation has been modified since the time specified in this field, then the server MUST NOT perform the requested operation and MUST instead respond with the 412 (Precondition Failed) status code.\"",
         "spec_title": "httpbisp4#3.4",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-3.4"
+        "spec_href": "http://tools.ietf.org/html/rfc7232#section-3.4"
     },
     {
         "header": "Accept",
@@ -225,13 +225,13 @@
         "header": "ETag",
         "description": "\"provides the current entity-tag for the selected representation, as determined at the conclusion of handling the request.\"",
         "spec_title": "httpbisp4#2.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-2.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7232#section-2.3"
     },
     {
         "header": "Last-Modified",
         "description": "\"provides a timestamp indicating the date and time at which the origin server believes the selected representation was last modified, as determined at the conclusion of handling the request.\"",
         "spec_title": "httpbisp4#2.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#section-2.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7232#section-2.2"
     },
     {
         "header": "WWW-Authenticate",
