@@ -27,9 +27,9 @@ Continue reading on [httpbisp2#3.2](http://tools.ietf.org/html/draft-ietf-httpbi
 
 header | description | spec
 -----: | :---------- | :---
-`Content-Length` | "can provide the anticipated size, as a decimal number of octets, for a potential payload body." | [httpbisp1#3.3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.3.2),<br>[rfc2616#14.13](http://tools.ietf.org/html/rfc2616#section-14.13)
+`Content-Length` | "can provide the anticipated size, as a decimal number of octets, for a potential payload body." | [httpbisp1#3.3.2](http://tools.ietf.org/html/rfc7230#section-3.3.2),<br>[rfc2616#14.13](http://tools.ietf.org/html/rfc2616#section-14.13)
 `Content-Range` | "is sent in a single part 206 (Partial Content) response to indicate the partial range of the selected representation enclosed as the message payload, sent in each part of a multipart 206 response to indicate the range enclosed within each body part, and sent in 416 (Range Not Satisfiable) responses to provide information about the selected representation." | [httpbisp5#4.2](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-4.2),<br>[rfc2616#14.16](http://tools.ietf.org/html/rfc2616#section-14.16)
-`Transfer-Encoding` | "lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body." | [httpbisp1#3.3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.3.1),<br>[rfc2616#14.41](http://tools.ietf.org/html/rfc2616#section-14.41)
+`Transfer-Encoding` | "lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body." | [httpbisp1#3.3.1](http://tools.ietf.org/html/rfc7230#section-3.3.1),<br>[rfc2616#14.41](http://tools.ietf.org/html/rfc2616#section-14.41)
 
 ## Request
 
@@ -47,11 +47,11 @@ header | description | spec
 -----: | :---------- | :---
 `Cache-Control` | "is used to specify directives for caches along the request/response chain." | [httpbisp6#7.2](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2),<br>[rfc2616#14.9](http://tools.ietf.org/html/rfc2616#section-14.9)
 `Expect` | "is used to indicate that particular server behaviors are required by the client." | [httpbisp2#5.1.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.1.1),<br>[rfc2616#14.20](http://tools.ietf.org/html/rfc2616#section-14.20)
-`Host` | "provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address." | [httpbisp1#5.4](http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-5.4),<br>[rfc2616#14.23](http://tools.ietf.org/html/rfc2616#section-14.23)
+`Host` | "provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address." | [httpbisp1#5.4](http://tools.ietf.org/html/rfc7230#section-5.4),<br>[rfc2616#14.23](http://tools.ietf.org/html/rfc2616#section-14.23)
 `Max-Forwards` | "provides a mechanism with the TRACE and OPTIONS methods to limit the number of times that the request is forwarded by proxies." | [httpbisp2#5.1.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.1.2),<br>[rfc2616#14.31](http://tools.ietf.org/html/rfc2616#section-14.31)
 `Pragma` | "allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a "no-cache" request that they will understand (as Cache-Control was not defined until HTTP/1.1)." | [httpbisp6#7.4](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.4),<br>[rfc2616#14.32](http://tools.ietf.org/html/rfc2616#section-14.32)
 `Range` | "modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data." | [httpbisp5#3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.1),<br>[rfc2616#14.35](http://tools.ietf.org/html/rfc2616#section-14.35)
-`TE` | "indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding." | [httpbisp1#4.3](http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-4.3),<br>[rfc2616#14.39](http://tools.ietf.org/html/rfc2616#section-14.39)
+`TE` | "indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding." | [httpbisp1#4.3](http://tools.ietf.org/html/rfc7230#section-4.3),<br>[rfc2616#14.39](http://tools.ietf.org/html/rfc2616#section-14.39)
 
 ### Conditionals
 
@@ -284,7 +284,7 @@ For a full up-to-date list, including non-HTTP headers, continue reading on [HTT
 
 ## Sources
 
-* [draft-ietf-httpbis-p1-messaging Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#)
+* [rfc7230 Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](http://tools.ietf.org/html/rfc7230#)
 * [draft-ietf-httpbis-p2-semantics Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#)
 * [draft-ietf-httpbis-p4-conditional Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#)
 * [draft-ietf-httpbis-p5-range Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#)

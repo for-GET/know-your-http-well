@@ -27,7 +27,7 @@
         "header": "Content-Length",
         "description": "\"can provide the anticipated size, as a decimal number of octets, for a potential payload body.\"",
         "spec_title": "httpbisp1#3.3.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.3.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7230#section-3.3.2"
     },
     {
         "header": "Content-Range",
@@ -39,7 +39,7 @@
         "header": "Transfer-Encoding",
         "description": "\"lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body.\"",
         "spec_title": "httpbisp1#3.3.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-3.3.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7230#section-3.3.1"
     },
     {
         "header": "Cache-Control",
@@ -57,7 +57,7 @@
         "header": "Host",
         "description": "\"provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address.\"",
         "spec_title": "httpbisp1#5.4",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-5.4"
+        "spec_href": "http://tools.ietf.org/html/rfc7230#section-5.4"
     },
     {
         "header": "Max-Forwards",
@@ -81,7 +81,7 @@
         "header": "TE",
         "description": "\"indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding.\"",
         "spec_title": "httpbisp1#4.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-4.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7230#section-4.3"
     },
     {
         "header": "If-Match",

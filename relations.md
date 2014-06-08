@@ -2,7 +2,7 @@
 
 > HTTP relies upon the Uniform Resource Identifier (URI) standard [RFC3986] to indicate the target resource and relationships between resources.
 
-Continue reading on [httpbisp1#2.1](http://tools.ietf.org/html/draft-ietf-httpbis-p1-messaging#section-2.1).
+Continue reading on [httpbisp1#2.1](http://tools.ietf.org/html/rfc7230#section-2.1).
 
 > A means of indicating the relationships between resources on the Web, as well as indicating the type of those relationships, has been available for some time in HTML, and more recently in Atom.
 
