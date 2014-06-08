@@ -4,26 +4,26 @@
 
 > For the purposes of HTTP, a "representation" is information that is intended to reflect a past, current, or desired state of a given resource, in a format that can be readily communicated via the protocol, and that consists of a set of representation metadata and a potentially unbounded stream of representation data.
 
-Continue reading on [httpbisp2#3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-3)
+Continue reading on [httpbisp2#3](http://tools.ietf.org/html/rfc7231-22#section-3)
 
 ### Metadata
 
 > Representation header fields provide metadata about the representation. When a message includes a payload body, the representation header fields describe how to interpret the representation data enclosed in the payload body.
 
-Continue reading on [httpbisp2#3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-3.1)
+Continue reading on [httpbisp2#3.1](http://tools.ietf.org/html/rfc7231-22#section-3.1)
 
 header | description | spec
 -----: | :---------- | :---
-`Content-Encoding` | "indicates what content codings have been applied to the representation, beyond those inherent in the media type, and thus what decoding mechanisms have to be applied in order to obtain data in the media type referenced by the Content-Type header field." | [httpbisp2#3.1.2.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.2.2),<br>[rfc2616#14.11](http://tools.ietf.org/html/rfc2616#section-14.11)
-`Content-Language` | "describes the natural language(s) of the intended audience for the representation." | [httpbisp2#3.1.3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.3.2),<br>[rfc2616#14.12](http://tools.ietf.org/html/rfc2616#section-14.12)
-`Content-Location` | "references a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload." | [httpbisp2#3.1.4.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.4.2),<br>[rfc2616#14.14](http://tools.ietf.org/html/rfc2616#section-14.14)
-`Content-Type` | "indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics." | [httpbisp2#3.1.1.5](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.1.5),<br>[rfc2616#14.17](http://tools.ietf.org/html/rfc2616#section-14.17)
+`Content-Encoding` | "indicates what content codings have been applied to the representation, beyond those inherent in the media type, and thus what decoding mechanisms have to be applied in order to obtain data in the media type referenced by the Content-Type header field." | [httpbisp2#3.1.2.2](http://tools.ietf.org/html/rfc7231#section-3.1.2.2),<br>[rfc2616#14.11](http://tools.ietf.org/html/rfc2616#section-14.11)
+`Content-Language` | "describes the natural language(s) of the intended audience for the representation." | [httpbisp2#3.1.3.2](http://tools.ietf.org/html/rfc7231#section-3.1.3.2),<br>[rfc2616#14.12](http://tools.ietf.org/html/rfc2616#section-14.12)
+`Content-Location` | "references a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload." | [httpbisp2#3.1.4.2](http://tools.ietf.org/html/rfc7231#section-3.1.4.2),<br>[rfc2616#14.14](http://tools.ietf.org/html/rfc2616#section-14.14)
+`Content-Type` | "indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics." | [httpbisp2#3.1.1.5](http://tools.ietf.org/html/rfc7231#section-3.1.1.5),<br>[rfc2616#14.17](http://tools.ietf.org/html/rfc2616#section-14.17)
 
 ### Data
 
 > The representation data associated with an HTTP message is either provided as the payload body of the message or referred to by the message semantics and the effective request URI.
 
-Continue reading on [httpbisp2#3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-3.2)
+Continue reading on [httpbisp2#3.2](http://tools.ietf.org/html/rfc7231-22#section-3.2)
 
 header | description | spec
 -----: | :---------- | :---
@@ -35,20 +35,20 @@ header | description | spec
 
 > A client sends request header fields to provide more information about the request context, make the request conditional based on the target resource state, suggest preferred formats for the response, supply authentication credentials, or modify the expected request processing.
 
-Continue reading on [httpbisp2#5](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-5)
+Continue reading on [httpbisp2#5](http://tools.ietf.org/html/rfc7231-22#section-5)
 
 ### Controls
 
 > Controls are request header fields that direct specific handling of the request.
 
-Continue reading on [httpbisp2#5.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-5.1)
+Continue reading on [httpbisp2#5.1](http://tools.ietf.org/html/rfc7231-22#section-5.1)
 
 header | description | spec
 -----: | :---------- | :---
 `Cache-Control` | "is used to specify directives for caches along the request/response chain." | [httpbisp6#7.2](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2),<br>[rfc2616#14.9](http://tools.ietf.org/html/rfc2616#section-14.9)
-`Expect` | "is used to indicate that particular server behaviors are required by the client." | [httpbisp2#5.1.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.1.1),<br>[rfc2616#14.20](http://tools.ietf.org/html/rfc2616#section-14.20)
+`Expect` | "is used to indicate that particular server behaviors are required by the client." | [httpbisp2#5.1.1](http://tools.ietf.org/html/rfc7231#section-5.1.1),<br>[rfc2616#14.20](http://tools.ietf.org/html/rfc2616#section-14.20)
 `Host` | "provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address." | [httpbisp1#5.4](http://tools.ietf.org/html/rfc7230#section-5.4),<br>[rfc2616#14.23](http://tools.ietf.org/html/rfc2616#section-14.23)
-`Max-Forwards` | "provides a mechanism with the TRACE and OPTIONS methods to limit the number of times that the request is forwarded by proxies." | [httpbisp2#5.1.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.1.2),<br>[rfc2616#14.31](http://tools.ietf.org/html/rfc2616#section-14.31)
+`Max-Forwards` | "provides a mechanism with the TRACE and OPTIONS methods to limit the number of times that the request is forwarded by proxies." | [httpbisp2#5.1.2](http://tools.ietf.org/html/rfc7231#section-5.1.2),<br>[rfc2616#14.31](http://tools.ietf.org/html/rfc2616#section-14.31)
 `Pragma` | "allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a "no-cache" request that they will understand (as Cache-Control was not defined until HTTP/1.1)." | [httpbisp6#7.4](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.4),<br>[rfc2616#14.32](http://tools.ietf.org/html/rfc2616#section-14.32)
 `Range` | "modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data." | [httpbisp5#3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.1),<br>[rfc2616#14.35](http://tools.ietf.org/html/rfc2616#section-14.35)
 `TE` | "indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding." | [httpbisp1#4.3](http://tools.ietf.org/html/rfc7230#section-4.3),<br>[rfc2616#14.39](http://tools.ietf.org/html/rfc2616#section-14.39)
@@ -57,7 +57,7 @@ header | description | spec
 
 > The HTTP conditional request header fields [Part4] allow a client to place a precondition on the state of the target resource, so that the action corresponding to the method semantics will not be applied if the precondition evaluates to false.
 
-Continue reading on [httpbisp2#5.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-5.2)
+Continue reading on [httpbisp2#5.2](http://tools.ietf.org/html/rfc7231-22#section-5.2)
 
 header | description | spec
 -----: | :---------- | :---
@@ -71,20 +71,20 @@ header | description | spec
 
 > The preferences sent in these fields apply to any content in the response, including representations of the target resource, representations of error or processing status, and potentially even the miscellaneous text strings that might appear within the protocol.
 
-Continue reading on [httpbisp2#5.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-5.3)
+Continue reading on [httpbisp2#5.3](http://tools.ietf.org/html/rfc7231-22#section-5.3)
 
 header | description | spec
 -----: | :---------- | :---
-`Accept` | "can be used to specify certain media types which are acceptable for the response." | [httpbisp2#5.3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.2),<br>[rfc2616#14.1](http://tools.ietf.org/html/rfc2616#section-14.1)
+`Accept` | "can be used to specify certain media types which are acceptable for the response." | [httpbisp2#5.3.2](http://tools.ietf.org/html/rfc7231#section-5.3.2),<br>[rfc2616#14.1](http://tools.ietf.org/html/rfc2616#section-14.1)
 `Accept-Charset` | "can be sent by a user agent to indicate what charsets are acceptable in textual response content." | httpbispX#5.3.3 rfc2616#14.2
-`Accept-Encoding` | "can be used by user agents to indicate what response content-codings are acceptable in the response." | [httpbisp2#5.3.4](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.4),<br>[rfc2616#14.3](http://tools.ietf.org/html/rfc2616#section-14.3)
-`Accept-Language` | "can be used by user agents to indicate the set of natural languages that are preferred in the response." | [httpbisp2#5.3.5](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.5),<br>[rfc2616#14.4](http://tools.ietf.org/html/rfc2616#section-14.4)
+`Accept-Encoding` | "can be used by user agents to indicate what response content-codings are acceptable in the response." | [httpbisp2#5.3.4](http://tools.ietf.org/html/rfc7231#section-5.3.4),<br>[rfc2616#14.3](http://tools.ietf.org/html/rfc2616#section-14.3)
+`Accept-Language` | "can be used by user agents to indicate the set of natural languages that are preferred in the response." | [httpbisp2#5.3.5](http://tools.ietf.org/html/rfc7231#section-5.3.5),<br>[rfc2616#14.4](http://tools.ietf.org/html/rfc2616#section-14.4)
 
 ### Authentication Credentials
 
 > Two header fields are used for carrying authentication credentials
 
-Continue reading on [httpbisp2#5.4](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-5.4)
+Continue reading on [httpbisp2#5.4](http://tools.ietf.org/html/rfc7231-22#section-5.4)
 
 header | description | spec
 -----: | :---------- | :---
@@ -95,44 +95,44 @@ header | description | spec
 
 > request header fields provide additional information about the request context, including information about the user, user agent, and resource behind the request.
 
-Continue reading on [httpbisp2#5.5](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-5.5)
+Continue reading on [httpbisp2#5.5](http://tools.ietf.org/html/rfc7231-22#section-5.5)
 
 header | description | spec
 -----: | :---------- | :---
 `DNT` | "defined as the means for expressing a user's tracking preference via HTTP." | [Tracking Preference Expression (DNT)](http://www.w3.org/TR/tracking-dnt/#dnt-header-field)
-`From` | "contains an Internet email address for a human user who controls the requesting user agent." | [httpbisp2#5.5.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.1),<br>[rfc2616#14.22](http://tools.ietf.org/html/rfc2616#section-14.22)
-`Referer` | "allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the "referrer", though the field name is misspelled)." | [httpbisp2#5.5.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.2),<br>[rfc2616#14.36](http://tools.ietf.org/html/rfc2616#section-14.36)
-`User-Agent` | "contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use." | [httpbisp2#5.5.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.3),<br>[rfc2616#14.43](http://tools.ietf.org/html/rfc2616#section-14.43)
+`From` | "contains an Internet email address for a human user who controls the requesting user agent." | [httpbisp2#5.5.1](http://tools.ietf.org/html/rfc7231#section-5.5.1),<br>[rfc2616#14.22](http://tools.ietf.org/html/rfc2616#section-14.22)
+`Referer` | "allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the "referrer", though the field name is misspelled)." | [httpbisp2#5.5.2](http://tools.ietf.org/html/rfc7231#section-5.5.2),<br>[rfc2616#14.36](http://tools.ietf.org/html/rfc2616#section-14.36)
+`User-Agent` | "contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use." | [httpbisp2#5.5.3](http://tools.ietf.org/html/rfc7231#section-5.5.3),<br>[rfc2616#14.43](http://tools.ietf.org/html/rfc2616#section-14.43)
 
 ## Response
 
 > The response header fields allow the server to pass additional information about the response beyond what is placed in the status-line.
 
-Continue reading on [httpbisp2#7](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-7)
+Continue reading on [httpbisp2#7](http://tools.ietf.org/html/rfc7231-22#section-7)
 
 ### Control Data
 
 > Response header fields can supply control data that supplements the status code, directs caching, or instructs the client where to go next.
 
-Continue reading on [httpbisp2#7.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-7.1)
+Continue reading on [httpbisp2#7.1](http://tools.ietf.org/html/rfc7231-22#section-7.1)
 
 header | description | spec
 -----: | :---------- | :---
 `Age` | "conveys the sender's estimate of the amount of time since the response was generated or successfully validated at the origin server." | [httpbisp6#5.1](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-5.1),<br>[rfc2616#14.6](http://tools.ietf.org/html/rfc2616#section-14.6)
 `Cache-Control` | "is used to specify directives for caches along the request/response chain." | [httpbisp6#7.2](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.2),<br>[rfc2616#14.9](http://tools.ietf.org/html/rfc2616#section-14.9)
 `Expires` | "gives the date/time after which the response is considered stale." | [httpbisp6#7.3](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.3),<br>[rfc2616#14.21](http://tools.ietf.org/html/rfc2616#section-14.21)
-`Date` | "represents the date and time at which the message was originated" | [httpbisp2#7.1.1.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.1.2),<br>[rfc2616#14.18](http://tools.ietf.org/html/rfc2616#section-14.18)
-`Location` | "is used in some responses to refer to a specific resource in relation to the response." | [httpbisp2#7.1.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.2),<br>[rfc2616#14.30](http://tools.ietf.org/html/rfc2616#section-14.30)
-`Retry-After` | "indicates how long the user agent ought to wait before making a follow-up request." | [httpbisp2#7.1.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.3),<br>[rfc2616#14.37](http://tools.ietf.org/html/rfc2616#section-14.37)
+`Date` | "represents the date and time at which the message was originated" | [httpbisp2#7.1.1.2](http://tools.ietf.org/html/rfc7231#section-7.1.1.2),<br>[rfc2616#14.18](http://tools.ietf.org/html/rfc2616#section-14.18)
+`Location` | "is used in some responses to refer to a specific resource in relation to the response." | [httpbisp2#7.1.2](http://tools.ietf.org/html/rfc7231#section-7.1.2),<br>[rfc2616#14.30](http://tools.ietf.org/html/rfc2616#section-14.30)
+`Retry-After` | "indicates how long the user agent ought to wait before making a follow-up request." | [httpbisp2#7.1.3](http://tools.ietf.org/html/rfc7231#section-7.1.3),<br>[rfc2616#14.37](http://tools.ietf.org/html/rfc2616#section-14.37)
 `Tk` | "defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status. " | [Tracking Preference Expression (DNT)](http://www.w3.org/TR/tracking-dnt/#response-header-field)
-`Vary` | "describes what parts of a request message, aside from the method and request target, might influence the origin server's process for selecting and representing the response." | [httpbisp2#7.1.4](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.4),<br>[rfc2616#14.44](http://tools.ietf.org/html/rfc2616#section-14.44)
+`Vary` | "describes what parts of a request message, aside from the method and request target, might influence the origin server's process for selecting and representing the response." | [httpbisp2#7.1.4](http://tools.ietf.org/html/rfc7231#section-7.1.4),<br>[rfc2616#14.44](http://tools.ietf.org/html/rfc2616#section-14.44)
 `Warning` | "is used to carry additional information about the status or transformation of a message that might not be reflected in the message." | [httpbisp6#7.6](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.6),<br>[rfc2616#14.46](http://tools.ietf.org/html/rfc2616#section-14.46)
 
 ### Validator
 
 > Validator header fields convey metadata about the selected representation
 
-Continue reading on [httpbisp2#7.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-7.2)
+Continue reading on [httpbisp2#7.2](http://tools.ietf.org/html/rfc7231-22#section-7.2)
 
 header | description | spec
 -----: | :---------- | :---
@@ -141,7 +141,7 @@ header | description | spec
 
 ### Authentication Challenges
 
-Continue reading on [httpbisp2#7.3](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-7.3)
+Continue reading on [httpbisp2#7.3](http://tools.ietf.org/html/rfc7231-22#section-7.3)
 
 header | description | spec
 -----: | :---------- | :---
@@ -150,13 +150,13 @@ header | description | spec
 
 ### Response Context
 
-Continue reading on [httpbisp2#7.4](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics-22#section-7.4)
+Continue reading on [httpbisp2#7.4](http://tools.ietf.org/html/rfc7231-22#section-7.4)
 
 header | description | spec
 -----: | :---------- | :---
 `Accept-Ranges` | "allows a server to indicate that it supports range requests for the target resource." | [httpbisp5#2.3](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-2.3),<br>[rfc2616#14.5](http://tools.ietf.org/html/rfc2616#section-14.5)
-`Allow` | "lists the set of methods advertised as supported by the target resource." | [httpbisp2#7.4.1](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.4.1),<br>[rfc2616#14.7](http://tools.ietf.org/html/rfc2616#section-14.7)
-`Server` | "contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use." | [httpbisp2#7.4.2](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.4.2),<br>[rfc2616#14.38](http://tools.ietf.org/html/rfc2616#section-14.38)
+`Allow` | "lists the set of methods advertised as supported by the target resource." | [httpbisp2#7.4.1](http://tools.ietf.org/html/rfc7231#section-7.4.1),<br>[rfc2616#14.7](http://tools.ietf.org/html/rfc2616#section-14.7)
+`Server` | "contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use." | [httpbisp2#7.4.2](http://tools.ietf.org/html/rfc7231#section-7.4.2),<br>[rfc2616#14.38](http://tools.ietf.org/html/rfc2616#section-14.38)
 
 ## Common (subjective)
 
@@ -285,7 +285,7 @@ For a full up-to-date list, including non-HTTP headers, continue reading on [HTT
 ## Sources
 
 * [rfc7230 Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](http://tools.ietf.org/html/rfc7230#)
-* [draft-ietf-httpbis-p2-semantics Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#)
+* [rfc7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231#)
 * [draft-ietf-httpbis-p4-conditional Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/draft-ietf-httpbis-p4-conditional#)
 * [draft-ietf-httpbis-p5-range Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#)
 * [draft-ietf-httpbis-p6-cache HTTP/1.1, part 6: Caching](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#)

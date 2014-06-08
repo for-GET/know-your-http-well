@@ -3,25 +3,25 @@
         "header": "Content-Encoding",
         "description": "\"indicates what content codings have been applied to the representation, beyond those inherent in the media type, and thus what decoding mechanisms have to be applied in order to obtain data in the media type referenced by the Content-Type header field.\"",
         "spec_title": "httpbisp2#3.1.2.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.2.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-3.1.2.2"
     },
     {
         "header": "Content-Language",
         "description": "\"describes the natural language(s) of the intended audience for the representation.\"",
         "spec_title": "httpbisp2#3.1.3.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.3.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-3.1.3.2"
     },
     {
         "header": "Content-Location",
         "description": "\"references a URI that can be used as an identifier for a specific resource corresponding to the representation in this message's payload.\"",
         "spec_title": "httpbisp2#3.1.4.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.4.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-3.1.4.2"
     },
     {
         "header": "Content-Type",
         "description": "\"indicates the media type of the associated representation: either the representation enclosed in the message payload or the selected representation, as determined by the message semantics.\"",
         "spec_title": "httpbisp2#3.1.1.5",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-3.1.1.5"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-3.1.1.5"
     },
     {
         "header": "Content-Length",
@@ -51,7 +51,7 @@
         "header": "Expect",
         "description": "\"is used to indicate that particular server behaviors are required by the client.\"",
         "spec_title": "httpbisp2#5.1.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.1.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.1.1"
     },
     {
         "header": "Host",
@@ -63,7 +63,7 @@
         "header": "Max-Forwards",
         "description": "\"provides a mechanism with the TRACE and OPTIONS methods to limit the number of times that the request is forwarded by proxies.\"",
         "spec_title": "httpbisp2#5.1.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.1.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.1.2"
     },
     {
         "header": "Pragma",
@@ -117,19 +117,19 @@
         "header": "Accept",
         "description": "\"can be used to specify certain media types which are acceptable for the response.\"",
         "spec_title": "httpbisp2#5.3.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.3.2"
     },
     {
         "header": "Accept-Encoding",
         "description": "\"can be used by user agents to indicate what response content-codings are acceptable in the response.\"",
         "spec_title": "httpbisp2#5.3.4",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.4"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.3.4"
     },
     {
         "header": "Accept-Language",
         "description": "\"can be used by user agents to indicate the set of natural languages that are preferred in the response.\"",
         "spec_title": "httpbisp2#5.3.5",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.3.5"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.3.5"
     },
     {
         "header": "Authorization",
@@ -153,19 +153,19 @@
         "header": "From",
         "description": "\"contains an Internet email address for a human user who controls the requesting user agent.\"",
         "spec_title": "httpbisp2#5.5.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.5.1"
     },
     {
         "header": "Referer",
         "description": "\"allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the \"referrer\", though the field name is misspelled).\"",
         "spec_title": "httpbisp2#5.5.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.5.2"
     },
     {
         "header": "User-Agent",
         "description": "\"contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use.\"",
         "spec_title": "httpbisp2#5.5.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-5.5.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-5.5.3"
     },
     {
         "header": "Age",
@@ -189,19 +189,19 @@
         "header": "Date",
         "description": "\"represents the date and time at which the message was originated\"",
         "spec_title": "httpbisp2#7.1.1.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.1.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-7.1.1.2"
     },
     {
         "header": "Location",
         "description": "\"is used in some responses to refer to a specific resource in relation to the response.\"",
         "spec_title": "httpbisp2#7.1.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-7.1.2"
     },
     {
         "header": "Retry-After",
         "description": "\"indicates how long the user agent ought to wait before making a follow-up request.\"",
         "spec_title": "httpbisp2#7.1.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-7.1.3"
     },
     {
         "header": "Tk",
@@ -213,7 +213,7 @@
         "header": "Vary",
         "description": "\"describes what parts of a request message, aside from the method and request target, might influence the origin server's process for selecting and representing the response.\"",
         "spec_title": "httpbisp2#7.1.4",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.1.4"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-7.1.4"
     },
     {
         "header": "Warning",
@@ -255,13 +255,13 @@
         "header": "Allow",
         "description": "\"lists the set of methods advertised as supported by the target resource.\"",
         "spec_title": "httpbisp2#7.4.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.4.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-7.4.1"
     },
     {
         "header": "Server",
         "description": "\"contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use.\"",
         "spec_title": "httpbisp2#7.4.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-7.4.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-7.4.2"
     },
     {
         "header": "Accept-Patch",

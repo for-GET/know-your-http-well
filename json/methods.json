@@ -6,7 +6,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "httpbisp2#4.3.6",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.6"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.6"
     },
     {
         "method": "DELETE",
@@ -15,7 +15,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "httpbisp2#4.3.5",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.5"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.5"
     },
     {
         "method": "GET",
@@ -24,7 +24,7 @@
         "idempotent": true,
         "cacheable": true,
         "spec_title": "httpbisp2#4.3.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.1"
     },
     {
         "method": "HEAD",
@@ -33,7 +33,7 @@
         "idempotent": true,
         "cacheable": true,
         "spec_title": "httpbisp2#4.3.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.2"
     },
     {
         "method": "OPTIONS",
@@ -42,7 +42,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "httpbisp2#4.3.7",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.7"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.7"
     },
     {
         "method": "POST",
@@ -51,7 +51,7 @@
         "idempotent": false,
         "cacheable": false,
         "spec_title": "httpbisp2#4.3.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.3"
     },
     {
         "method": "PUT",
@@ -60,7 +60,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "httpbisp2#4.3.4",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.4"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.4"
     },
     {
         "method": "TRACE",
@@ -69,7 +69,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "httpbisp2#4.3.8",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics#section-4.3.8"
+        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.8"
     },
     {
         "method": "ACL",

@@ -11,7 +11,7 @@ concept/identifier | description | spec
 `HTTPbis messaging` | "The Hypertext Transfer Protocol (HTTP) is an application-level request/response protocol that uses extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems." | [rfc7230](http://tools.ietf.org/html/rfc7230)
 `HTTPbis range` | "Hypertext Transfer Protocol (HTTP) clients often encounter interrupted data transfers as a result of canceled requests or dropped connections." | [draft-ietf-httpbis-p5-range](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range)
 `HTTPbis security properties` | "Recent IESG practice dictates that IETF protocols must specify mandatory-to-implement (MTI) security mechanisms, so that all conformant implementations share a common baseline. This document examines all widely deployed HTTP security technologies, and analyzes the trade-offs of each." | [draft-ietf-httpbis-security-properties](http://tools.ietf.org/html/draft-ietf-httpbis-security-properties)
-`HTTPbis semantics` | "Each Hypertext Transfer Protocol (HTTP) message is either a request or a response." | [draft-ietf-httpbis-p2-semantics](http://tools.ietf.org/html/draft-ietf-httpbis-p2-semantics)
+`HTTPbis semantics` | "Each Hypertext Transfer Protocol (HTTP) message is either a request or a response." | [rfc7231](http://tools.ietf.org/html/rfc7231)
 
 
 ## Extensions
