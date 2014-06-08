@@ -19,14 +19,8 @@ done
 # Dash docset
 (
     cd generators/docset
-    DOCSET_NAME="know-your-http-well" \
-        DOCSET_ID="http" \
-        DOCSET_VERSION="DOCSET_VERSION_PKG" \
-        DOCSET_VERSION_PKG=../../master/package.json \
-        DOCSET_INDEX_URL="https://github.com/for-GET/know-your-http-well" \
-        DOCSET_ENTRY_URL="https://raw.github.com/for-GET/know-your-http-well/master/docset/know-your-http-well.docset.tgz" \
-        npm pack
-    cp know-your-http-well.docset-*.tgz ../../master/docset/know-your-http-well.docset.tgz
+    make publish
+    cp $(ls -t know-your-http-well.docset-*.tgz | head -1) ../../master/docset/know-your-http-well.docset.tgz
     cp know-your-http-well.xml ../../master/docset/
     cd -
 )
