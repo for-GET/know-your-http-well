@@ -28,7 +28,7 @@ Continue reading on [httpbisp2#3.2](http://tools.ietf.org/html/rfc7231-22#sectio
 header | description | spec
 -----: | :---------- | :---
 `Content-Length` | "can provide the anticipated size, as a decimal number of octets, for a potential payload body." | [httpbisp1#3.3.2](http://tools.ietf.org/html/rfc7230#section-3.3.2),<br>[rfc2616#14.13](http://tools.ietf.org/html/rfc2616#section-14.13)
-`Content-Range` | "is sent in a single part 206 (Partial Content) response to indicate the partial range of the selected representation enclosed as the message payload, sent in each part of a multipart 206 response to indicate the range enclosed within each body part, and sent in 416 (Range Not Satisfiable) responses to provide information about the selected representation." | [httpbisp5#4.2](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-4.2),<br>[rfc2616#14.16](http://tools.ietf.org/html/rfc2616#section-14.16)
+`Content-Range` | "is sent in a single part 206 (Partial Content) response to indicate the partial range of the selected representation enclosed as the message payload, sent in each part of a multipart 206 response to indicate the range enclosed within each body part, and sent in 416 (Range Not Satisfiable) responses to provide information about the selected representation." | [httpbisp5#4.2](http://tools.ietf.org/html/rfc7233#section-4.2),<br>[rfc2616#14.16](http://tools.ietf.org/html/rfc2616#section-14.16)
 `Transfer-Encoding` | "lists the transfer coding names corresponding to the sequence of transfer codings that have been (or will be) applied to the payload body in order to form the message body." | [httpbisp1#3.3.1](http://tools.ietf.org/html/rfc7230#section-3.3.1),<br>[rfc2616#14.41](http://tools.ietf.org/html/rfc2616#section-14.41)
 
 ## Request
@@ -50,7 +50,7 @@ header | description | spec
 `Host` | "provides the host and port information from the target URI, enabling the origin server to distinguish among resources while servicing requests for multiple host names on a single IP address." | [httpbisp1#5.4](http://tools.ietf.org/html/rfc7230#section-5.4),<br>[rfc2616#14.23](http://tools.ietf.org/html/rfc2616#section-14.23)
 `Max-Forwards` | "provides a mechanism with the TRACE and OPTIONS methods to limit the number of times that the request is forwarded by proxies." | [httpbisp2#5.1.2](http://tools.ietf.org/html/rfc7231#section-5.1.2),<br>[rfc2616#14.31](http://tools.ietf.org/html/rfc2616#section-14.31)
 `Pragma` | "allows backwards compatibility with HTTP/1.0 caches, so that clients can specify a "no-cache" request that they will understand (as Cache-Control was not defined until HTTP/1.1)." | [httpbisp6#7.4](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#section-7.4),<br>[rfc2616#14.32](http://tools.ietf.org/html/rfc2616#section-14.32)
-`Range` | "modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data." | [httpbisp5#3.1](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.1),<br>[rfc2616#14.35](http://tools.ietf.org/html/rfc2616#section-14.35)
+`Range` | "modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data." | [httpbisp5#3.1](http://tools.ietf.org/html/rfc7233#section-3.1),<br>[rfc2616#14.35](http://tools.ietf.org/html/rfc2616#section-14.35)
 `TE` | "indicates what transfer codings, besides chunked, the client is willing to accept in response, and whether or not the client is willing to accept trailer fields in a chunked transfer coding." | [httpbisp1#4.3](http://tools.ietf.org/html/rfc7230#section-4.3),<br>[rfc2616#14.39](http://tools.ietf.org/html/rfc2616#section-14.39)
 
 ### Conditionals
@@ -64,7 +64,7 @@ header | description | spec
 `If-Match` | "can be used to make a request method conditional on the current existence or value of an entity-tag for one or more representations of the target resource." | [httpbisp4#3.1](http://tools.ietf.org/html/rfc7232#section-3.1),<br>[rfc2616#14.24](http://tools.ietf.org/html/rfc2616#section-14.24)
 `If-Modified-Since` | "can be used with GET or HEAD to make the method conditional by modification date: if the selected representation has not been modified since the time specified in this field, then do not perform the request method; instead, respond as detailed below." | [httpbisp4#3.3](http://tools.ietf.org/html/rfc7232#section-3.3),<br>[rfc2616#14.25](http://tools.ietf.org/html/rfc2616#section-14.25)
 `If-None-Match` | "can be used to make a request method conditional on not matching any of the current entity-tag values for representations of the target resource." | [httpbisp4#3.2](http://tools.ietf.org/html/rfc7232#section-3.2),<br>[rfc2616#14.26](http://tools.ietf.org/html/rfc2616#section-14.26)
-`If-Range` | "Informally, its meaning is: if the representation is unchanged, send me the part(s) that I am requesting in Range; otherwise, send me the entire representation." | [httpbisp5#3.2](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.2),<br>[rfc2616#14.27](http://tools.ietf.org/html/rfc2616#section-14.27)
+`If-Range` | "Informally, its meaning is: if the representation is unchanged, send me the part(s) that I am requesting in Range; otherwise, send me the entire representation." | [httpbisp5#3.2](http://tools.ietf.org/html/rfc7233#section-3.2),<br>[rfc2616#14.27](http://tools.ietf.org/html/rfc2616#section-14.27)
 `If-Unmodified-Since` | "can be used to make a request method conditional by modification date: if the selected representation has been modified since the time specified in this field, then the server MUST NOT perform the requested operation and MUST instead respond with the 412 (Precondition Failed) status code." | [httpbisp4#3.4](http://tools.ietf.org/html/rfc7232#section-3.4),<br>[rfc2616#14.28](http://tools.ietf.org/html/rfc2616#section-14.28)
 
 ### Content Negotiation
@@ -154,7 +154,7 @@ Continue reading on [httpbisp2#7.4](http://tools.ietf.org/html/rfc7231-22#sectio
 
 header | description | spec
 -----: | :---------- | :---
-`Accept-Ranges` | "allows a server to indicate that it supports range requests for the target resource." | [httpbisp5#2.3](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-2.3),<br>[rfc2616#14.5](http://tools.ietf.org/html/rfc2616#section-14.5)
+`Accept-Ranges` | "allows a server to indicate that it supports range requests for the target resource." | [httpbisp5#2.3](http://tools.ietf.org/html/rfc7233#section-2.3),<br>[rfc2616#14.5](http://tools.ietf.org/html/rfc2616#section-14.5)
 `Allow` | "lists the set of methods advertised as supported by the target resource." | [httpbisp2#7.4.1](http://tools.ietf.org/html/rfc7231#section-7.4.1),<br>[rfc2616#14.7](http://tools.ietf.org/html/rfc2616#section-14.7)
 `Server` | "contains information about the software used by the origin server to handle the request, which is often used by clients to help identify the scope of reported interoperability problems, to work around or tailor requests to avoid particular server limitations, and for analytics regarding server or operating system use." | [httpbisp2#7.4.2](http://tools.ietf.org/html/rfc7231#section-7.4.2),<br>[rfc2616#14.38](http://tools.ietf.org/html/rfc2616#section-14.38)
 
@@ -287,7 +287,7 @@ For a full up-to-date list, including non-HTTP headers, continue reading on [HTT
 * [rfc7230 Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](http://tools.ietf.org/html/rfc7230#)
 * [rfc7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231#)
 * [rfc7232 Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/rfc7232#)
-* [draft-ietf-httpbis-p5-range Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#)
+* [rfc7233 Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/rfc7233#)
 * [draft-ietf-httpbis-p6-cache HTTP/1.1, part 6: Caching](http://tools.ietf.org/html/draft-ietf-httpbis-p6-cache#)
 * [draft-ietf-httpbis-p7-auth Hypertext Transfer Protocol (HTTP/1.1): Authentication](http://tools.ietf.org/html/draft-ietf-httpbis-p7-auth#)
 * [RFC2616 Hypertext Transfer Protocol -- HTTP/1.1](http://tools.ietf.org/html/rfc2616#)

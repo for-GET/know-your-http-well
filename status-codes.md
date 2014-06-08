@@ -31,7 +31,7 @@ code | reason | description | spec
 `203` | Non-Authoritative Information | "indicates that the request was successful but the enclosed payload has been modified from that of the origin server's 200 (OK) response by a transforming proxy." | [httpbisp2#6.3.4](http://tools.ietf.org/html/rfc7231#section-6.3.4),<br>[RFC2616#10.2](http://tools.ietf.org/html/rfc2616#section-10.2)
 `204` | No Content | "indicates that the server has successfully fulfilled the request and that there is no additional content to send in the response payload body." | [httpbisp2#6.3.5](http://tools.ietf.org/html/rfc7231#section-6.3.5),<br>[RFC2616#10.2](http://tools.ietf.org/html/rfc2616#section-10.2)
 `205` | Reset Content | "indicates that the server has fulfilled the request and desires that the user agent reset the "document view", which caused the request to be sent, to its original state as received from the origin server." | [httpbisp2#6.3.6](http://tools.ietf.org/html/rfc7231#section-6.3.6),<br>[RFC2616#10.2](http://tools.ietf.org/html/rfc2616#section-10.2)
-`206` | Partial Content | "indicates that the server is successfully fulfilling a range request for the target resource by transferring one or more parts of the selected representation that correspond to the satisfiable ranges found in the requests's Range header field." | [httpbisp5#4.1](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-4.1),<br>[RFC2616#10.2](http://tools.ietf.org/html/rfc2616#section-10.2)
+`206` | Partial Content | "indicates that the server is successfully fulfilling a range request for the target resource by transferring one or more parts of the selected representation that correspond to the satisfiable ranges found in the requests's Range header field." | [httpbisp5#4.1](http://tools.ietf.org/html/rfc7233#section-4.1),<br>[RFC2616#10.2](http://tools.ietf.org/html/rfc2616#section-10.2)
 
 ### 3xx
 
@@ -68,7 +68,7 @@ code | reason | description | spec
 `413` | Payload Too Large | "indicates that the server is refusing to process a request because the request payload is larger than the server is willing or able to process." | [httpbisp2#6.5.11](http://tools.ietf.org/html/rfc7231#section-6.5.11),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
 `414` | URI Too Long | "indicates that the server is refusing to service the request because the request-target is longer than the server is willing to interpret." | [httpbisp2#6.5.12](http://tools.ietf.org/html/rfc7231#section-6.5.12),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
 `415` | Unsupported Media Type | "indicates that the origin server is refusing to service the request because the payload is in a format not supported by the target resource for this method." | [httpbisp2#6.5.13](http://tools.ietf.org/html/rfc7231#section-6.5.13),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
-`416` | Range Not Satisfiable | "indicates that none of the ranges in the request's Range header field overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges." | [httpbisp5#4.4](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-4.4),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
+`416` | Range Not Satisfiable | "indicates that none of the ranges in the request's Range header field overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges." | [httpbisp5#4.4](http://tools.ietf.org/html/rfc7233#section-4.4),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
 `417` | Expectation Failed | "indicates that the expectation given in the request's Expect header field could not be met by at least one of the inbound servers." | [httpbisp2#6.5.14](http://tools.ietf.org/html/rfc7231#section-6.5.14),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
 `426` | Upgrade Required | "indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol." | [httpbisp2#6.5.15](http://tools.ietf.org/html/rfc7231#section-6.5.15),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
 
@@ -112,7 +112,7 @@ For a full up-to-date list, continue reading on [HTTP Status Code Registry](http
 
 * [rfc7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231#)
 * [rfc7232 Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/rfc7232#)
-* [draft-ietf-httpbis-p5-range Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#)
+* [rfc7233 Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/rfc7233#)
 * [RFC2616 Hypertext Transfer Protocol -- HTTP/1.1](http://tools.ietf.org/html/rfc2616#)
 * [RFC2518 HTTP Extensions for Distributed Authoring -- WEBDAV](http://tools.ietf.org/html/rfc2518)
 * [RFC6585 Additional HTTP Status Codes](http://tools.ietf.org/html/rfc6585#)

@@ -74,7 +74,7 @@
         "phrase": "Partial Content",
         "description": "\"indicates that the server is successfully fulfilling a range request for the target resource by transferring one or more parts of the selected representation that correspond to the satisfiable ranges found in the requests's Range header field.\"",
         "spec_title": "httpbisp5#4.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-4.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7233#section-4.1"
     },
     {
         "code": "3xx",
@@ -256,7 +256,7 @@
         "phrase": "Range Not Satisfiable",
         "description": "\"indicates that none of the ranges in the request's Range header field overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges.\"",
         "spec_title": "httpbisp5#4.4",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-4.4"
+        "spec_href": "http://tools.ietf.org/html/rfc7233#section-4.4"
     },
     {
         "code": "417",

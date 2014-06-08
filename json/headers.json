@@ -33,7 +33,7 @@
         "header": "Content-Range",
         "description": "\"is sent in a single part 206 (Partial Content) response to indicate the partial range of the selected representation enclosed as the message payload, sent in each part of a multipart 206 response to indicate the range enclosed within each body part, and sent in 416 (Range Not Satisfiable) responses to provide information about the selected representation.\"",
         "spec_title": "httpbisp5#4.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-4.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7233#section-4.2"
     },
     {
         "header": "Transfer-Encoding",
@@ -75,7 +75,7 @@
         "header": "Range",
         "description": "\"modifies the method semantics to request transfer of only one or more subranges of the selected representation data, rather than the entire selected representation data.\"",
         "spec_title": "httpbisp5#3.1",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.1"
+        "spec_href": "http://tools.ietf.org/html/rfc7233#section-3.1"
     },
     {
         "header": "TE",
@@ -105,7 +105,7 @@
         "header": "If-Range",
         "description": "\"Informally, its meaning is: if the representation is unchanged, send me the part(s) that I am requesting in Range; otherwise, send me the entire representation.\"",
         "spec_title": "httpbisp5#3.2",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-3.2"
+        "spec_href": "http://tools.ietf.org/html/rfc7233#section-3.2"
     },
     {
         "header": "If-Unmodified-Since",
@@ -249,7 +249,7 @@
         "header": "Accept-Ranges",
         "description": "\"allows a server to indicate that it supports range requests for the target resource.\"",
         "spec_title": "httpbisp5#2.3",
-        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-p5-range#section-2.3"
+        "spec_href": "http://tools.ietf.org/html/rfc7233#section-2.3"
     },
     {
         "header": "Allow",
