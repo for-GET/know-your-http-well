@@ -226,6 +226,7 @@ header | description | spec
 `IM` | "" | [RFC3229#10.5.2](http://tools.ietf.org/html/rfc3229#section-10.5.2)
 `If` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `If-Schedule-Tag-Match` | "standard" | [RFC6638](http://tools.ietf.org/html/rfc6638)
+`Key` | "allows an origin server to describe the cache key for a negotiated response: a short algorithm that can be used upon later requests to determine if the same response is reusable." | [draft-fielding-http-key](http://tools.ietf.org/html/draft-fielding-http-key)
 `Label` | "" | ?
 `Last-Event-ID` | "The value of the event source's last event ID string, encoded as UTF-8." | [Server-Sent Events](http://www.w3.org/TR/eventsource/#last-event-id)
 `Link-Template` | "provides a means for serialising one or more links into HTTP headers." | [draft-nottingham-link-template](http://tools.ietf.org/html/draft-nottingham-link-template)
