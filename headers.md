@@ -196,6 +196,7 @@ header | description | spec
 -----: | :---------- | :---
 `A-IM` | "" | [RFC3229#10.5.3](http://tools.ietf.org/html/rfc3229#section-10.5.3)
 `Accept-Additions` | "" | ?
+`Accept-CH` | "advertise support for Client Hints" | [http-client-hints](http://igrigorik.github.io/http-client-hints/)
 `Accept-Features` | "can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request." | [RFC2295#8.2](http://tools.ietf.org/html/rfc2295#section-8.2)
 `Alt-Svc` | "is advertising the availability of alternate services to HTTP/1.1 and HTTP/2.0 clients by adding an Alt-Svc header field to responses." | [draft-nottingham-httpbis-alt-svc](http://tools.ietf.org/html/draft-nottingham-httpbis-alt-svc)
 `Alternates` | "is used to convey the list of variants bound to a negotiable resource." | [RFC2295#8.3](http://tools.ietf.org/html/rfc2295#section-8.3)
@@ -208,6 +209,7 @@ header | description | spec
 `C-PEP` | "" | ?
 `C-PEP-Info` | "" | ?
 `Content-Base` | "obsoleted" | [RFC2068](http://tools.ietf.org/html/rfc2068),<br>[RFC2616](http://tools.ietf.org/html/rfc2616)
+`Content-DPR` | "is a number that indicates the ratio between physical pixels over CSS px of the selected image response." | [http-client-hints](http://igrigorik.github.io/http-client-hints/)
 `Content-ID` | "" | ?
 `Content-Script-Type` | "" | ?
 `Content-Style-Type` | "" | ?
@@ -221,6 +223,7 @@ header | description | spec
 `Derived-From` | "" | ?
 `Destination` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Differential-ID` | "" | ?
+`DPR` | "is a number that, in requests, indicates the client’s current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device." | [http-client-hints](http://igrigorik.github.io/http-client-hints/)
 `Ext` | "" | ?
 `GetProfile` | "" | ?
 `IM` | "" | [RFC3229#10.5.2](http://tools.ietf.org/html/rfc3229#section-10.5.2)
@@ -232,6 +235,7 @@ header | description | spec
 `Link-Template` | "provides a means for serialising one or more links into HTTP headers." | [draft-nottingham-link-template](http://tools.ietf.org/html/draft-nottingham-link-template)
 `Lock-Token` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Man` | "" | ?
+`MD` | "is a number that, in requests, indicates the client’s maximum downlink speed in megabits per second (Mbps), which is the standardized, or generally accepted, maximum download data rate for the underlying connection technology in use by the client." | [http-client-hints](http://igrigorik.github.io/http-client-hints/)
 `Meter` | "" | ?
 `MIME-Version` | "" | ?
 `Negotiate` | "can contain directives for any content negotiation process initiated by the request." | [RFC2295#8.4](http://tools.ietf.org/html/rfc2295#section-8.4)
@@ -254,6 +258,7 @@ header | description | spec
 `Proxy-Instruction` | "" | ?
 `Public` | "" | ?
 `Redirect-Ref` | "" | [RFC4437](http://tools.ietf.org/html/rfc4437)
+`RW` | "is a number that, in requests, indicates the Resource Width (RW) in CSS px, which is either the display width of the requested resource (e.g. display width of an image), or the layout viewport width if the resource does not have a display width (e.g. a non-image asset)." | [http-client-hints](http://igrigorik.github.io/http-client-hints/)
 `Safe` | "" | ?
 `Schedule-Reply` | "standard" | [RFC6638](http://tools.ietf.org/html/rfc6638)
 `Schedule-Tag` | "standard" | [RFC6638](http://tools.ietf.org/html/rfc6638)
