@@ -247,6 +247,8 @@ header | description | spec
 `PEP` | "" | ?
 `PICS-Label` | "" | ?
 `Pep-Info` | "" | ?
+`POE` | "The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports." | [draft-nottingham-http-poe](http://tools.ietf.org/html/draft-nottingham-http-poe)
+`POE-Links` | "The POE-Links HTTP header is an entity-header field whose field-value is a comma-separated list of quoted URI-references (without fragment identifiers) that the origin server asserts to be POE resources. The contents of the POE-Links response header SHOULD correspond to links found in the content of the response body." | [draft-nottingham-http-poe](http://tools.ietf.org/html/draft-nottingham-http-poe)
 `Position` | "standard" | ?
 `ProfileObject` | "" | ?
 `Protocol` | "" | ?
