@@ -274,7 +274,7 @@ header | description | spec
 `SetProfile` | "" | ?
 `SLUG` | "standard" | [RFC5023](http://tools.ietf.org/html/rfc5023)
 `SoapAction` | "" | ?
-`Status-URI` | "" | ?
+`Status-URI` | "" | [RFC2518](https://tools.ietf.org/html/rfc2518#section-9.7)
 `Surrogate-Capability` | "" | [Edge Architecture](http://www.w3.org/TR/edge-arch)
 `Surrogate-Control` | "" | [Edge Architecture](http://www.w3.org/TR/edge-arch)
 `TCN` | "is used by a server to signal that the resource is transparently negotiated." | [RFC2295#8.5](http://tools.ietf.org/html/rfc2295#section-8.5)
