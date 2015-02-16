@@ -275,8 +275,8 @@ header | description | spec
 `SLUG` | "standard" | [RFC5023](http://tools.ietf.org/html/rfc5023)
 `SoapAction` | "" | ?
 `Status-URI` | "" | ?
-`Surrogate-Capability` | "" | ?
-`Surrogate-Control` | "" | ?
+`Surrogate-Capability` | "" | [Edge Architecture](http://www.w3.org/TR/edge-arch)
+`Surrogate-Control` | "" | [Edge Architecture](http://www.w3.org/TR/edge-arch)
 `TCN` | "is used by a server to signal that the resource is transparently negotiated." | [RFC2295#8.5](http://tools.ietf.org/html/rfc2295#section-8.5)
 `Timeout` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Trailer` | "" |43
