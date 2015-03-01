@@ -284,7 +284,7 @@ header | description | spec
 `Upgrade` | "" |42
 `Variant-Vary` | "can be used in a choice response to record any vary information which applies to the variant data (the entity body combined with some of the entity headers) contained in the response, rather than to the response as a whole." | [RFC2295#8.6](http://tools.ietf.org/html/rfc2295#section-8.6)
 `Want-Digest` | "" | ?
-`X-Frame-Options` | "indicates a policy that specifies whether the browser should render the transmitted resource within a <frame> or an <iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames." | [RFC7034](http://tools.ietf.org/html/rfc7034)
+`X-Frame-Options` | "indicates a policy that specifies whether the browser should render the transmitted resource within a &lt;frame&gt; or an &lt;iframe&gt;. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames." | [RFC7034](http://tools.ietf.org/html/rfc7034)
 
 A chunk of provisional headers can be found at [HTTP Headers Registry](http://www.iana.org/assignments/message-headers/message-headers.xml).
 
