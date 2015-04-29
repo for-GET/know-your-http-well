@@ -71,6 +71,7 @@ code | reason | description | spec
 `416` | Range Not Satisfiable | "indicates that none of the ranges in the request's Range header field overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges." | [RFC7233#4.4](http://tools.ietf.org/html/rfc7233#section-4.4),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
 `417` | Expectation Failed | "indicates that the expectation given in the request's Expect header field could not be met by at least one of the inbound servers." | [RFC7231#6.5.14](http://tools.ietf.org/html/rfc7231#section-6.5.14),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
 `426` | Upgrade Required | "indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol." | [RFC7231#6.5.15](http://tools.ietf.org/html/rfc7231#section-6.5.15),<br>[RFC2616#10](http://tools.ietf.org/html/rfc2616#section-10.4)
+`451` | Unavailable For Legal Reasons | "indicates that the server is denying access to the resource as a consequence of a legal demand." | [draft-ietf-httpbis-legally-restricted-status](http://tools.ietf.org/html/draft-ietf-httpbis-legally-restricted-status)
 
 ### 5xx
 
