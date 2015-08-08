@@ -276,6 +276,7 @@ header | description | spec
 `SLUG` | "standard" | [RFC5023](http://tools.ietf.org/html/rfc5023)
 `SoapAction` | "" | ?
 `Status-URI` | "" | [RFC2518](https://tools.ietf.org/html/rfc2518#section-9.7)
+`Sunset` | "allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time." | [draft-wilde-sunset-header](http://tools.ietf.org/html/draft-wilde-sunset-header)
 `Surrogate-Capability` | "" | [Edge Architecture](http://www.w3.org/TR/edge-arch)
 `Surrogate-Control` | "" | [Edge Architecture](http://www.w3.org/TR/edge-arch)
 `TCN` | "is used by a server to signal that the resource is transparently negotiated." | [RFC2295#8.5](http://tools.ietf.org/html/rfc2295#section-8.5)
