@@ -199,6 +199,7 @@ header | description | spec
 `Accept-Additions` | "" | ?
 `Accept-CH` | "advertise support for Client Hints" | [draft-grigorik-http-client-hints](http://tools.ietf.org/html/draft-grigorik-http-client-hints)
 `Accept-Features` | "can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request." | [RFC2295#8.2](http://tools.ietf.org/html/rfc2295#section-8.2)
+`ALPN` | "indicates the application-layer protocol that a client intends to use within the tunnel, or a set of protocols that might be used within the tunnel." | [RFC7639#2](http://tools.ietf.org/html/rfc7639#section-2)
 `Alt-Svc` | "is advertising the availability of alternate services to HTTP/1.1 and HTTP/2.0 clients by adding an Alt-Svc header field to responses." | [draft-nottingham-httpbis-alt-svc](http://tools.ietf.org/html/draft-nottingham-httpbis-alt-svc)
 `Alternates` | "is used to convey the list of variants bound to a negotiable resource." | [RFC2295#8.3](http://tools.ietf.org/html/rfc2295#section-8.3)
 `Apply-To-Redirect-Ref` | "" | [RFC4437](http://tools.ietf.org/html/rfc4437)
