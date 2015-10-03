@@ -89,7 +89,7 @@ Continue reading on [RFC7231#5.4](http://tools.ietf.org/html/rfc7231#section-5.4
 
 header | description | spec
 -----: | :---------- | :---
-`Authorization` | "allows a user agent to authenticate itself with a server -- usually, but not necessarily, after receiving a 401 (Unauthorized) response." | [RFC7235#4.1](http://tools.ietf.org/html/rfc7235#section-4.1),<br>[RFC2616#14.8](http://tools.ietf.org/html/rfc2616#section-14.8)
+`Authorization` | "allows a user agent to authenticate itself with a server -- usually, but not necessarily, after receiving a 401 (Unauthorized) response." | [RFC7235#4.1](http://tools.ietf.org/html/rfc7235#section-4.1),<br>[RFC7616#3.4](http://tools.ietf.org/html/rfc7616#section-3.4)
 `Proxy-Authorization` | "allows the client to identify itself (or its user) to a proxy that requires authentication." | [RFC7235#4.3](http://tools.ietf.org/html/rfc7235#section-4.3),<br>[RFC2616#14.34](http://tools.ietf.org/html/rfc2616#section-14.34)
 
 ### Request Context
@@ -146,8 +146,8 @@ Continue reading on [RFC7231#7.3](http://tools.ietf.org/html/rfc7231#section-7.3
 
 header | description | spec
 -----: | :---------- | :---
-`WWW-Authenticate` | "consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI." | [RFC7235#4.4](http://tools.ietf.org/html/rfc7235#section-4.4),<br>[RFC2616#14.47](http://tools.ietf.org/html/rfc2616#section-14.47)
-`Proxy-Authenticate` | "consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI." | [RFC7235#4.2](http://tools.ietf.org/html/rfc7235#section-4.2),<br>[RFC2616#14.33](http://tools.ietf.org/html/rfc2616#section-14.33)
+`WWW-Authenticate` | "consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the effective request URI." | [RFC7235#4.4](http://tools.ietf.org/html/rfc7235#section-4.4),<br>[RFC7615#3](http://tools.ietf.org/html/rfc7615#section-3)
+`Proxy-Authenticate` | "consists of at least one challenge that indicates the authentication scheme(s) and parameters applicable to the proxy for this effective request URI." | [RFC7235#4.2](http://tools.ietf.org/html/rfc7235#section-4.2),<br>[RFC7615#4](http://tools.ietf.org/html/rfc7615#section-4)
 
 ### Response Context
 
