@@ -77,6 +77,7 @@ method | description | safe | idem. | cache. | spec
 ## Sources
 
 * [RFC7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231)
-* [RFC2616 Hypertext Transfer Protocol -- HTTP/1.1](http://tools.ietf.org/html/rfc2616)
+* [RFC7616 HTTP Digest Access Authentication](http://tools.ietf.org/html/rfc7616)
+* [RFC7617 The 'Basic' HTTP Authentication Scheme](http://tools.ietf.org/html/rfc7617)
 * [RFC5789 PATCH Method for HTTP](http://tools.ietf.org/html/rfc5789)
 * Yours truly
