@@ -295,11 +295,12 @@ For a full up-to-date list, including non-HTTP headers, continue reading on [HTT
 
 ## Sources
 
-* [RFC7230 Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](http://tools.ietf.org/html/rfc7230#)
-* [RFC7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231#)
-* [RFC7232 Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/rfc7232#)
-* [RFC7233 Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/rfc7233#)
-* [RFC7234 Hypertext Transfer Protocol (HTTP/1.1): Caching](http://tools.ietf.org/html/rfc7234#)
-* [RFC7235 Hypertext Transfer Protocol (HTTP/1.1): Authentication](http://tools.ietf.org/html/rfc7235#)
-* OBSOLETE ~~[RFC2616 Hypertext Transfer Protocol -- HTTP/1.1](http://tools.ietf.org/html/rfc2616#)~~
+* [RFC7230 Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](http://tools.ietf.org/html/rfc7230)
+* [RFC7231 Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](http://tools.ietf.org/html/rfc7231)
+* [RFC7232 Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests](http://tools.ietf.org/html/rfc7232)
+* [RFC7233 Hypertext Transfer Protocol (HTTP/1.1): Range Requests](http://tools.ietf.org/html/rfc7233)
+* [RFC7234 Hypertext Transfer Protocol (HTTP/1.1): Caching](http://tools.ietf.org/html/rfc7234)
+* [RFC7235 Hypertext Transfer Protocol (HTTP/1.1): Authentication](http://tools.ietf.org/html/rfc7235)
+* [RFC7616 HTTP Digest Access Authentication](http://tools.ietf.org/html/rfc7616)
+* [RFC7617 The 'Basic' HTTP Authentication Scheme](http://tools.ietf.org/html/rfc7617)
 * Your truly
