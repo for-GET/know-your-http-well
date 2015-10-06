@@ -303,4 +303,5 @@ For a full up-to-date list, including non-HTTP headers, continue reading on [HTT
 * [RFC7235 Hypertext Transfer Protocol (HTTP/1.1): Authentication](http://tools.ietf.org/html/rfc7235)
 * [RFC7616 HTTP Digest Access Authentication](http://tools.ietf.org/html/rfc7616)
 * [RFC7617 The 'Basic' HTTP Authentication Scheme](http://tools.ietf.org/html/rfc7617)
+* OBSOLETE ~~[RFC2616 Hypertext Transfer Protocol -- HTTP/1.1](http://tools.ietf.org/html/rfc2616#)~~
 * Your truly
