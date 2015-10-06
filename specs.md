@@ -55,4 +55,4 @@ concept/identifier | description | spec
 concept/identifier | description | spec
 ------------------ | :---------- | :---
 `Augmented BNF for Syntax Specifications: ABNF`| "The current specification documents ABNF. It balances compactness and simplicity with reasonable representational power." | [RFC5234](http://tools.ietf.org/html/rfc5234)
-`Cosmogol: a language to describe finite state machines` | "There is no standard way of describing such a machine, the most common way being an ASCII-art diagram. This document specifies an other solution: a domain-specific language for finite state machines." | [draft-bortzmeyer-language-state-machines](http://tools.ietf.org/html/draft-bortzmeyer-language-state-machines)
+`Cosmogol: a language to describe finite state machines` | "There is no standard way of describing such a machine, the most common way being an ASCII-art diagram. This document specifies another solution: a domain-specific language for finite state machines." | [draft-bortzmeyer-language-state-machines](http://tools.ietf.org/html/draft-bortzmeyer-language-state-machines)
