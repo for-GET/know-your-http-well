@@ -99,6 +99,6 @@ Continue reading on [RFC5988#4.2](http://tools.ietf.org/html/rfc5988#section-4.2
 
 ## Sources
 
-* [Link Relations](http://www.iana.org/assignments/link-relations/link-relations.xml#)
-* [RFC5988 Web Linking](http://tools.ietf.org/html/rfc5988#).
+* [Link Relations](http://www.iana.org/assignments/link-relations/link-relations.xml)
+* [RFC5988 Web Linking](http://tools.ietf.org/html/rfc5988).
 * Yours truly
