@@ -37,7 +37,7 @@ concept/identifier | description | spec
 ------------------ | :---------- | :---
 `Defining Well-Known Uniform Resource Identifiers (URIs)` | "This memo defines a path prefix for 'well-known locations', '/.well-known/', in selected Uniform Resource Identifier (URI) schemes." | [RFC5785](http://tools.ietf.org/html/rfc5785)
 `URI template` | "A URI Template is a compact sequence of characters for describing a range of Uniform Resource Identifiers through variable expansion." | [RFC6570](http://tools.ietf.org/html/rfc6570)
-`URI` | "A Uniform Resource Identifier (URI) provides a simple and extensible means for identifying a resource." | [RFC2986](http://tools.ietf.org/html/rfc3986)
+`URI` | "A Uniform Resource Identifier (URI) provides a simple and extensible means for identifying a resource." | [RFC3986](http://tools.ietf.org/html/rfc3986)
 
 
 ## Examples
