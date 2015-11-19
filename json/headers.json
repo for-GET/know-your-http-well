@@ -60,6 +60,12 @@
         "spec_href": "http://tools.ietf.org/html/rfc7230#section-5.4"
     },
     {
+        "header": "HTTP2-Settings",
+        "description": "\"A request that upgrades from HTTP/1.1 to HTTP/2 MUST include exactly one HTTP2-Settings header field. The HTTP2-Settings header field is a connection-specific header field that includes parameters that govern the HTTP/2 connection, provided in anticipation of the server accepting the request to upgrade.\"",
+        "spec_title": "RFC7540#3.2.1",
+        "spec_href": "http://tools.ietf.org/html/rfc7540#section-3.2.1"
+    },
+    {
         "header": "Max-Forwards",
         "description": "\"provides a mechanism with the TRACE and OPTIONS methods to limit the number of times that the request is forwarded by proxies.\"",
         "spec_title": "RFC7231#5.1.2",
@@ -374,14 +380,14 @@
     {
         "header": "Prefer",
         "description": "\"is used to indicate that particular server behaviors are preferred by the client, but not required for successful completion of the request.\"",
-        "spec_title": "draft-snell-http-prefer#2",
-        "spec_href": "http://tools.ietf.org/html/draft-snell-http-prefer#section-2"
+        "spec_title": "RFC7240#2",
+        "spec_href": "http://tools.ietf.org/html/rfc7240#section-2"
     },
     {
         "header": "Preference-Applied",
         "description": "\"MAY be included within a response message as an indication as to which Prefer tokens were honored by the server and applied to the processing of a request.\"",
-        "spec_title": "draft-snell-http-prefer#3",
-        "spec_href": "http://tools.ietf.org/html/draft-snell-http-prefer#section-3"
+        "spec_title": "RFC7240#3",
+        "spec_href": "http://tools.ietf.org/html/rfc7240#section-3"
     },
     {
         "header": "Set-Cookie",
@@ -408,10 +414,22 @@
         "spec_href": "http://tools.ietf.org/html/rfc3229#section-10.5.3"
     },
     {
+        "header": "Accept-CH",
+        "description": "\"advertise support for Client Hints\"",
+        "spec_title": "draft-grigorik-http-client-hints",
+        "spec_href": "http://tools.ietf.org/html/draft-grigorik-http-client-hints"
+    },
+    {
         "header": "Accept-Features",
         "description": "\"can be used by a user agent to give information about the presence or absence of certain features in the feature set of the current request.\"",
         "spec_title": "RFC2295#8.2",
         "spec_href": "http://tools.ietf.org/html/rfc2295#section-8.2"
+    },
+    {
+        "header": "ALPN",
+        "description": "\"indicates the application-layer protocol that a client intends to use within the tunnel, or a set of protocols that might be used within the tunnel.\"",
+        "spec_title": "RFC7639#2",
+        "spec_href": "http://tools.ietf.org/html/rfc7639#section-2"
     },
     {
         "header": "Alt-Svc",
@@ -442,6 +460,12 @@
         "description": "\"obsoleted\"",
         "spec_title": "RFC2068",
         "spec_href": "http://tools.ietf.org/html/rfc2068"
+    },
+    {
+        "header": "Content-DPR",
+        "description": "\"is a number that indicates the ratio between physical pixels over CSS px of the selected image response.\"",
+        "spec_title": "draft-grigorik-http-client-hints",
+        "spec_href": "http://tools.ietf.org/html/draft-grigorik-http-client-hints"
     },
     {
         "header": "Cookie2",
@@ -480,6 +504,12 @@
         "spec_href": "http://tools.ietf.org/html/rfc4918"
     },
     {
+        "header": "DPR",
+        "description": "\"is a number that, in requests, indicates the client’s current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device.\"",
+        "spec_title": "draft-grigorik-http-client-hints",
+        "spec_href": "http://tools.ietf.org/html/draft-grigorik-http-client-hints"
+    },
+    {
         "header": "IM",
         "description": "\"\"",
         "spec_title": "RFC3229#10.5.2",
@@ -496,6 +526,12 @@
         "description": "\"standard\"",
         "spec_title": "RFC6638",
         "spec_href": "http://tools.ietf.org/html/rfc6638"
+    },
+    {
+        "header": "Key",
+        "description": "\"allows an origin server to describe the cache key for a negotiated response: a short algorithm that can be used upon later requests to determine if the same response is reusable.\"",
+        "spec_title": "draft-fielding-http-key",
+        "spec_href": "http://tools.ietf.org/html/draft-fielding-http-key"
     },
     {
         "header": "Last-Event-ID",
@@ -516,6 +552,12 @@
         "spec_href": "http://tools.ietf.org/html/rfc4918"
     },
     {
+        "header": "MD",
+        "description": "\"is a number that, in requests, indicates the client’s maximum downlink speed in megabits per second (Mbps), which is the standardized, or generally accepted, maximum download data rate for the underlying connection technology in use by the client.\"",
+        "spec_title": "draft-grigorik-http-client-hints",
+        "spec_href": "http://tools.ietf.org/html/draft-grigorik-http-client-hints"
+    },
+    {
         "header": "Negotiate",
         "description": "\"can contain directives for any content negotiation process initiated by the request.\"",
         "spec_title": "RFC2295#8.4",
@@ -534,10 +576,28 @@
         "spec_href": "http://tools.ietf.org/html/rfc4918"
     },
     {
+        "header": "POE",
+        "description": "\"The POE HTTP header is a request-header field whose field-value indicates the version of POE that a client supports.\"",
+        "spec_title": "draft-nottingham-http-poe",
+        "spec_href": "http://tools.ietf.org/html/draft-nottingham-http-poe"
+    },
+    {
+        "header": "POE-Links",
+        "description": "\"The POE-Links HTTP header is an entity-header field whose field-value is a comma-separated list of quoted URI-references (without fragment identifiers) that the origin server asserts to be POE resources. The contents of the POE-Links response header SHOULD correspond to links found in the content of the response body.\"",
+        "spec_title": "draft-nottingham-http-poe",
+        "spec_href": "http://tools.ietf.org/html/draft-nottingham-http-poe"
+    },
+    {
         "header": "Redirect-Ref",
         "description": "\"\"",
         "spec_title": "RFC4437",
         "spec_href": "http://tools.ietf.org/html/rfc4437"
+    },
+    {
+        "header": "RW",
+        "description": "\"is a number that, in requests, indicates the Resource Width (RW) in CSS px, which is either the display width of the requested resource (e.g. display width of an image), or the layout viewport width if the resource does not have a display width (e.g. a non-image asset).\"",
+        "spec_title": "draft-grigorik-http-client-hints",
+        "spec_href": "http://tools.ietf.org/html/draft-grigorik-http-client-hints"
     },
     {
         "header": "Schedule-Reply",
@@ -594,6 +654,30 @@
         "spec_href": "http://tools.ietf.org/html/rfc5023"
     },
     {
+        "header": "Status-URI",
+        "description": "\"\"",
+        "spec_title": "RFC2518",
+        "spec_href": "https://tools.ietf.org/html/rfc2518#section-9.7"
+    },
+    {
+        "header": "Sunset",
+        "description": "\"allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time.\"",
+        "spec_title": "draft-wilde-sunset-header",
+        "spec_href": "http://tools.ietf.org/html/draft-wilde-sunset-header"
+    },
+    {
+        "header": "Surrogate-Capability",
+        "description": "\"\"",
+        "spec_title": "Edge Architecture",
+        "spec_href": "http://www.w3.org/TR/edge-arch"
+    },
+    {
+        "header": "Surrogate-Control",
+        "description": "\"\"",
+        "spec_title": "Edge Architecture",
+        "spec_href": "http://www.w3.org/TR/edge-arch"
+    },
+    {
         "header": "TCN",
         "description": "\"is used by a server to signal that the resource is transparently negotiated.\"",
         "spec_title": "RFC2295#8.5",
@@ -613,7 +697,7 @@
     },
     {
         "header": "X-Frame-Options",
-        "description": "\"indicates a policy that specifies whether the browser should render the transmitted resource within a <frame> or an <iframe>. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames.\"",
+        "description": "\"indicates a policy that specifies whether the browser should render the transmitted resource within a &lt;frame&gt; or an &lt;iframe&gt;. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames.\"",
         "spec_title": "RFC7034",
         "spec_href": "http://tools.ietf.org/html/rfc7034"
     }
