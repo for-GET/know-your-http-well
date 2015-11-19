@@ -1,1 +1,0 @@
-.dash.mk/Info.plist.coffee

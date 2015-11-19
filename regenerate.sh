@@ -15,12 +15,3 @@ generators=(
 for generator in ${generators[*]}; do
     ./generators/$generator > master/$generator
 done
-
-# Dash docset
-(
-    cd generators/docset
-    make publish
-    cp $(ls -t know-your-http-well.docset-*.tgz | head -1) ../../master/docset/know-your-http-well.docset.tgz
-    cp know-your-http-well.xml ../../master/docset/
-    cd -
-)
