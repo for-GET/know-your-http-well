@@ -23,12 +23,16 @@ exports = module.exports = (filename, pattern, columnNames, fun) ->
   unless fun
     fun = (matches, columnNames) ->
       matchesObj = []
+      matchesUniqueId = []
       for match in matches
         matchObj = {}
         for column, index in columnNames
           matchObj[column] = replace[match[index]]
           matchObj[column] ?= match[index]
-        matchesObj.push matchObj
+        matchUniqueId = matchObj[columnNames[0]]
+        unless matchUniqueId in matchesUniqueId
+          matchesObj.push matchObj
+          matchesUniqueId.push matchUniqueId
       matchesObj
 
   matches = RE.execAll file
