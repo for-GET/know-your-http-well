@@ -91,6 +91,12 @@ relation | description | spec
 `working-copy` | "Points to a working copy for this resource." | [RFC5829](http://tools.ietf.org/html/rfc5829)
 `working-copy-of` | "Points to the versioned resource from which this working copy was obtained." | [RFC5829](http://tools.ietf.org/html/rfc5829)
 
+### Awaiting registration
+
+relation | description | spec
+-------: | :---------- | :---
+`blocked-by` | "Identifies the entity blocking access to a resource folllowing on receipt of a legal demand." | [draft-ietf-httpbis-legally-restricted-status](http://tools.ietf.org/html/draft-ietf-httpbis-legally-restricted-status)
+
 ## Extensions
 
 > Applications that don't wish to register a relation type can use an extension relation type, which is a URI hat uniquely identifies the relation type.
