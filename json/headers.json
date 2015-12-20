@@ -186,12 +186,6 @@
         "spec_href": "http://tools.ietf.org/html/rfc7234#section-5.1"
     },
     {
-        "header": "Cache-Control",
-        "description": "\"is used to specify directives for caches along the request/response chain.\"",
-        "spec_title": "RFC7234#7.2",
-        "spec_href": "http://tools.ietf.org/html/rfc7234#section-7.2"
-    },
-    {
         "header": "Expires",
         "description": "\"gives the date/time after which the response is considered stale.\"",
         "spec_title": "RFC7234#7.3",
@@ -508,6 +502,18 @@
         "description": "\"is a number that, in requests, indicates the client’s current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device.\"",
         "spec_title": "draft-grigorik-http-client-hints",
         "spec_href": "http://tools.ietf.org/html/draft-grigorik-http-client-hints"
+    },
+    {
+        "header": "Encryption",
+        "description": "\"describes the encrypted content encoding(s) that have been applied to a payload body, and therefore how those content encoding(s) can be removed.\"",
+        "spec_title": "draft-thomson-http-encryption",
+        "spec_href": "http://tools.ietf.org/html/draft-thomson-http-encryption#section-3"
+    },
+    {
+        "header": "Encryption-Key",
+        "description": "\"can be used to describe the input keying material used in the Encryption header field.\"",
+        "spec_title": "draft-thomson-http-encryption",
+        "spec_href": "http://tools.ietf.org/html/draft-thomson-http-encryption#section-4"
     },
     {
         "header": "IM",

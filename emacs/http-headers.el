@@ -86,6 +86,8 @@
 ("depth" ("standard"))
 ("destination" ("standard"))
 ("dpr" ("is a number that, in requests, indicates the client’s current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device."))
+("encryption" ("describes the encrypted content encoding(s) that have been applied to a payload body, and therefore how those content encoding(s) can be removed."))
+("encryption-key" ("can be used to describe the input keying material used in the Encryption header field."))
 ("if" ("standard"))
 ("if-schedule-tag-match" ("standard"))
 ("key" ("allows an origin server to describe the cache key for a negotiated response: a short algorithm that can be used upon later requests to determine if the same response is reusable."))

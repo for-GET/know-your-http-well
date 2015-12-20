@@ -394,5 +394,11 @@
         "description": "\"Points to the versioned resource from which this working copy was obtained.\"",
         "spec_title": "RFC5829",
         "spec_href": "http://tools.ietf.org/html/rfc5829"
+    },
+    {
+        "relation": "blocked-by",
+        "description": "\"Identifies the entity blocking access to a resource folllowing on receipt of a legal demand.\"",
+        "spec_title": "draft-ietf-httpbis-legally-restricted-status",
+        "spec_href": "http://tools.ietf.org/html/draft-ietf-httpbis-legally-restricted-status"
     }
 ]
