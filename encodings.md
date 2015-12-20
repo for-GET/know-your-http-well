@@ -11,6 +11,7 @@ Continue reading on [RFC7231#3.1.2.2](http://tools.ietf.org/html/rfc7231#section
 encoding | description | spec
 -------: | :---------- | :---
 br | "a lossless compressed data format that compresses data using a combination of the LZ77 algorithm and Huffman coding, with efficiency comparable to the best currently available general-purpose compression methods." | [draft-alakuijala-brotli](http://tools.ietf.org/html/draft-alakuijala-brotli)
+aesgcm128 | "indicates that a payload has been encrypted using Advanced Encryption Standard (AES) in Galois/Counter Mode (GCM) as identified as AEAD_AES_128_GCM in RFC5116, Section 5.1." | [draft-thomson-http-encryption](https://tools.ietf.org/html/draft-thomson-http-encryption)
 compress | "is an adaptive Lempel-Ziv-Welch (LZW) coding that is commonly produced by the UNIX file compression program 'compress'." | [RFC7230#4.2.1](http://tools.ietf.org/html/rfc7230#section-4.2.1), [RFC2616#3.5](http://tools.ietf.org/html/rfc2616#section-3.5)
 deflate | "is a 'zlib' data format [RFC1950] containing a 'deflate' compressed data stream that uses a combination of the Lempel-Ziv (LZ77) compression algorithm and Huffman coding." | [RFC7230#4.2.2](http://tools.ietf.org/html/rfc7230#section-4.2.2), [RFC2616#3.5](http://tools.ietf.org/html/rfc2616#section-3.5)
 gzip | "is an LZ77 coding with a 32-bit Cyclic Redundancy Check (CRC) that is commonly produced by the gzip file compression program." | [RFC7230#4.2.3](http://tools.ietf.org/html/rfc7230#section-4.2.3), [RFC2616#3.5](http://tools.ietf.org/html/rfc2616#section-3.5)

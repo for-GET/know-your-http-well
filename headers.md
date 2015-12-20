@@ -226,6 +226,8 @@ header | description | spec
 `Destination` | "standard" | [RFC4918](http://tools.ietf.org/html/rfc4918)
 `Differential-ID` | "" | ?
 `DPR` | "is a number that, in requests, indicates the client’s current Device Pixel Ratio (DPR), which is the ratio of physical pixels over CSS px of the layout viewport on the device." | [draft-grigorik-http-client-hints](http://tools.ietf.org/html/draft-grigorik-http-client-hints)
+`Encryption` | "describes the encrypted content encoding(s) that have been applied to a payload body, and therefore how those content encoding(s) can be removed." | [draft-thomson-http-encryption](http://tools.ietf.org/html/draft-thomson-http-encryption#section-3)
+`Encryption-Key` | "can be used to describe the input keying material used in the Encryption header field." | [draft-thomson-http-encryption](http://tools.ietf.org/html/draft-thomson-http-encryption#section-4)
 `Ext` | "" | ?
 `GetProfile` | "" | ?
 `IM` | "" | [RFC3229#10.5.2](http://tools.ietf.org/html/rfc3229#section-10.5.2)
