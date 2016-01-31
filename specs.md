@@ -19,9 +19,9 @@ OBSOLETE ~~`HTTP`~ | "The Hypertext Transfer Protocol (HTTP) is an application-l
 
 concept/identifier | description | spec
 ------------------ | :---------- | :---
-`Content Security Policy` | "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced." | [CSP](http://www.w3.org/TR/CSP/)
+`Content Security Policy` | "This document defines a policy language used to declare a set of content restrictions for a web resource, and a mechanism for transmitting the policy from a server to a client where the policy is enforced." | [CSP](https://www.w3.org/TR/CSP/)
 `Cookie` | "This document specifies a way to create a stateful session with Hypertext Transfer Protocol (HTTP) requests and responses." | [RFC6265](https://tools.ietf.org/html/rfc6265), [RFC2965](https://tools.ietf.org/html/rfc2965), [RFC2109](https://tools.ietf.org/html/rfc2109)
-`Cross-Origin Resource Sharing` | "This document defines a mechanism to enable client-side cross-origin requests." | [cors](http://www.w3.org/TR/cors/)
+`Cross-Origin Resource Sharing` | "This document defines a mechanism to enable client-side cross-origin requests." | [cors](https://www.w3.org/TR/cors/)
 `HTTP Cache-Control Extensions for Stale Content` | "This document defines two independent HTTP Cache-Control extensions that allow control over the use of stale responses by caches." | [RFC5861](https://tools.ietf.org/html/rfc5861)
 `HTTP Signatures` | "This document describes a way to add origin authentication, message integrity, and replay resistance to HTTP requests.  It is intended to be used over the HTTPS protocol." | [draft-cavage-http-signatures](https://tools.ietf.org/html/draft-cavage-http-signatures)
 `HTTP client hints` | "Client Hints can be used as input to proactive content negotiation; just as the Accept header allowed clients to indicate what formats they prefer, Client Hints allow clients to indicate a list of device and agent specific preferences." | [draft-grigorik-http-client-hints](https://tools.ietf.org/html/draft-grigorik-http-client-hints)

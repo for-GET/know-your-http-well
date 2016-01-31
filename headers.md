@@ -100,7 +100,7 @@ Continue reading on [RFC7231#5.5](https://tools.ietf.org/html/rfc7231#section-5.
 
 header | description | spec
 -----: | :---------- | :---
-`DNT` | "defined as the means for expressing a user's tracking preference via HTTP." | [Tracking Preference Expression (DNT)](http://www.w3.org/TR/tracking-dnt/#dnt-header-field)
+`DNT` | "defined as the means for expressing a user's tracking preference via HTTP." | [Tracking Preference Expression (DNT)](https://www.w3.org/TR/tracking-dnt/#dnt-header-field)
 `From` | "contains an Internet email address for a human user who controls the requesting user agent." | [RFC7231#5.5.1](https://tools.ietf.org/html/rfc7231#section-5.5.1),<br>[RFC2616#14.22](https://tools.ietf.org/html/rfc2616#section-14.22)
 `Referer` | "allows the user agent to specify a URI reference for the resource from which the target URI was obtained (i.e., the "referrer", though the field name is misspelled)." | [RFC7231#5.5.2](https://tools.ietf.org/html/rfc7231#section-5.5.2),<br>[RFC2616#14.36](https://tools.ietf.org/html/rfc2616#section-14.36)
 `User-Agent` | "contains information about the user agent originating the request, which is often used by servers to help identify the scope of reported interoperability problems, to work around or tailor responses to avoid particular user agent limitations, and for analytics regarding browser or operating system use." | [RFC7231#5.5.3](https://tools.ietf.org/html/rfc7231#section-5.5.3),<br>[RFC2616#14.43](https://tools.ietf.org/html/rfc2616#section-14.43)
@@ -125,7 +125,7 @@ header | description | spec
 `Date` | "represents the date and time at which the message was originated" | [RFC7231#7.1.1.2](https://tools.ietf.org/html/rfc7231#section-7.1.1.2),<br>[RFC2616#14.18](https://tools.ietf.org/html/rfc2616#section-14.18)
 `Location` | "is used in some responses to refer to a specific resource in relation to the response." | [RFC7231#7.1.2](https://tools.ietf.org/html/rfc7231#section-7.1.2),<br>[RFC2616#14.30](https://tools.ietf.org/html/rfc2616#section-14.30)
 `Retry-After` | "indicates how long the user agent ought to wait before making a follow-up request." | [RFC7231#7.1.3](https://tools.ietf.org/html/rfc7231#section-7.1.3),<br>[RFC2616#14.37](https://tools.ietf.org/html/rfc2616#section-14.37)
-`Tk` | "defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status. " | [Tracking Preference Expression (DNT)](http://www.w3.org/TR/tracking-dnt/#response-header-field)
+`Tk` | "defined as an OPTIONAL means for indicating the tracking status that applied to the corresponding request and as a REQUIRED means for indicating that a state-changing request has resulted in an interactive change to the tracking status. " | [Tracking Preference Expression (DNT)](https://www.w3.org/TR/tracking-dnt/#response-header-field)
 `Vary` | "describes what parts of a request message, aside from the method and request target, might influence the origin server's process for selecting and representing the response." | [RFC7231#7.1.4](https://tools.ietf.org/html/rfc7231#section-7.1.4),<br>[RFC2616#14.44](https://tools.ietf.org/html/rfc2616#section-14.44)
 `Warning` | "is used to carry additional information about the status or transformation of a message that might not be reflected in the message." | [RFC7234#7.6](https://tools.ietf.org/html/rfc7234#section-7.6),<br>[RFC2616#14.46](https://tools.ietf.org/html/rfc2616#section-14.46)
 
@@ -165,19 +165,19 @@ header | description | spec
 -----: | :---------- | :---
 `Accept-Patch` | "used to specify the patch document formats accepted by the server." | [RFC5789#3.1](https://tools.ietf.org/html/rfc5789#section-3.1)
 `Accept-Post` | "indicates server support for specific media types for entity bodies in HTTP POST requests." | [draft-wilde-accept-post](https://tools.ietf.org/html/draft-wilde-accept-post)
-`Access-Control-Allow-Credentials` | "indicates whether the response to request can be exposed when the omit credentials flag is unset" | [CORS](http://www.w3.org/TR/cors/#access-control-allow-credentials-response-header)
-`Access-Control-Allow-Headers` | "indicates, as part of the response to a preflight request, which header field names can be used during the actual request" | [CORS](http://www.w3.org/TR/cors/#access-control-allow-headers-response-header)
-`Access-Control-Allow-Methods` | "indicates, as part of the response to a preflight request, which methods can be used during the actual request" | [CORS](http://www.w3.org/TR/cors/#access-control-allow-methods-response-header)
-`Access-Control-Allow-Origin` | "indicates whether a resource can be shared" | [CORS](http://www.w3.org/TR/cors/#access-control-allow-origin-response-header)
-`Access-Control-Expose-Headers` | "indicates which headers are safe to expose to the API of a CORS API specification" | [CORS](http://www.w3.org/TR/cors/#access-control-expose-headers-response-header)
-`Access-Control-Max-Age` | "indicates how long the results of a preflight request can be cached in a preflight result cache" | [CORS](http://www.w3.org/TR/cors/#access-control-max-age-response-header)
-`Access-Control-Request-Headers` | "indicates which headers will be used in the actual request as part of the preflight request" | [CORS](http://www.w3.org/TR/cors/#access-control-request-headers-request-header)
-`Access-Control-Request-Method` | "indicates which method will be used in the actual request as part of the preflight request" | [CORS](http://www.w3.org/TR/cors/#access-control-request-method-request-header)
+`Access-Control-Allow-Credentials` | "indicates whether the response to request can be exposed when the omit credentials flag is unset" | [CORS](https://www.w3.org/TR/cors/#access-control-allow-credentials-response-header)
+`Access-Control-Allow-Headers` | "indicates, as part of the response to a preflight request, which header field names can be used during the actual request" | [CORS](https://www.w3.org/TR/cors/#access-control-allow-headers-response-header)
+`Access-Control-Allow-Methods` | "indicates, as part of the response to a preflight request, which methods can be used during the actual request" | [CORS](https://www.w3.org/TR/cors/#access-control-allow-methods-response-header)
+`Access-Control-Allow-Origin` | "indicates whether a resource can be shared" | [CORS](https://www.w3.org/TR/cors/#access-control-allow-origin-response-header)
+`Access-Control-Expose-Headers` | "indicates which headers are safe to expose to the API of a CORS API specification" | [CORS](https://www.w3.org/TR/cors/#access-control-expose-headers-response-header)
+`Access-Control-Max-Age` | "indicates how long the results of a preflight request can be cached in a preflight result cache" | [CORS](https://www.w3.org/TR/cors/#access-control-max-age-response-header)
+`Access-Control-Request-Headers` | "indicates which headers will be used in the actual request as part of the preflight request" | [CORS](https://www.w3.org/TR/cors/#access-control-request-headers-request-header)
+`Access-Control-Request-Method` | "indicates which method will be used in the actual request as part of the preflight request" | [CORS](https://www.w3.org/TR/cors/#access-control-request-method-request-header)
 `Connection` | "" | ?
 `Content-Disposition` | "standard" | [RFC6266](https://tools.ietf.org/html/rfc6266)
 `Content-MD5` | "" | ?
-`Content-Security-Policy` | "is the preferred mechanism for delivering a CSP policy" | [CSP](http://www.w3.org/TR/CSP/#content-security-policy-header-field)
-`Content-Security-Policy-Report-Only` | "lets servers experiment with policies by monitoring (rather than enforcing) a policy" | [CSP](http://www.w3.org/TR/CSP/#content-security-policy-report-only-header-field)
+`Content-Security-Policy` | "is the preferred mechanism for delivering a CSP policy" | [CSP](https://www.w3.org/TR/CSP/#content-security-policy-header-field)
+`Content-Security-Policy-Report-Only` | "lets servers experiment with policies by monitoring (rather than enforcing) a policy" | [CSP](https://www.w3.org/TR/CSP/#content-security-policy-report-only-header-field)
 `Cookie` | "standard" | [RFC6265](https://tools.ietf.org/html/rfc6265)
 `Digest` | "" | ?
 `Forwarded` | "standard" | [RFC7239](https://tools.ietf.org/html/rfc7239)
@@ -235,7 +235,7 @@ header | description | spec
 `If-Schedule-Tag-Match` | "standard" | [RFC6638](https://tools.ietf.org/html/rfc6638)
 `Key` | "allows an origin server to describe the cache key for a negotiated response: a short algorithm that can be used upon later requests to determine if the same response is reusable." | [draft-fielding-http-key](https://tools.ietf.org/html/draft-fielding-http-key)
 `Label` | "" | ?
-`Last-Event-ID` | "The value of the event source's last event ID string, encoded as UTF-8." | [Server-Sent Events](http://www.w3.org/TR/eventsource/#last-event-id)
+`Last-Event-ID` | "The value of the event source's last event ID string, encoded as UTF-8." | [Server-Sent Events](https://www.w3.org/TR/eventsource/#last-event-id)
 `Link-Template` | "provides a means for serialising one or more links into HTTP headers." | [draft-nottingham-link-template](https://tools.ietf.org/html/draft-nottingham-link-template)
 `Lock-Token` | "standard" | [RFC4918](https://tools.ietf.org/html/rfc4918)
 `Man` | "" | ?
@@ -280,8 +280,8 @@ header | description | spec
 `SoapAction` | "" | ?
 `Status-URI` | "" | [RFC2518](https://tools.ietf.org/html/rfc2518#section-9.7)
 `Sunset` | "allows a server to communicate the fact that a resource is expected to become unresponsive at a specific point in time." | [draft-wilde-sunset-header](https://tools.ietf.org/html/draft-wilde-sunset-header)
-`Surrogate-Capability` | "" | [Edge Architecture](http://www.w3.org/TR/edge-arch)
-`Surrogate-Control` | "" | [Edge Architecture](http://www.w3.org/TR/edge-arch)
+`Surrogate-Capability` | "" | [Edge Architecture](https://www.w3.org/TR/edge-arch)
+`Surrogate-Control` | "" | [Edge Architecture](https://www.w3.org/TR/edge-arch)
 `TCN` | "is used by a server to signal that the resource is transparently negotiated." | [RFC2295#8.5](https://tools.ietf.org/html/rfc2295#section-8.5)
 `Timeout` | "standard" | [RFC4918](https://tools.ietf.org/html/rfc4918)
 `Trailer` | "" |43
