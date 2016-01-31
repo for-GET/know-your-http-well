@@ -350,6 +350,20 @@
         "spec_href": "http://tools.ietf.org/html/rfc7238"
     },
     {
+        "code": "406",
+        "phrase": "Not Acceptable",
+        "description": "\"The HTCPCP server is unable to provide the requested addition for some reason; the response should indicate a list of available additions. The RFC observes that 'In practice, most automated coffee pots cannot currently provide additions.'\"",
+        "spec_title": "RFC2324#section-2.3.1",
+        "spec_href": "http://tools.ietf.org/html/rfc2324#section-2.3.1"
+    },
+    {
+        "code": "418",
+        "phrase": "I'm a teapot",
+        "description": "\"The HTCPCP server is a teapot; the resulting entity body may be short and stout. Demonstrations of this behaviour exist.\"",
+        "spec_title": "RFC2324#section-2.3.2",
+        "spec_href": "http://tools.ietf.org/html/rfc2324#section-2.3.2"
+    },
+    {
         "code": "422",
         "phrase": "Unprocessable Entity",
         "description": "\"means the server understands the content type of the request entity (hence a 415(Unsupported Media Type) status code is inappropriate), and the syntax of the request entity is correct (thus a 400 (Bad Request) status code is inappropriate) but was unable to process the contained instructions.\"",
