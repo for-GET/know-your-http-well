@@ -291,9 +291,9 @@ header | description | spec
 `Want-Digest` | "" | ?
 `X-Frame-Options` | "indicates a policy that specifies whether the browser should render the transmitted resource within a &lt;frame&gt; or an &lt;iframe&gt;. Servers can declare this policy in the header of their HTTP responses to prevent clickjacking attacks, which ensures that their content is not embedded into other pages or frames." | [RFC7034](https://tools.ietf.org/html/rfc7034)
 
-A chunk of provisional headers can be found at [HTTP Headers Registry](http://www.iana.org/assignments/message-headers/message-headers.xml).
+A chunk of provisional headers can be found at [HTTP Headers Registry](https://www.iana.org/assignments/message-headers/message-headers.xml).
 
-For a full up-to-date list, including non-HTTP headers, continue reading on [HTTP Headers Registry](http://www.iana.org/assignments/message-headers/message-headers.xml), [Wikipedia](http://en.wikipedia.org/wiki/List_of_HTTP_header_fields).
+For a full up-to-date list, including non-HTTP headers, continue reading on [HTTP Headers Registry](https://www.iana.org/assignments/message-headers/message-headers.xml), [Wikipedia](http://en.wikipedia.org/wiki/List_of_HTTP_header_fields).
 
 ## Sources
 

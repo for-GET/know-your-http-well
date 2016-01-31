@@ -106,7 +106,7 @@ code | reason | description | spec
 
 A chunk of extension codes can be found in [RFC2326 Real Time Streaming Protocol (RTSP)](https://tools.ietf.org/html/rfc2326#).
 
-For a full up-to-date list, continue reading on [HTTP Status Code Registry](http://www.iana.org/assignments/http-status-codes/http-status-codes.xml), [Wikipedia](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+For a full up-to-date list, continue reading on [HTTP Status Code Registry](https://www.iana.org/assignments/http-status-codes/http-status-codes.xml), [Wikipedia](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
 
 ## Sources
 

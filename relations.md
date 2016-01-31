@@ -20,7 +20,7 @@ Continue reading on [RFC5988#4](https://tools.ietf.org/html/rfc5988#section-4).
 
 ## Registered
 
-For a full up-to-date list, continue reading on [Link Relations](http://www.iana.org/assignments/link-relations/link-relations.xml).
+For a full up-to-date list, continue reading on [Link Relations](https://www.iana.org/assignments/link-relations/link-relations.xml).
 
 relation | description | spec
 -------: | :---------- | :---
@@ -105,6 +105,6 @@ Continue reading on [RFC5988#4.2](https://tools.ietf.org/html/rfc5988#section-4.
 
 ## Sources
 
-* [Link Relations](http://www.iana.org/assignments/link-relations/link-relations.xml)
+* [Link Relations](https://www.iana.org/assignments/link-relations/link-relations.xml)
 * [RFC5988 Web Linking](https://tools.ietf.org/html/rfc5988).
 * Yours truly
