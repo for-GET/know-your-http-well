@@ -115,6 +115,12 @@ Continue reading on [RFC7231#7](https://tools.ietf.org/html/rfc7231#section-7)
 
 > Response header fields can supply control data that supplements the status code, directs caching, or instructs the client where to go next.
 
+* [Request Cache-Control Directives](https://tools.ietf.org/html/rfc7234#section-5.2.1)
+* [Response Cache-Control Directives](https://tools.ietf.org/html/rfc7234#section-5.2.2)
+* Cache-Control Extensions
+  * [stale-while-revalidate](http://tools.ietf.org/html/rfc5861#section-3)
+  * [stale-if-error](http://tools.ietf.org/html/rfc5861#section-4)
+
 Continue reading on [RFC7231#7.1](https://tools.ietf.org/html/rfc7231#section-7.1)
 
 header | description | spec
