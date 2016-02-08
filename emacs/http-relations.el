@@ -39,7 +39,7 @@
 ("last" ("An IRI that refers to the furthest following resource in a series of resources."))
 ("latest-version" ("Points to a resource containing the latest (e.g., current) version of the context."))
 ("license" ("Refers to a license associated with this context."))
-("lrdd" ("Refers to further information about the link's context, expressed as a LRDD (Link-based Resource Descriptor Document) resource. See [RFC6415](http://tools.ietf.org/html/rfc6415) for information about processing this relation type in host-meta documents. When used elsewhere, it refers to additional links and other metadata. Multiple instances indicate additional LRDD resources. LRDD resources MUST have an application/xrd+xml representation, and MAY have others."))
+("lrdd" ("Refers to further information about the link's context, expressed as a LRDD (Link-based Resource Descriptor Document) resource. See [RFC6415](https://tools.ietf.org/html/rfc6415) for information about processing this relation type in host-meta documents. When used elsewhere, it refers to additional links and other metadata. Multiple instances indicate additional LRDD resources. LRDD resources MUST have an application/xrd+xml representation, and MAY have others."))
 ("monitor" ("Refers to a resource that can be used to monitor changes in an HTTP resource."))
 ("monitor-group" ("Refers to a resource that can be used to monitor changes in a specified group of HTTP resources."))
 ("next" ("Indicates that the link's context is a part of a series, and that the next in the series is the link target."))

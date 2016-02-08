@@ -6,7 +6,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "RFC7231#4.3.6",
-        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.6"
+        "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.6"
     },
     {
         "method": "DELETE",
@@ -15,7 +15,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "RFC7231#4.3.5",
-        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.5"
+        "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.5"
     },
     {
         "method": "GET",
@@ -24,7 +24,7 @@
         "idempotent": true,
         "cacheable": true,
         "spec_title": "RFC7231#4.3.1",
-        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.1"
+        "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.1"
     },
     {
         "method": "HEAD",
@@ -33,7 +33,7 @@
         "idempotent": true,
         "cacheable": true,
         "spec_title": "RFC7231#4.3.2",
-        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.2"
+        "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.2"
     },
     {
         "method": "OPTIONS",
@@ -42,7 +42,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "RFC7231#4.3.7",
-        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.7"
+        "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.7"
     },
     {
         "method": "POST",
@@ -51,7 +51,7 @@
         "idempotent": false,
         "cacheable": false,
         "spec_title": "RFC7231#4.3.3",
-        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.3"
+        "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.3"
     },
     {
         "method": "PUT",
@@ -60,7 +60,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "RFC7231#4.3.4",
-        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.4"
+        "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.4"
     },
     {
         "method": "TRACE",
@@ -69,7 +69,7 @@
         "idempotent": true,
         "cacheable": false,
         "spec_title": "RFC7231#4.3.8",
-        "spec_href": "http://tools.ietf.org/html/rfc7231#section-4.3.8"
+        "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.8"
     },
     {
         "method": "ACL",
@@ -78,7 +78,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3744#8.1",
-        "spec_href": "http://tools.ietf.org/html/rfc3744#section-8.1"
+        "spec_href": "https://tools.ietf.org/html/rfc3744#section-8.1"
     },
     {
         "method": "BASELINE-CONTROL",
@@ -87,7 +87,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#12.6",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-12.6"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-12.6"
     },
     {
         "method": "BIND",
@@ -96,7 +96,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC5842#4",
-        "spec_href": "http://tools.ietf.org/html/rfc5842#section-4"
+        "spec_href": "https://tools.ietf.org/html/rfc5842#section-4"
     },
     {
         "method": "CHECKIN",
@@ -105,7 +105,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#4.4",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.4"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-4.4"
     },
     {
         "method": "CHECKOUT",
@@ -114,7 +114,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#4.3",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.3"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-4.3"
     },
     {
         "method": "COPY",
@@ -123,7 +123,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.8",
-        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.8"
+        "spec_href": "https://tools.ietf.org/html/rfc4918#section-9.8"
     },
     {
         "method": "LABEL",
@@ -132,7 +132,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#8.2",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-8.2"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-8.2"
     },
     {
         "method": "LINK",
@@ -141,7 +141,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC2068#19.6.1.2",
-        "spec_href": "http://tools.ietf.org/html/rfc2068#section-19.6.1.2"
+        "spec_href": "https://tools.ietf.org/html/rfc2068#section-19.6.1.2"
     },
     {
         "method": "LOCK",
@@ -150,7 +150,7 @@
         "idempotent": false,
         "cacheable": "",
         "spec_title": "RFC4918#9.10",
-        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.10"
+        "spec_href": "https://tools.ietf.org/html/rfc4918#section-9.10"
     },
     {
         "method": "MERGE",
@@ -159,7 +159,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#11.2",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-11.2"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-11.2"
     },
     {
         "method": "MKACTIVITY",
@@ -168,7 +168,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#13.5",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-13.5"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-13.5"
     },
     {
         "method": "MKCALENDAR",
@@ -177,7 +177,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4791#5.3.1",
-        "spec_href": "http://tools.ietf.org/html/rfc4791#section-5.3.1"
+        "spec_href": "https://tools.ietf.org/html/rfc4791#section-5.3.1"
     },
     {
         "method": "MKCOL",
@@ -186,7 +186,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.3",
-        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.3"
+        "spec_href": "https://tools.ietf.org/html/rfc4918#section-9.3"
     },
     {
         "method": "MKREDIRECTREF",
@@ -195,7 +195,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4437#6",
-        "spec_href": "http://tools.ietf.org/html/rfc4437#section-6"
+        "spec_href": "https://tools.ietf.org/html/rfc4437#section-6"
     },
     {
         "method": "MKWORKSPACE",
@@ -204,7 +204,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#6.3",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-6.3"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-6.3"
     },
     {
         "method": "MOVE",
@@ -213,7 +213,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.9",
-        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.9"
+        "spec_href": "https://tools.ietf.org/html/rfc4918#section-9.9"
     },
     {
         "method": "ORDERPATCH",
@@ -222,7 +222,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3648#7",
-        "spec_href": "http://tools.ietf.org/html/rfc3648#section-7"
+        "spec_href": "https://tools.ietf.org/html/rfc3648#section-7"
     },
     {
         "method": "PATCH",
@@ -231,7 +231,7 @@
         "idempotent": false,
         "cacheable": false,
         "spec_title": "RFC5789",
-        "spec_href": "http://tools.ietf.org/html/rfc5789#section-2"
+        "spec_href": "https://tools.ietf.org/html/rfc5789#section-2"
     },
     {
         "method": "PROPFIND",
@@ -240,7 +240,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.1",
-        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.1"
+        "spec_href": "https://tools.ietf.org/html/rfc4918#section-9.1"
     },
     {
         "method": "PROPPATCH",
@@ -249,7 +249,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.2",
-        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.2"
+        "spec_href": "https://tools.ietf.org/html/rfc4918#section-9.2"
     },
     {
         "method": "REBIND",
@@ -258,7 +258,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC5842#6",
-        "spec_href": "http://tools.ietf.org/html/rfc5842#section-6"
+        "spec_href": "https://tools.ietf.org/html/rfc5842#section-6"
     },
     {
         "method": "REPORT",
@@ -267,7 +267,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#3.6",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-3.6"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-3.6"
     },
     {
         "method": "SEARCH",
@@ -276,7 +276,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC5323#2",
-        "spec_href": "http://tools.ietf.org/html/rfc5323#section-2"
+        "spec_href": "https://tools.ietf.org/html/rfc5323#section-2"
     },
     {
         "method": "UNBIND",
@@ -285,7 +285,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC5842#5",
-        "spec_href": "http://tools.ietf.org/html/rfc5842#section-5"
+        "spec_href": "https://tools.ietf.org/html/rfc5842#section-5"
     },
     {
         "method": "UNCHECKOUT",
@@ -294,7 +294,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#4.5",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-4.5"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-4.5"
     },
     {
         "method": "UNLINK",
@@ -303,7 +303,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC2068#19.6.1.3",
-        "spec_href": "http://tools.ietf.org/html/rfc2068#section-19.6.1.3"
+        "spec_href": "https://tools.ietf.org/html/rfc2068#section-19.6.1.3"
     },
     {
         "method": "UNLOCK",
@@ -312,7 +312,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4918#9.11",
-        "spec_href": "http://tools.ietf.org/html/rfc4918#section-9.11"
+        "spec_href": "https://tools.ietf.org/html/rfc4918#section-9.11"
     },
     {
         "method": "UPDATE",
@@ -321,7 +321,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#7.1",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-7.1"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-7.1"
     },
     {
         "method": "UPDATEREDIRECTREF",
@@ -330,7 +330,7 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC4437#7",
-        "spec_href": "http://tools.ietf.org/html/rfc4437#section-7"
+        "spec_href": "https://tools.ietf.org/html/rfc4437#section-7"
     },
     {
         "method": "VERSION-CONTROL",
@@ -339,6 +339,6 @@
         "idempotent": true,
         "cacheable": "",
         "spec_title": "RFC3253#3.5",
-        "spec_href": "http://tools.ietf.org/html/rfc3253#section-3.5"
+        "spec_href": "https://tools.ietf.org/html/rfc3253#section-3.5"
     }
 ]
