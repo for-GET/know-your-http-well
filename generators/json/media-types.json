@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+$DIR/../extract.coffee $DIR/../../master/media-types.md "^\`([\-0-9a-zA-Z/]+)\` \| ?\[[^\]]+\]\(([^\)]+)\) \| \[([^\]]+)\]\(([^\)]+)\)" media_type template spec_title spec_href

@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 generators=(
+    "emacs/media-types.el"
     "emacs/http-headers.el"
     "emacs/http-methods.el"
     "emacs/http-relations.el"
     "emacs/http-status-codes.el"
     "emacs/know-your-http-well.el"
+    "json/media-types.json"
     "json/headers.json"
     "json/methods.json"
     "json/relations.json"
