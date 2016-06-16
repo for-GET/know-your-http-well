@@ -70,7 +70,7 @@ code | reason | description | spec
 `415` | Unsupported Media Type | "indicates that the origin server is refusing to service the request because the payload is in a format not supported by the target resource for this method." | [RFC7231#6.5.13](https://tools.ietf.org/html/rfc7231#section-6.5.13),<br>[RFC2616#10.4.16](https://tools.ietf.org/html/rfc2616#section-10.4.16)
 `416` | Range Not Satisfiable | "indicates that none of the ranges in the request's Range header field overlap the current extent of the selected resource or that the set of ranges requested has been rejected due to invalid ranges or an excessive request of small or overlapping ranges." | [RFC7233#4.4](https://tools.ietf.org/html/rfc7233#section-4.4),<br>[RFC2616#10.4.17](https://tools.ietf.org/html/rfc2616#section-10.4.17)
 `417` | Expectation Failed | "indicates that the expectation given in the request's Expect header field could not be met by at least one of the inbound servers." | [RFC7231#6.5.14](https://tools.ietf.org/html/rfc7231#section-6.5.14),<br>[RFC2616#10.4.18](https://tools.ietf.org/html/rfc2616#section-10.4.18)
-`418` | I'm a teapot | "Any attempt to brew coffee with a teapot should result in the error code 418 I'm a teapot." | [RFC2324#2.3.1](https://tools.ietf.org/html/rfc2324#section-2.3.2)
+`418` | I'm a teapot | "Any attempt to brew coffee with a teapot should result in the error code 418 I'm a teapot." | [RFC2324#2.3.2](https://tools.ietf.org/html/rfc2324#section-2.3.2)
 `426` | Upgrade Required | "indicates that the server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol." | [RFC7231#6.5.15](https://tools.ietf.org/html/rfc7231#section-6.5.15)
 
 ### 5xx
