@@ -1,1 +1,4 @@
 /node_modules
+Gemfile.lock
+know-your-http-well*.gem
+

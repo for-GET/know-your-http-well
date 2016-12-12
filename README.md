@@ -53,6 +53,15 @@ if (res.statusCode !== statusWell.OK) {
 }
 ```
 
+### Ruby
+
+```ruby
+require "know-your-http-well"
+
+status = HTTP.statuses[:not_found] # "404"
+phrase = HTTP.phrases[404]         # "Not Found"
+```
+
 ### JSON
 
 Just take a look at [./json/*.json](json).
