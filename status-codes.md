@@ -46,6 +46,7 @@ code | reason | description | spec
 `305` | Use Proxy | *deprecated* | [RFC7231#6.4.5](https://tools.ietf.org/html/rfc7231#section-6.4.5),<br>[RFC2616#10.3.6](https://tools.ietf.org/html/rfc2616#section-10.3.6)
 `306` | | *unused* | [RFC7231#6.4.6](https://tools.ietf.org/html/rfc7231#section-6.4.6),<br>[RFC2616#10.3.7](https://tools.ietf.org/html/rfc2616#section-10.3.7)
 `307` | Temporary Redirect | "indicates that the target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI." | [RFC7231#6.4.7](https://tools.ietf.org/html/rfc7231#section-6.4.7),<br>[RFC2616#10.3.8](https://tools.ietf.org/html/rfc2616#section-10.3.8)
+`308` | Permanent Redirect | "indicates that the target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs. Clients with link editing capabilities ought to automatically re-link references to the effective request URI" | [RFC7538#3](https://tools.ietf.org/html/rfc7538#section-3)
 
 ### 4xx
 
