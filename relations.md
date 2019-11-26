@@ -95,7 +95,7 @@ relation | description | spec
 
 relation | description | spec
 -------: | :---------- | :---
-`blocked-by` | "Identifies the entity blocking access to a resource folllowing on receipt of a legal demand." | [draft-ietf-httpbis-legally-restricted-status](https://tools.ietf.org/html/draft-ietf-httpbis-legally-restricted-status)
+`blocked-by` | "Identifies the entity blocking access to a resource following on receipt of a legal demand." | [draft-ietf-httpbis-legally-restricted-status](https://tools.ietf.org/html/draft-ietf-httpbis-legally-restricted-status)
 
 ## Extensions
 

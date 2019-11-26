@@ -397,7 +397,7 @@
     },
     {
         "relation": "blocked-by",
-        "description": "\"Identifies the entity blocking access to a resource folllowing on receipt of a legal demand.\"",
+        "description": "\"Identifies the entity blocking access to a resource following on receipt of a legal demand.\"",
         "spec_title": "draft-ietf-httpbis-legally-restricted-status",
         "spec_href": "https://tools.ietf.org/html/draft-ietf-httpbis-legally-restricted-status"
     }

@@ -73,7 +73,7 @@
 ("via" ("Identifies a resource that is the source of the information in the link's context."))
 ("working-copy" ("Points to a working copy for this resource."))
 ("working-copy-of" ("Points to the versioned resource from which this working copy was obtained."))
-("blocked-by" ("Identifies the entity blocking access to a resource folllowing on receipt of a legal demand."))))
+("blocked-by" ("Identifies the entity blocking access to a resource following on receipt of a legal demand."))))
 
 ;;;###autoload
 (defun http-relation (relation)
