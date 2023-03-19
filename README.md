@@ -60,3 +60,7 @@ Just take a look at [./json/*.json](json).
 ## License
 
 [Unlicense](LICENSE).
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/for-GET/know-your-http-well.svg)](https://starchart.cc/for-GET/know-your-http-well)
