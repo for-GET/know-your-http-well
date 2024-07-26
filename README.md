@@ -57,6 +57,12 @@ if (res.statusCode !== statusWell.OK) {
 
 Just take a look at [./json/*.json](json).
 
+## References
+
+* https://github.com/dret/webconcepts
+* [DanaDanger on twitter.com](https://twitter.com/DanaDanger/status/183316183494311936): `HTTP response codes for dummies. 50x: we fucked up. 40x: you fucked up. 30x: ask that dude over there. 20x: cool.`
+* [Steve Losh on twitter.com](https://x.com/stevelosh/status/372740571749572610?lang=en) : `HTTP status ranges in a nutshell: 1xx: hold on. 2xx: here you go. 3xx: go away. 4xx: you fucked up. 5xx: I fucked up`
+
 ## License
 
 [Unlicense](LICENSE).
