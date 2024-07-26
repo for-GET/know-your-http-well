@@ -2,8 +2,8 @@
     {
         "method": "CONNECT",
         "description": "\"requests that the recipient establish a tunnel to the destination origin server identified by the request-target and, if successful, thereafter restrict its behavior to blind forwarding of packets, in both directions, until the connection is closed.\"",
-        "safe": true,
-        "idempotent": true,
+        "safe": false,
+        "idempotent": false,
         "cacheable": false,
         "spec_title": "RFC7231#4.3.6",
         "spec_href": "https://tools.ietf.org/html/rfc7231#section-4.3.6"
