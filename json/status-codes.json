@@ -270,7 +270,7 @@
         "phrase": "I'm a teapot",
         "description": "\"Any attempt to brew coffee with a teapot should result in the error code 418 I'm a teapot.\"",
         "spec_title": "RFC2324#2.3.1",
-        "spec_href": "https://tools.ietf.org/html/rfc2324#section-2.3.1"
+        "spec_href": "https://tools.ietf.org/html/rfc2324#section-2.3.2"
     },
     {
         "code": "426",
