@@ -34,13 +34,17 @@
 (defconst http-status
   '({{ HTTP_STATUS }}))
 
+(defun http-status-codes--prompt-for-code ()
+  "Prompt the user for an HTTP status code and returns the chosen code."
+  (let* ((format-entry (lambda (entry) (format "%s  %s" (car entry) (caadr entry))))
+         (entries (mapcar format-entry http-status)))
+    (car (split-string (completing-read "HTTP status: " entries)))))
+
 ;;;###autoload
 (defun http-status-code (status)
   "Display the meaning of an HTTP status code or phrase"
-  (interactive
-   (list (completing-read "Enter HTTP status code or phrase: " http-status)))
-  (let* ((uppercased-status (upcase status))
-        (found (assoc uppercased-status http-status)))
+  (interactive (list (http-status-codes--prompt-for-code)))
+  (let ((found (assoc status http-status)))
     (if found
         (let* ((status-code (car found))
                (status-code-attrib (cdr found))
@@ -49,7 +53,7 @@
           (message
            "%s - HTTP status\n%s\n%s"
            status-code phrase description))
-      (message "%s - HTTP status\nUNKNOWN" uppercased-status))
+      (message "%s - HTTP status\nUNKNOWN" status))
     ))
 
 (provide 'http-status-codes)
